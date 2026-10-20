@@ -58,7 +58,7 @@ jobs:
           path: |
             ~/.jieli
             ~/fw-AC79_AIoT_SDK
-          key: jieli-linux-toolchain-ac79-${{ env.AC79_SDK_BRANCH }}-v1
+          key: jieli-linux-toolchain-ac79-${{ env.AC79_SDK_BRANCH }}-v2
       - if: steps.cache.outputs.cache-hit != 'true'
         run: |
           mkdir -p ~/.jieli
@@ -67,7 +67,7 @@ jobs:
           ln -sfn "$(basename "$tc")" ~/.jieli/toolchain
           git clone --depth 1 --branch "$AC79_SDK_BRANCH" --filter=blob:none --sparse \
             https://gitee.com/Jieli-Tech/fw-AC79_AIoT_SDK.git ~/fw-AC79_AIoT_SDK
-          git -C ~/fw-AC79_AIoT_SDK sparse-checkout set cpu/wl82/tools
+          git -C ~/fw-AC79_AIoT_SDK sparse-checkout set cpu/wl82/tools include_lib/newlib
           ls ~/fw-AC79_AIoT_SDK/cpu/wl82/tools | head
 
   build:
@@ -85,7 +85,7 @@ jobs:
           path: |
             ~/.jieli
             ~/fw-AC79_AIoT_SDK
-          key: jieli-linux-toolchain-ac79-${{ env.AC79_SDK_BRANCH }}-v1
+          key: jieli-linux-toolchain-ac79-${{ env.AC79_SDK_BRANCH }}-v2
           fail-on-cache-miss: true
       - uses: actions/setup-python@v5
         with:
