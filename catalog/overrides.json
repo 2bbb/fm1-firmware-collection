@@ -31,7 +31,8 @@
     "itoyohane/fm1-learning-web": "documentation site",
     "jvitkauskas/fm1-backup": "flash dump of the stock firmware",
     "lexlongcoding/ghoulbox-vst3": "VST plug-in",
-    "keitark/fm1-nes": "SDK integration resources"
+    "keitark/fm1-nes": "SDK integration resources",
+    "2bbb/fm1-firmware-collection": "this collection"
   },
   "license": {
     "miketsak/evanders-music-box--fm-1-larp-firmware": "GPL-3.0",

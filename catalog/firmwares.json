@@ -2479,9 +2479,9 @@
    "fork_of": null,
    "archived": false,
    "stars": 6,
-   "pushed": "2026-10-19T22:59:49Z",
+   "pushed": "2026-10-20T16:25:35Z",
    "branch": "main",
-   "head": "43e710d7a004c3d01df2a08ee9d8b2eecbcffc8d",
+   "head": "c597223c5c140002222bc36b67e4cbdb49c6c153",
    "has_submodules": false,
    "recipe": "felucca",
    "upstream_releases": [
@@ -6990,6 +6990,7 @@
   "xMagElonx/fm1-guitar"
  ],
  "excluded": [
+  "2bbb/fm1-firmware-collection",
   "al-255/fm-1-re",
   "aroum/fm1-custom-fw",
   "bratta/fm1-manager",
@@ -7007,7 +7008,6 @@
   "joakimeriksson/fm1-emu",
   "jvitkauskas/fm1-backup",
   "keitark/fm1-nes",
-  "lexlongcoding/ghoulbox-vst3",
   "markterm/harbor",
   "ocean/fm-switch",
   "quixotic7/fm1vst",
