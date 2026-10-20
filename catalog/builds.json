@@ -4,91 +4,130 @@
   "commit": "b717e85e90c94f6b7f709cb6676c306eeddba185",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "Gadlele__Pelucco-b717e85.fwsc"
+  ]
  },
  "KemstheSage__reggae-os": {
   "repo": "KemstheSage/reggae-os",
   "commit": "0981507bdec144a9ad05e2f237287db8fa475f63",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "KemstheSage__reggae-os-0981507.fwsc"
+  ]
  },
  "Kiwi3p__fm1-deal-or-no-deal": {
   "repo": "Kiwi3p/fm1-deal-or-no-deal",
   "commit": "a8ffcf7989671a6a9d07944c523e1a4c8fc2c457",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "Kiwi3p__fm1-deal-or-no-deal-a8ffcf7.fwsc"
+  ]
  },
  "PierreArnaudGUYOT__FM1-Oktowave-Firmware": {
   "repo": "PierreArnaudGUYOT/FM1-Oktowave-Firmware",
   "commit": "60619dbb28e57e953b9cb0c929612a1a3d01c168",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "PierreArnaudGUYOT__FM1-Oktowave-Firmware-60619db.fwsc"
+  ]
  },
  "Vaayaa__rift-fw": {
   "repo": "Vaayaa/rift-fw",
   "commit": "52562e73956448d8eb3c71995b88908fe051498e",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "Vaayaa__rift-fw-52562e7.fwsc"
+  ]
  },
  "anonymousacademe__FM-1-TripDeck": {
   "repo": "anonymousacademe/FM-1-TripDeck",
   "commit": "a977f53558b7106d594f03654d4beba9d2ff7477",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "anonymousacademe__FM-1-TripDeck-a977f53.fwsc"
+  ]
  },
  "charlesvestal__fm1-velocity": {
   "repo": "charlesvestal/fm1-velocity",
   "commit": "8f62ce0d968c91ce8bfdafbb908f81d15351650a",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "charlesvestal__fm1-velocity-8f62ce0.fwsc"
+  ]
  },
  "cmlarsen__fm1-rocket-os": {
   "repo": "cmlarsen/fm1-rocket-os",
   "commit": "d269df962a6d023f47e7f31e0dec64b05bb742ab",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "cmlarsen__fm1-rocket-os-d269df9.fwsc"
+  ]
  },
  "cmlarsen__fm1-zed": {
   "repo": "cmlarsen/fm1-zed",
   "commit": "218b8fd736fd80449718339963a7917b6e7ba8a8",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "cmlarsen__fm1-zed-218b8fd.fwsc"
+  ]
  },
  "d0pe1__md-one": {
   "repo": "d0pe1/md-one",
   "commit": "a8370b24be1aac918e9e9108d23be7bbc64041dd",
   "status": "success",
   "recipe": "felucca-sub",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "d0pe1__md-one-a8370b2.fwsc"
+  ]
  },
  "dzwerg__miniBRUTE": {
   "repo": "dzwerg/miniBRUTE",
   "commit": "c8e17c4da3d4c147fb25ab1610e163c909c5ee98",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "dzwerg__miniBRUTE-c8e17c4.fwsc"
+  ]
  },
  "erikdevos__glitchbox": {
   "repo": "erikdevos/glitchbox",
   "commit": "902868510b307e1ed31c43eedd29991e16e42700",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "erikdevos__glitchbox-9028685.fwsc"
+  ]
  },
  "gaumondp__patricktronics": {
   "repo": "gaumondp/patricktronics",
   "commit": "a6e5e28472fd770d4cced99e32978ce9f8e6e276",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "gaumondp__patricktronics-a6e5e28.fwsc"
+  ]
  },
  "johnskiller__fm1-ctrl": {
   "repo": "johnskiller/fm1-ctrl",
@@ -102,14 +141,20 @@
   "commit": "527da33beb3dde611836cff376aee1b9a324949b",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "sirpearson__fm-1-monomachine-527da33.fwsc"
+  ]
  },
  "synthi__fm1-1971": {
   "repo": "synthi/fm1-1971",
   "commit": "d422a998f2d9d30562b8af1830fa3d2aa8cba8fa",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "synthi__fm1-1971-d422a99.fwsc"
+  ]
  },
  "tensor-programming__fm1-t1": {
   "repo": "tensor-programming/fm1-t1",
@@ -123,14 +168,20 @@
   "commit": "24e75c83e52c203df542e9e7b14703fee8bbd971",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "thebrodi__fm1-haave-24e75c8.fwsc"
+  ]
  },
  "thefriendlyhedgehog__FM-Cat1": {
   "repo": "thefriendlyhedgehog/FM-Cat1",
   "commit": "820251d823eb4d6af1172487d72c0f4862de6215",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "thefriendlyhedgehog__FM-Cat1-820251d.fwsc"
+  ]
  },
  "y6zkcqnf5r-hue__fm1-trawler": {
   "repo": "y6zkcqnf5r-hue/fm1-trawler",
@@ -144,13 +195,19 @@
   "commit": "27c13ea309388fb1f8f8706fbf1a604287e5705d",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "zisonzishen__crate-fm1-27c13ea.fwsc"
+  ]
  },
  "zvenson__fm1doom": {
   "repo": "zvenson/fm1doom",
   "commit": "640bc2dbdc69bcaf045afb9ef3695274f49fed4c",
   "status": "success",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464534847"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "assets": [
+   "zvenson__fm1doom-640bc2d.fwsc"
+  ]
  }
 }
