@@ -11,13 +11,13 @@ license, default-branch head, release packages and build entry point.
 Needs GITHUB_TOKEN (or GH_TOKEN) for the API rate limit. Standard library only.
 """
 import argparse
-import base64
 import concurrent.futures
 import json
 import os
 import re
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -37,23 +37,62 @@ REDISTRIBUTABLE = {
 TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
 
 
-def fetch(url, accept="application/vnd.github+json"):
+def fetch(url, accept="application/vnd.github+json", data=None):
     headers = {"Accept": accept, "User-Agent": "fm1-firmware-collection"}
     if TOKEN and url.startswith("https://api.github.com/"):
         headers["Authorization"] = f"Bearer {TOKEN}"
-    request = urllib.request.Request(url, headers=headers)
-    try:
-        with urllib.request.urlopen(request, timeout=60) as response:
-            return response.read()
-    except urllib.error.HTTPError as error:
-        if error.code in (404, 409, 451):
-            return None
-        raise
+    request = urllib.request.Request(url, headers=headers, data=data)
+    for attempt in range(6):
+        try:
+            with urllib.request.urlopen(request, timeout=60) as response:
+                return response.read()
+        except urllib.error.HTTPError as error:
+            if error.code in (404, 409, 451):
+                return None
+            # Primary and secondary rate limits answer 403/429; back off and retry.
+            if error.code not in (403, 429, 500, 502, 503) or attempt == 5:
+                raise
+            wait = error.headers.get("Retry-After") or ""
+            reset = error.headers.get("X-RateLimit-Reset") or ""
+            if error.headers.get("X-RateLimit-Remaining") == "0" and reset.isdigit():
+                # Primary limit: wait for the window to reset rather than burning the retries.
+                time.sleep(max(int(reset) - time.time(), 0) + 5)
+            else:
+                time.sleep(min(int(wait) if wait.isdigit() else 15 * 2 ** attempt, 300))
 
 
 def api(path):
     body = fetch("https://api.github.com/" + path)
     return json.loads(body) if body else None
+
+
+REPO_FIELDS = """
+  nameWithOwner url description isPrivate isArchived stargazerCount pushedAt
+  parent { nameWithOwner }
+  licenseInfo { spdxId }
+  defaultBranchRef { name target { oid } }
+  releases(first: 5, orderBy: {field: CREATED_AT, direction: DESC}) {
+    nodes { tagName isPrerelease publishedAt releaseAssets(first: 30) { nodes { name downloadUrl size } } }
+  }
+"""
+
+
+def repo_metadata(repos):
+    """Fetch repository metadata 25 at a time through GraphQL: one request per batch."""
+    meta = {}
+    repos = list(repos)
+    for i in range(0, len(repos), 25):
+        batch = repos[i:i + 25]
+        parts = []
+        for n, repo in enumerate(batch):
+            owner, name = repo.split("/", 1)
+            parts.append(f"r{n}: repository(owner: {json.dumps(owner)}, name: {json.dumps(name)}) {{{REPO_FIELDS}}}")
+        query = "query {" + "\n".join(parts) + "}"
+        body = fetch("https://api.github.com/graphql", data=json.dumps({"query": query}).encode())
+        result = json.loads(body) if body else {}
+        for n, repo in enumerate(batch):
+            meta[repo.lower()] = (result.get("data") or {}).get(f"r{n}")
+    return meta
 
 
 def discover():
@@ -77,9 +116,9 @@ def discover():
             add(repo, "hub", hub={k: item.get(k) for k in
                 ("id", "name", "version", "product", "sha256", "size", "pkg", "release", "kind")})
 
-    readme = api(f"repos/{AROUM}/readme")
+    readme = fetch(f"https://raw.githubusercontent.com/{AROUM}/HEAD/README.md", "text/plain")
     if readme:
-        text = base64.b64decode(readme["content"]).decode("utf-8", "replace")
+        text = readme.decode("utf-8", "replace")
         start = text.find("## 1. Custom")
         end = text.find("## 2. ", start + 1)
         section = text[start:end] if start >= 0 else ""
@@ -107,51 +146,60 @@ def recipe_for(paths):
     return "none"
 
 
-def probe(entry, overrides):
+def probe(entry, info, previous, overrides):
     key = entry["repo"].lower()
-    info = api(f"repos/{entry['repo']}")
     if not info:
         return {**entry, "status": "missing"}
-    if info.get("private"):
+    if info["isPrivate"]:
         return {**entry, "status": "private"}
-    repo = info["full_name"]
-    branch = info["default_branch"]
-    head = api(f"repos/{repo}/commits/{urllib.parse.quote(branch)}")
-    tree = api(f"repos/{repo}/git/trees/{urllib.parse.quote(branch)}?recursive=1") or {}
-    paths = {item["path"] for item in tree.get("tree", [])}
+    repo = info["nameWithOwner"]
+    branch_ref = info.get("defaultBranchRef") or {}
+    branch = branch_ref.get("name")
+    head = (branch_ref.get("target") or {}).get("oid")
+    if not head:
+        return {**entry, "status": "missing"}
+    old = previous.get(repo.lower()) or {}
+    if old.get("head") == head and "auto_recipe" in old:
+        # Unchanged since the last run: reuse what the tree said instead of asking again.
+        auto_recipe, tree_fwsc, has_submodules = old["auto_recipe"], old["tree_fwsc"], old["has_submodules"]
+    else:
+        tree = api(f"repos/{repo}/git/trees/{head}?recursive=1") or {}
+        paths = {item["path"] for item in tree.get("tree", [])}
+        auto_recipe = recipe_for(paths)
+        tree_fwsc = sorted(p for p in paths if p.endswith(".fwsc"))[:10]
+        has_submodules = ".gitmodules" in paths
     releases = []
-    for release in api(f"repos/{repo}/releases?per_page=5") or []:
-        for asset in release.get("assets", []):
+    for release in (info.get("releases") or {}).get("nodes", []):
+        for asset in (release.get("releaseAssets") or {}).get("nodes", []):
             if asset["name"].endswith(".fwsc"):
-                releases.append({"tag": release["tag_name"], "name": asset["name"],
-                                 "url": asset["browser_download_url"], "size": asset["size"],
-                                 "prerelease": release["prerelease"], "published": release["published_at"]})
-    license_id = (info.get("license") or {}).get("spdx_id")
-    license_id = overrides["license"].get(key, license_id)
-    recipe = overrides["recipe"].get(key, recipe_for(paths))
-    tree_fwsc = sorted(p for p in paths if p.endswith(".fwsc"))
+                releases.append({"tag": release["tagName"], "name": asset["name"], "url": asset["downloadUrl"],
+                                 "size": asset["size"], "prerelease": release["isPrerelease"],
+                                 "published": release["publishedAt"]})
+    license_id = overrides["license"].get(key, (info.get("licenseInfo") or {}).get("spdxId"))
+    recipe = overrides["recipe"].get(key, auto_recipe)
     has_build = bool(releases or tree_fwsc or (entry.get("hub") or {}).get("pkg"))
     redistributable = license_id in REDISTRIBUTABLE
     return {
         "id": repo.replace("/", "__"),
         "repo": repo,
-        "url": info["html_url"],
+        "url": info["url"],
         "description": info.get("description"),
         "sources": entry["sources"],
         "hub": entry.get("hub"),
         "license": license_id,
         "redistributable": redistributable,
-        "fork_of": (info.get("parent") or {}).get("full_name"),
-        "archived": info["archived"],
-        "stars": info["stargazers_count"],
-        "pushed": info["pushed_at"],
+        "fork_of": (info.get("parent") or {}).get("nameWithOwner"),
+        "archived": info["isArchived"],
+        "stars": info["stargazerCount"],
+        "pushed": info["pushedAt"],
         "branch": branch,
-        "head": head["sha"] if head else None,
-        "has_submodules": ".gitmodules" in paths,
+        "head": head,
+        "has_submodules": has_submodules,
+        "auto_recipe": auto_recipe,
         "recipe": recipe,
         "prepare": overrides.get("prepare", {}).get(key),
         "upstream_releases": releases[:3],
-        "tree_fwsc": tree_fwsc[:10],
+        "tree_fwsc": tree_fwsc,
         "has_build": has_build,
         "needs_ci_build": (not has_build) and redistributable and recipe != "none",
         "buildable": redistributable and recipe != "none",
@@ -211,8 +259,12 @@ def main():
         found.setdefault(repo.lower(), {"repo": repo, "sources": ["manual"]})
     excluded = {k: v for k, v in found.items() if k in overrides["exclude"]}
     candidates = [v for k, v in found.items() if k not in overrides["exclude"]]
-    with concurrent.futures.ThreadPoolExecutor(8) as pool:
-        probed = list(pool.map(lambda e: probe(e, overrides), candidates))
+    previous = {}
+    if CATALOG.exists():
+        previous = {e["repo"].lower(): e for e in json.loads(CATALOG.read_text())["firmwares"]}
+    meta = repo_metadata(e["repo"] for e in candidates)
+    with concurrent.futures.ThreadPoolExecutor(4) as pool:
+        probed = list(pool.map(lambda e: probe(e, meta.get(e["repo"].lower()), previous, overrides), candidates))
     # Renamed repositories can surface twice; keep one entry per canonical name.
     unique = {}
     for e in probed:

@@ -47,6 +47,6 @@
   },
   "include": [],
   "prepare": {
-    "zvenson/fm1doom": "curl -fsSL -o freedm.zip https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedm-0.13.0.zip && unzip -q -o freedm.zip && rm freedm.zip"
+    "zvenson/fm1doom": "for z in freedm-0.13.0 freedoom-0.13.0; do curl -fsSL -o $z.zip https://github.com/freedoom/freedoom/releases/download/v0.13.0/$z.zip && unzip -q -o $z.zip && rm $z.zip; done"
   }
 }
