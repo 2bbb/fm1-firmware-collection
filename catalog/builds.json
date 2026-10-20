@@ -151,6 +151,6 @@
   "commit": "640bc2dbdc69bcaf045afb9ef3695274f49fed4c",
   "status": "failure",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458664576"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458986021"
  }
 }
