@@ -1,0 +1,46 @@
+{
+  "_comment": "Manual corrections applied on top of discovery. Keys are lowercase owner/repo.",
+  "exclude": {
+    "czietz/fm1-firmware-patcher": "binary patcher for the stock firmware, not a firmware source",
+    "smememe/fm1-macropad-patch": "binary patcher for the stock firmware, not a firmware source",
+    "doofywilsons-rgb/tall-horse-firmware-hub-website": "firmware hub website",
+    "genkigenki/fm1-to-smk37": "porting kit and documentation",
+    "genkigenki/erik37": "SMK-37 only",
+    "hunterxiong2026/fm1-felucca-editor-2026": "SysEx editor",
+    "markterm/harbor": "Android emulator host",
+    "quixotic7/fm1vst": "VST plug-in",
+    "simonjohansson/fm1-emulator": "emulator",
+    "spinkham/felucca-try": "browser emulator",
+    "thingsapart/fm1-studio": "Android emulator host",
+    "charlesvestal/fm1-reader": "screen-reader component and web tool",
+    "joakimeriksson/fm1-emu": "emulator",
+    "aroum/fm1-custom-fw": "resource hub",
+    "al-255/fm-1-re": "reverse-engineering notes",
+    "bratta/fm1-manager": "preset manager",
+    "benny-sparra/fm1-dx7-patch-importer": "patch editor",
+    "jahlib/sloop-fm1-go": "Android editor",
+    "jbschooley/virtual-fm-1": "software instrument",
+    "klonecom/m-vave-fm1-loader---": "bank loader",
+    "mene311/fm1-banks": "DX7 voice banks",
+    "ocean/fm-switch": "iOS firmware switcher",
+    "ocean/fm1kit": "Swift library",
+    "discodave-glitch/slipway": "Windows firmware manager",
+    "cicloid/awesome-fm-1": "resource list",
+    "fedos3/fm1828-lidar": "unrelated (robot vacuum lidar)",
+    "vimsl/h5000m-fm170eau": "unrelated (OpenWrt router)",
+    "itoyohane/fm1-learning-web": "documentation site",
+    "jvitkauskas/fm1-backup": "flash dump of the stock firmware",
+    "lexlongcoding/ghoulbox-vst3": "VST plug-in",
+    "keitark/fm1-nes": "SDK integration resources"
+  },
+  "license": {
+    "miketsak/evanders-music-box--fm-1-larp-firmware": "GPL-3.0",
+    "cotrino/fm1-betis-mode": "GPL-3.0-with-FM1-SDK-exception",
+    "m-vave/fm1_open": "GPL-3.0-with-FM1-SDK-exception"
+  },
+  "recipe": {
+    "m-vave/fm1_open": "none",
+    "cotrino/fm1-betis-mode": "none"
+  },
+  "include": []
+}

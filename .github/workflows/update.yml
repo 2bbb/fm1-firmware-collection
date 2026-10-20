@@ -1,0 +1,40 @@
+name: update
+
+# Rediscover firmwares, move each submodule to its default-branch head, then build what is new.
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh catalog and submodules
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/catalog.py --update-submodules | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Commit
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A catalog CATALOG.md .gitmodules
+          if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git commit -m "Update firmware catalog and submodules"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Build new firmwares
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run build.yml --ref main -f scope=missing

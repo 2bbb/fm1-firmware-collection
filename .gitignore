@@ -1,0 +1,5 @@
+out/
+results/
+release/
+__pycache__/
+.DS_Store

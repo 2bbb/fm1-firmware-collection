@@ -1,0 +1,158 @@
+name: build
+
+on:
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: "missing = no upstream package and not yet built at this commit; all = every buildable firmware; only = the repos below"
+        type: choice
+        options: [missing, all, only]
+        default: missing
+      only:
+        description: "owner/repo list for scope=only, comma separated"
+        type: string
+        default: ""
+  push:
+    branches: [main]
+    paths:
+      - catalog/firmwares.json
+      - scripts/build_one.sh
+      - scripts/plan.py
+      - scripts/publish.py
+      - .github/workflows/build.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+env:
+  AC79_SDK_BRANCH: AC79NN_SDK_V1.2.1_2023-12-13
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      count: ${{ steps.plan.outputs.count }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: plan
+        run: |
+          matrix=$(python3 scripts/plan.py "${{ inputs.scope || 'missing' }}" "${{ inputs.only }}")
+          echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
+          count=$(echo "$matrix" | python3 -c 'import json,sys; print(len(json.load(sys.stdin)["include"]))')
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          echo "### $count firmwares to build" >> "$GITHUB_STEP_SUMMARY"
+
+  toolchain:
+    needs: plan
+    if: needs.plan.outputs.count != '0'
+    runs-on: ubuntu-latest
+    steps:
+      - id: cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.jieli
+            ~/fw-AC79_AIoT_SDK
+          key: jieli-linux-toolchain-ac79-${{ env.AC79_SDK_BRANCH }}-v1
+      - if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p ~/.jieli
+          curl -fL --retry 3 https://pkgman.jieliapp.com/s/linux-toolchain | tar -xJ -C ~/.jieli
+          tc=$(ls -d ~/.jieli/jieli-linux-toolchains-* | sort | tail -1)
+          ln -sfn "$(basename "$tc")" ~/.jieli/toolchain
+          git clone --depth 1 --branch "$AC79_SDK_BRANCH" --filter=blob:none --sparse \
+            https://gitee.com/Jieli-Tech/fw-AC79_AIoT_SDK.git ~/fw-AC79_AIoT_SDK
+          git -C ~/fw-AC79_AIoT_SDK sparse-checkout set cpu/wl82/tools
+          ls ~/fw-AC79_AIoT_SDK/cpu/wl82/tools | head
+
+  build:
+    needs: [plan, toolchain]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache/restore@v4
+        with:
+          path: |
+            ~/.jieli
+            ~/fw-AC79_AIoT_SDK
+          key: jieli-linux-toolchain-ac79-${{ env.AC79_SDK_BRANCH }}-v1
+          fail-on-cache-miss: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install Pillow fonttools mido
+      - name: Fetch source
+        run: |
+          git submodule update --init --depth 1 -- "${{ matrix.path }}" \
+            || git submodule update --init -- "${{ matrix.path }}"
+          git -C "${{ matrix.path }}" submodule update --init --recursive --depth 1 \
+            || git -C "${{ matrix.path }}" submodule update --init --recursive || true
+      - name: Build
+        id: build
+        continue-on-error: true
+        env:
+          JIELI_TOOLCHAIN: /home/runner/.jieli/toolchain
+          AC79_SDK: /home/runner/fw-AC79_AIoT_SDK
+        run: |
+          set -o pipefail
+          sh scripts/build_one.sh "${{ matrix.path }}" "${{ matrix.recipe }}" "out/${{ matrix.id }}" 2>&1 | tee build.log
+      - name: Record result
+        if: always()
+        run: |
+          mkdir -p "out/${{ matrix.id }}"
+          tail -n 80 build.log > "out/${{ matrix.id }}/build.log" 2>/dev/null || true
+          commit=$(git -C "${{ matrix.path }}" rev-parse HEAD)
+          python3 - <<EOF
+          import json
+          json.dump({"id": "${{ matrix.id }}", "repo": "${{ matrix.repo }}", "recipe": "${{ matrix.recipe }}",
+                     "commit": "$commit", "status": "${{ steps.build.outcome }}",
+                     "run": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"},
+                    open("out/${{ matrix.id }}/result.json", "w"))
+          EOF
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: build-${{ matrix.id }}
+          path: out/${{ matrix.id }}
+          retention-days: 30
+
+  publish:
+    needs: [plan, build]
+    if: always() && needs.plan.outputs.count != '0'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: build-*
+          path: results
+      - run: |
+          for d in results/build-*; do mv "$d" "results/${d#results/build-}"; done
+          python3 scripts/publish.py results release
+          python3 scripts/record_builds.py results
+          cat release/NOTES.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ls release/*.fwsc >/dev/null 2>&1; then
+            tag="builds-$(date -u +%Y%m%d)-${{ github.run_number }}"
+            gh release create "$tag" release/*.fwsc release/index.json release/SHA256SUMS \
+              --title "$tag" --notes-file release/NOTES.md
+          fi
+      - name: Commit build record
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog/builds.json
+          git diff --cached --quiet || { git commit -m "Record CI builds (run ${{ github.run_number }})"; git pull --rebase; git push; }
