@@ -116,7 +116,7 @@
   "commit": "bea0fd38fbebe48758059828a7ba107c6248304c",
   "status": "failure",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464299749"
  },
  "thebrodi__fm1-haave": {
   "repo": "thebrodi/fm1-haave",
@@ -151,6 +151,6 @@
   "commit": "640bc2dbdc69bcaf045afb9ef3695274f49fed4c",
   "status": "failure",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458986021"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464299749"
  }
 }
