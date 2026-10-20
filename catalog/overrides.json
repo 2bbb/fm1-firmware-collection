@@ -1,5 +1,5 @@
 {
-  "_comment": "Manual corrections applied on top of discovery. Keys are lowercase owner/repo.",
+  "_comment": "Manual corrections applied on top of discovery. Keys are lowercase owner/repo. prepare: shell run in the firmware directory before its build.",
   "exclude": {
     "czietz/fm1-firmware-patcher": "binary patcher for the stock firmware, not a firmware source",
     "smememe/fm1-macropad-patch": "binary patcher for the stock firmware, not a firmware source",
@@ -41,7 +41,12 @@
   },
   "recipe": {
     "m-vave/fm1_open": "none",
-    "cotrino/fm1-betis-mode": "none"
+    "cotrino/fm1-betis-mode": "none",
+    "johnskiller/fm1-ctrl": "none",
+    "y6zkcqnf5r-hue/fm1-trawler": "none"
   },
-  "include": []
+  "include": [],
+  "prepare": {
+    "zvenson/fm1doom": "curl -fsSL -o freedm.zip https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedm-0.13.0.zip && unzip -q -o freedm.zip && rm freedm.zip"
+  }
 }

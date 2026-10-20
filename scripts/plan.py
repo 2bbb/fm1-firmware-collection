@@ -23,5 +23,6 @@ for e in catalog["firmwares"]:
         continue
     if scope == "only" and e["repo"].lower() not in names:
         continue
-    include.append({"id": e["id"], "repo": e["repo"], "path": e["path"], "recipe": e["recipe"]})
+    include.append({"id": e["id"], "repo": e["repo"], "path": e["path"], "recipe": e["recipe"],
+                    "prepare": e.get("prepare") or ""})
 print(json.dumps({"include": include}))

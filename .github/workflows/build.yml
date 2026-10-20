@@ -103,9 +103,10 @@ jobs:
         env:
           JIELI_TOOLCHAIN: /home/runner/.jieli/toolchain
           AC79_SDK: /home/runner/fw-AC79_AIoT_SDK
+          PREPARE: ${{ matrix.prepare }}
         run: |
           set -o pipefail
-          sh scripts/build_one.sh "${{ matrix.path }}" "${{ matrix.recipe }}" "out/${{ matrix.id }}" 2>&1 | tee build.log
+          sh scripts/build_one.sh "${{ matrix.path }}" "${{ matrix.recipe }}" "out/${{ matrix.id }}" "$PREPARE" 2>&1 | tee build.log
       - name: Record result
         if: always()
         run: |

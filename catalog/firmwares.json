@@ -29,6 +29,7 @@
    "head": "566dec0fb397c59682729e3b2d294acd321a2823",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.1",
@@ -93,6 +94,7 @@
    "head": "89fba9b8450c290dd4129d4d31bcf3d377948985",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.2.3",
@@ -140,6 +142,7 @@
    "head": "aa95a031915189416c6229846f80c37eac61499a",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "V1.0.0",
@@ -176,6 +179,7 @@
    "head": "976b6e65dc968a6f9bfa946e6d300e61aa69ebb6",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.0.0",
@@ -213,6 +217,7 @@
    "head": "a977f53558b7106d594f03654d4beba9d2ff7477",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -251,6 +256,7 @@
    "head": "5788761ff85f1741395a89cb72286fef1ec7b925",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.0",
@@ -309,6 +315,7 @@
    "head": "31ef7efd23aa56e5a476b6b3987313e7b98a9463",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": true,
@@ -337,6 +344,7 @@
    "head": "f2356c2f9030d69c7ae1261b86639b1fa6bf79f4",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -377,6 +385,7 @@
    "head": "945c40c299273903922e5da75f79b559f621d8c4",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": true,
@@ -419,6 +428,7 @@
    "head": "7900e76d9fd1dc550767416d75db91c3912df68d",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "fumi-1.0.7",
@@ -472,6 +482,7 @@
    "head": "73d6cdd6d2a006fad9df4f2227757b8131fe6ef6",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "botanica-v0.3",
@@ -526,6 +537,7 @@
    "head": "1db6febb1cad26a130300a67cea9a6d9828c0fca",
    "has_submodules": true,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "site/restore-stock/FM-1-v15.fwsc"
@@ -569,6 +581,7 @@
    "head": "1a345338f6eb8fadc239a043cb96c8a34e8a6c69",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.9-salt14",
@@ -606,6 +619,7 @@
    "head": "2bc99d8d68afebddd356d0469eabf2a29bee9d98",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "web/firmware/fm1-original.fwsc",
@@ -647,6 +661,7 @@
    "head": "188b0a42f20a547864e732ae5ea1339d0fbcf395",
    "has_submodules": true,
    "recipe": "build-sh",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.3",
@@ -699,6 +714,7 @@
    "head": "e35f7e2c6904ff1a3eed10035474c8cf089c0b88",
    "has_submodules": true,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -741,6 +757,7 @@
    "head": "e181b4a1ac1510ce18ebf6e271a143c2fe364ccd",
    "has_submodules": true,
    "recipe": "build-sh",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.0",
@@ -805,6 +822,7 @@
    "head": "7e7547f384fe70b7e89cfd725b0a211bcc60db05",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.4",
@@ -857,6 +875,7 @@
    "head": "4a29fcd0b68423eafeab0d2ae0cd37b4603e8c43",
    "has_submodules": true,
    "recipe": "build-sh",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.5.4-beta",
@@ -910,6 +929,7 @@
    "head": "facab5da0add2ceac845d3ff117c1d350d88b26b",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.9.1",
@@ -954,6 +974,7 @@
    "head": "793710689adbd6327c99771d9f274030a9530cc1",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.9.1",
@@ -1013,6 +1034,7 @@
    "head": "62cd07ea7c95c30021c31e957cea8be448415fa7",
    "has_submodules": true,
    "recipe": "build-sh",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.5",
@@ -1066,6 +1088,7 @@
    "head": "8f62ce0d968c91ce8bfdafbb908f81d15351650a",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -1105,6 +1128,7 @@
    "head": "54194c54bb01e9d9b3fe9d641b3ddfa512ac04a3",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.1.0",
@@ -1157,6 +1181,7 @@
    "head": "bd184eba685754634ded832b27f493246c3998c6",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -1185,6 +1210,7 @@
    "head": "d269df962a6d023f47e7f31e0dec64b05bb742ab",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -1212,6 +1238,7 @@
    "head": "218b8fd736fd80449718339963a7917b6e7ba8a8",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -1239,6 +1266,7 @@
    "head": "84d6ad4e8b6acf88117ec865b1f22725562413ee",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "docs/FM1_BETIS_MODE.fwsc",
@@ -1269,6 +1297,7 @@
    "head": "a8370b24be1aac918e9e9108d23be7bbc64041dd",
    "has_submodules": false,
    "recipe": "felucca-sub",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -1296,6 +1325,7 @@
    "head": "b8d04bc29d8d4c39d07278b04d41ac2a9a5bb578",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.3.1",
@@ -1344,6 +1374,7 @@
    "head": "7e3415971c5800b4a3ad0146a7d95615883d7d96",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "drum-v0.16.0",
@@ -1406,6 +1437,7 @@
    "head": "4e5efb8a7623cfb19a55fdc08cb12e8cfdfce578",
    "has_submodules": true,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": true,
@@ -1444,6 +1476,7 @@
    "head": "fbc56d3f523aa5b781004e034da407faff37e1e5",
    "has_submodules": true,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": true,
@@ -1471,6 +1504,7 @@
    "head": "9676218821be9fd65600dc74fcc68bd8ff5ba2b2",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.1.2",
@@ -1524,6 +1558,7 @@
    "head": "0caf36800da43aa604ccb6d495d6e689110922b3",
    "has_submodules": true,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.2.0-m2-preview",
@@ -1572,6 +1607,7 @@
    "head": "10a2240d7f3c63e3ed551774a8e17fb24ed002b8",
    "has_submodules": false,
    "recipe": "make",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.2.0",
@@ -1639,6 +1675,7 @@
    "head": "c07bd1d87dcb1e90180d1765d96b834c3dc68479",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.7.1",
@@ -1691,6 +1728,7 @@
    "head": "c8e17c4da3d4c147fb25ab1610e163c909c5ee98",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -1732,6 +1770,7 @@
    "head": "21fc592dab76907b6bea34d97950dfe129ad9fd8",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "1.6.1_and_sequences",
@@ -1789,6 +1828,7 @@
    "head": "36df1acf08260e636d938e2aea0eefae49476203",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "minitone-1.0.0",
@@ -1825,6 +1865,7 @@
    "head": "726bd5f7a76bff6c62131324108316dbd7c2efd2",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "web/installer/function-acid.fwsc"
@@ -1868,6 +1909,7 @@
    "head": "66f1d2702f73e4de2319b9b0c7143519f794004e",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "1.0.5.2-midi23",
@@ -1936,6 +1978,7 @@
    "head": "50a33749aa623fce2655010a5933188b8dc11d7f",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.9.0-beta",
@@ -1999,6 +2042,7 @@
    "head": "902868510b307e1ed31c43eedd29991e16e42700",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -2037,6 +2081,7 @@
    "head": "a319c5a558c21129496fdf3c79084eede3a5f735",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.1-beta",
@@ -2089,6 +2134,7 @@
    "head": "fc6a1f32c00e1565abf897e8ab6425a76a2b2b60",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.4",
@@ -2156,6 +2202,7 @@
    "head": "d420b39cff02d8340969381c11884102e72767e4",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.0-GW",
@@ -2192,6 +2239,7 @@
    "head": "5351257efe55ebeb474ff49d90cb33c98580d8b8",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "fantasma-v1.1",
@@ -2247,6 +2295,7 @@
    "head": "7c7a52cb36a8a018882fc17009e8aeb0f32459df",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "golana-v1.2",
@@ -2299,6 +2348,7 @@
    "head": "b717e85e90c94f6b7f709cb6676c306eeddba185",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -2327,6 +2377,7 @@
    "head": "a6e5e28472fd770d4cced99e32978ce9f8e6e276",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -2355,6 +2406,7 @@
    "head": "81fa061b40e6b6305e3672c671ead2552c9b8569",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.0",
@@ -2418,6 +2470,7 @@
    "head": "7061e8df80ee55a5d24fac550fafbe2a9d0c1f28",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.3.1",
@@ -2484,6 +2537,7 @@
    "head": "c597223c5c140002222bc36b67e4cbdb49c6c153",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.0",
@@ -2530,6 +2584,7 @@
    "head": "047d21f6154ff6f86c7d3dc4b90f8d5e3320c300",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "install/kawa-0.5.fwsc",
@@ -2564,6 +2619,7 @@
    "head": "2a661dc1e9a2c137323a7f6c35cadb6091fda996",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "firmware/felucca.fwsc"
@@ -2593,6 +2649,7 @@
    "head": null,
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -2634,6 +2691,7 @@
    "head": "0996503bfe83c8c2217c63b29e1be75ebbcdddaf",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "quest-38",
@@ -2701,6 +2759,7 @@
    "head": "43045976b4b55b7ac3c443a894a7f1225e7256fc",
    "has_submodules": false,
    "recipe": "felucca-sub",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "firmware/nomanskyfm-0.4.fwsc",
@@ -2746,6 +2805,7 @@
    "head": "54575a4bb81e2769bd3f4ae03d0af5e80785b7cf",
    "has_submodules": false,
    "recipe": "felucca-sub",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "release/winampfm-0.11.fwsc",
@@ -2791,6 +2851,7 @@
    "head": "5738617968a22b5d4c0d3470cfcc95559052f446",
    "has_submodules": true,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.6.1",
@@ -2844,6 +2905,7 @@
    "head": "cc0a1efe46442d774dbd89fac025de1f564693fb",
    "has_submodules": true,
    "recipe": "make",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.1.1",
@@ -2903,6 +2965,7 @@
    "head": "c7d53d9cbf2feb90dffbf7761dfeb88cf7816715",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.3.3",
@@ -2955,6 +3018,7 @@
    "head": "9b8a465129cef99e5c83afc713639a3b12c52419",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.2.1",
@@ -2991,6 +3055,7 @@
    "head": "1fe048b0d830e4fc629ffe7f938dd3a7457dfa88",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -3019,6 +3084,7 @@
    "head": "659c3aa9b88df292d4771925f0cf431ce68f6759",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -3046,6 +3112,7 @@
    "head": "7008d31e78da5d4e5e0a1f25a994ba7b2266c702",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.0-experimental",
@@ -3094,6 +3161,7 @@
    "head": "4ec1ac829fd2bdf2c571ea215fb3d62477d01220",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v2.7.1",
@@ -3163,6 +3231,7 @@
    "head": "0485ed0d387ce78216428c7b19f97d77bbe10b4d",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.6.1",
@@ -3216,6 +3285,7 @@
    "head": "0afdeee1413b956e9630f92f7dfc7d9ba6f2da6e",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -3243,6 +3313,7 @@
    "head": "3a764d619c5f7bd51ff76cc40f7ab7f5b843a44e",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "performance6/diagnostics/single-core/studio-melodee-tess-1.4.1-single-performance6-DIAGNOSTIC.fwsc",
@@ -3284,6 +3355,7 @@
    "head": "a18a44fd7cb916293b7a04d814deab809194a435",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.9.5",
@@ -3352,6 +3424,7 @@
    "head": "f23fbc593f8af29dfa01174278f08ee79155ed27",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "ghoulbox-v2.3.2",
@@ -3403,12 +3476,13 @@
    "branch": "main",
    "head": "3f024a22a2e8a3f0031d915700c0d99a4a61bd04",
    "has_submodules": false,
-   "recipe": "build-sh",
+   "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
-   "needs_ci_build": true,
-   "buildable": true,
+   "needs_ci_build": false,
+   "buildable": false,
    "path": "firmwares/johnskiller/fm1-ctrl",
    "status": "ok"
   },
@@ -3431,6 +3505,7 @@
    "head": "8e7108bce690107f99b218f8cfa829e1417c0bf4",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -3469,6 +3544,7 @@
    "head": "c893b18909c75e29f2452c626b7220df92e7a307",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": true,
@@ -3496,6 +3572,7 @@
    "head": "cf35dc26709ede9c974654dfc2135f8c25a00082",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.1.0",
@@ -3562,6 +3639,7 @@
    "head": "e9692d729dbe64a0ef5a472de39e6c7a22d47933",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": true,
@@ -3589,6 +3667,7 @@
    "head": "8dc9edee324ef3aa8cd83dc5b8601d96506dd766",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "web/firmware/finton.fwsc"
@@ -3618,6 +3697,7 @@
    "head": "9762d417d6f3464647e8cdca4e3d9d3a4df38538",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -3646,6 +3726,7 @@
    "head": "0981507bdec144a9ad05e2f237287db8fa475f63",
    "has_submodules": true,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -3673,6 +3754,7 @@
    "head": "cc816dc9c97e2265a741e6d5b4c90f828d98a6aa",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.3.1",
@@ -3724,6 +3806,7 @@
    "head": "398ada1e09d864c12f3b778a43e45c7c2a8031b8",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.4.5",
@@ -3787,6 +3870,7 @@
    "head": "c9bb0b1ac4a7dbb420a3f452fc75b705981ab0f4",
    "has_submodules": false,
    "recipe": "felucca-sub",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.0.0",
@@ -3844,6 +3928,7 @@
    "head": "d9799abb84fef0cc59deb05e2f6a4c41032c32f1",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.2.1",
@@ -3904,6 +3989,7 @@
    "head": "52687d82c53bae8124963705fba1e8e25a1ce60e",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.0",
@@ -3948,6 +4034,7 @@
    "head": "a8ffcf7989671a6a9d07944c523e1a4c8fc2c457",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -3975,6 +4062,7 @@
    "head": "f39b49c492f3f0998ac3cbdcbed3fbda4c545574",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -4017,6 +4105,7 @@
    "head": "73b3098838d4ad4607e76780530e9034d12d9ccd",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.1.3",
@@ -4080,6 +4169,7 @@
    "head": "035771ebf20358e3a22d496ecb5b399406acc495",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.9.4",
@@ -4142,6 +4232,7 @@
    "head": "e670b35369f8556ee82683f35c6b8bfbcb366155",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.2.0",
@@ -4194,6 +4285,7 @@
    "head": "4d266850f8a46bd5154a0d495c1f60317156c9f7",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "sdk/firmware/FM-1_015.fwsc"
@@ -4237,6 +4329,7 @@
    "head": "d691ba7b2d922f1a1f41a3622cffe29ce41c5506",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v2.5-b28-test",
@@ -4303,6 +4396,7 @@
    "head": "5117c27f094f9aa028dc663abaa2b3d61a3dbaa5",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.3",
@@ -4367,6 +4461,7 @@
    "head": "750eb125e2850acc62a8391cb742246a7c437745",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.0-test",
@@ -4403,6 +4498,7 @@
    "head": "828ceaa3fd0b62e825820998e1a09ab90d6edcd1",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.1.0",
@@ -4453,6 +4549,7 @@
    "head": "53c32342efb4b06c7f40ae4758279c5c361c5535",
    "has_submodules": true,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.5.2",
@@ -4516,6 +4613,7 @@
    "head": "c7a633d01dca5faf714b436b92a1bf9a87729cee",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.1.0",
@@ -4568,6 +4666,7 @@
    "head": "2884f45c043cdf28739a4e6b50d780f77b1a20f6",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "site/install/FM-1_015.fwsc"
@@ -4597,6 +4696,7 @@
    "head": "7592999ccfe2fad9312daf4a86b1847e790d8a96",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.7",
@@ -4651,6 +4751,7 @@
    "head": "42fc1af2a2ab6174331d2a4953f7628d6f11b7f8",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "docs/firmware/fm1move-0.3.1.fwsc",
@@ -4681,6 +4782,7 @@
    "head": "b028d3f8ebb76df2505c258ce7bb2e0f63901056",
    "has_submodules": false,
    "recipe": "make",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -4708,6 +4810,7 @@
    "head": "92f923e0b9fe6101d5cd422cffa5946ce20d785a",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.6",
@@ -4775,6 +4878,7 @@
    "head": "964e3ec1e078191f3356bf5b0f7e764a357e9219",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "docs/firmware/tonitor.fwsc"
@@ -4804,6 +4908,7 @@
    "head": "ee2e8e00c22551e3951a2215e6d25c2525cae2ad",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.3.0",
@@ -4850,6 +4955,7 @@
    "head": "3cda569a138e0f57588aab5925d1f09462adf4c3",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -4891,6 +4997,7 @@
    "head": "fa6d95aa4c28941d06c724385ed8bb96a880e8c9",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "maku-v1.0",
@@ -4946,6 +5053,7 @@
    "head": "0bd7f904a18efd20fd6092a8bc645945c3fedf74",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.2.20-beta",
@@ -5009,6 +5117,7 @@
    "head": "db39e046e3efc817dc547b0ba9905a3afe9a4b37",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "Beta4",
@@ -5079,6 +5188,7 @@
    "head": "9382746e22dd52f7cd5950a34564b9b26bf32bec",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.4.0-alpha",
@@ -5131,6 +5241,7 @@
    "head": "60619dbb28e57e953b9cb0c929612a1a3d01c168",
    "has_submodules": true,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -5169,6 +5280,7 @@
    "head": "3319da44abc76fd0ce208de7c37405feef5770fd",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v2.0.0",
@@ -5223,6 +5335,7 @@
    "head": "1d0555b784173bb61e3e371ccedfbe8ff2559d18",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.0.0",
@@ -5270,6 +5383,7 @@
    "head": "7d97982a7db3dad2da456a3e4d4478548b6571d9",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.26.1",
@@ -5334,6 +5448,7 @@
    "head": "b574e75dd1dcf3283c3eb5d286fd7c6d21d95517",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.11",
@@ -5379,6 +5494,7 @@
    "head": "3e125e7836b00f18ce33e471935012ef9bfb447e",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.3.3",
@@ -5453,6 +5569,7 @@
    "head": "a1c5d68767ae10fafb6821dc63b9b1fc490342d2",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v2.4",
@@ -5521,6 +5638,7 @@
    "head": "14d8ddf6390c9639c27ceb7c738353840a7cdb04",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.2.1",
@@ -5575,6 +5693,7 @@
    "head": "87ff5794d4a560478c881d7d34ab2cf0d69609be",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.1-beta",
@@ -5625,6 +5744,7 @@
    "head": "4ac7794ec4b025fd73bc9d2bcd3ae1fe90a1ac47",
    "has_submodules": true,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.7.0",
@@ -5672,6 +5792,7 @@
    "head": "5bb69102bcd5a1bbf0b4c10682b495f030ca96eb",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": true,
@@ -5711,6 +5832,7 @@
    "head": "ed490917895803fa160bd53b21ad848cd7bbe04a",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.2.0",
@@ -5776,6 +5898,7 @@
    "head": "87b2e8b2b1579d511bfaf59f5d6462aff3c3d060",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.0.2",
@@ -5828,6 +5951,7 @@
    "head": "bde88936a14e50276edebf684e60458f05926da8",
    "has_submodules": false,
    "recipe": "felucca-sub",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "site/frontend/public/firmware/doom-b16.fwsc"
@@ -5857,6 +5981,7 @@
    "head": "cbfcee3e79f759abffc2613b931f495d29e4c1e5",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "firmware/sloop-ALG03-TEST.fwsc",
@@ -5899,6 +6024,7 @@
    "head": "fc43fda1e5fbdae36aa83df9e2baff1a484c157b",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "V1.3.8",
@@ -5965,6 +6091,7 @@
    "head": "52f449ddf5ee2443025119b2ff5b15254a0c9dbc",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "V1.50",
@@ -6028,6 +6155,7 @@
    "head": "527da33beb3dde611836cff376aee1b9a324949b",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -6066,6 +6194,7 @@
    "head": "4fe0f1afb4d97f56dfb763c176679fe6e059ecec",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v666",
@@ -6104,6 +6233,7 @@
    "head": "d422a998f2d9d30562b8af1830fa3d2aa8cba8fa",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -6132,6 +6262,7 @@
    "head": "bea0fd38fbebe48758059828a7ba107c6248304c",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -6160,6 +6291,7 @@
    "head": "c55a1a5db541de9f1691d3bc93169ca05c945315",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.22.0-dev",
@@ -6196,6 +6328,7 @@
    "head": "24e75c83e52c203df542e9e7b14703fee8bbd971",
    "has_submodules": true,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -6223,6 +6356,7 @@
    "head": "820251d823eb4d6af1172487d72c0f4862de6215",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -6265,6 +6399,7 @@
    "head": "8f34e81b6d7b03fa45ffd7443b71f9ba838ef0f7",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.4.1",
@@ -6328,6 +6463,7 @@
    "head": "4e0ebe39a8068b10972ed366840b2377197dd3d1",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.3.1",
@@ -6374,6 +6510,7 @@
    "head": "52562e73956448d8eb3c71995b88908fe051498e",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -6402,6 +6539,7 @@
    "head": "8c392850ef67f244d07008a2168ff9d1d221a18f",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.1",
@@ -6456,6 +6594,7 @@
    "head": "2e400c2dfcf3a95904e64656e373fe93f532216b",
    "has_submodules": true,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.1",
@@ -6492,6 +6631,7 @@
    "head": "20c73515f99c3a09673c0131e503d21e1a5eebe0",
    "has_submodules": false,
    "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -6520,6 +6660,7 @@
    "head": "171c51fae0c433f32b1185b79d0e3d6df86ea849",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "docs/firmware/sloop-2.5.fwsc"
@@ -6548,12 +6689,13 @@
    "branch": "main",
    "head": "153f4f4433f15ef5bf3576035cff61f7d009ecc2",
    "has_submodules": false,
-   "recipe": "make",
+   "recipe": "none",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
-   "needs_ci_build": true,
-   "buildable": true,
+   "needs_ci_build": false,
+   "buildable": false,
    "path": "firmwares/y6zkcqnf5r-hue/fm1-trawler",
    "status": "ok"
   },
@@ -6591,6 +6733,7 @@
    "head": "249eb434b81050bf0b9129185234d58ff2dbbba3",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.0.1",
@@ -6643,6 +6786,7 @@
    "head": "27c13ea309388fb1f8f8706fbf1a604287e5705d",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -6682,6 +6826,7 @@
    "head": "d44df7db09b98ccad2f1233b8f83f5f09c04829e",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v0.3",
@@ -6748,6 +6893,7 @@
    "head": "eeec0a6c1c7f9a93865983a8c7f7cc42102e7472",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v4.0",
@@ -6803,6 +6949,7 @@
    "head": "640bc2dbdc69bcaf045afb9ef3695274f49fed4c",
    "has_submodules": false,
    "recipe": "build-sh",
+   "prepare": "curl -fsSL -o freedm.zip https://github.com/freedoom/freedoom/releases/download/v0.13.0/freedm-0.13.0.zip && unzip -q -o freedm.zip && rm freedm.zip",
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
@@ -6841,6 +6988,7 @@
    "head": "7e1ccf9ca9e96a14a961e48ea8fe6efa907422df",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.5.3",
@@ -6908,6 +7056,7 @@
    "head": "836abf23a7f87aaf9e88ee8daa478f8571bee5a8",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [
     {
      "tag": "v1.2.3",
@@ -6974,6 +7123,7 @@
    "head": "cd9823e542a5c0067c16b711ceeef6861a5399ef",
    "has_submodules": false,
    "recipe": "felucca",
+   "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
     "docs/install/firmware/zp12-2.4.4.fwsc"

@@ -149,6 +149,7 @@ def probe(entry, overrides):
         "head": head["sha"] if head else None,
         "has_submodules": ".gitmodules" in paths,
         "recipe": recipe,
+        "prepare": overrides.get("prepare", {}).get(key),
         "upstream_releases": releases[:3],
         "tree_fwsc": tree_fwsc[:10],
         "has_build": has_build,

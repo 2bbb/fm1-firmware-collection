@@ -1,6 +1,6 @@
 #!/bin/sh
 # Build one firmware from its submodule and copy the produced .fwsc package(s).
-#   scripts/build_one.sh <path> <recipe> <outdir>
+#   scripts/build_one.sh <path> <recipe> <outdir> [prepare-command]
 # Needs JIELI_TOOLCHAIN (JieLi Linux toolchain) and AC79_SDK (JieLi AC79 SDK checkout).
 set -eu
 path=$1
@@ -10,6 +10,7 @@ mkdir -p "$out"
 out=$(cd "$out" && pwd)
 stamp=$(mktemp)
 sleep 1
+if [ -n "${4:-}" ]; then (cd "$path" && sh -c "$4"); fi
 case "$recipe" in
   felucca|build-sh) (cd "$path" && sh ./build.sh) ;;
   felucca-sub)      (cd "$path/firmware" && sh ./build.sh) ;;
