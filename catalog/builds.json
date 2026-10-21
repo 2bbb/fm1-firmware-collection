@@ -11,12 +11,12 @@
  },
  "KemstheSage__reggae-os": {
   "repo": "KemstheSage/reggae-os",
-  "commit": "0981507bdec144a9ad05e2f237287db8fa475f63",
+  "commit": "b66776716077d7d53500a63c07d154721dc3946a",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39570453340",
   "assets": [
-   "KemstheSage__reggae-os-0981507.fwsc"
+   "KemstheSage__reggae-os-b667767.fwsc"
   ]
  },
  "Kiwi3p__fm1-deal-or-no-deal": {
@@ -38,6 +38,13 @@
   "assets": [
    "PierreArnaudGUYOT__FM1-Oktowave-Firmware-60619db.fwsc"
   ]
+ },
+ "Spiralfractalplugins__spiralfm1": {
+  "repo": "Spiralfractalplugins/spiralfm1",
+  "commit": "43bf6fbe53616f25284f507834f0f82c0895a1a0",
+  "status": "failure",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39570453340"
  },
  "Vaayaa__rift-fw": {
   "repo": "Vaayaa/rift-fw",
@@ -135,6 +142,16 @@
   "status": "failure",
   "recipe": "build-sh",
   "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
+ },
+ "ruppert__organvave-1": {
+  "repo": "ruppert/organvave-1",
+  "commit": "088055bdfbac2c95f1782d92ff20cafba55d34d7",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39570453340",
+  "assets": [
+   "ruppert__organvave-1-088055b.fwsc"
+  ]
  },
  "sirpearson__fm-1-monomachine": {
   "repo": "sirpearson/fm-1-monomachine",
