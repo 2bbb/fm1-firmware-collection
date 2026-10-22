@@ -9,14 +9,24 @@
    "Gadlele__Pelucco-b717e85.fwsc"
   ]
  },
- "KemstheSage__reggae-os": {
-  "repo": "KemstheSage/reggae-os",
-  "commit": "b66776716077d7d53500a63c07d154721dc3946a",
+ "I-am-MaxPower__drift-fm1": {
+  "repo": "I-am-MaxPower/drift-fm1",
+  "commit": "6cfac70ac312811fd6418380a366cf4310ffb0cd",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39570453340",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39749185999",
   "assets": [
-   "KemstheSage__reggae-os-b667767.fwsc"
+   "I-am-MaxPower__drift-fm1-6cfac70.fwsc"
+  ]
+ },
+ "KemstheSage__reggae-os": {
+  "repo": "KemstheSage/reggae-os",
+  "commit": "89f0c8c0e8586a4cadbb22dc656d90a671b315d1",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39749185999",
+  "assets": [
+   "KemstheSage__reggae-os-89f0c8c.fwsc"
   ]
  },
  "Kiwi3p__fm1-deal-or-no-deal": {
@@ -41,10 +51,10 @@
  },
  "Spiralfractalplugins__spiralfm1": {
   "repo": "Spiralfractalplugins/spiralfm1",
-  "commit": "43bf6fbe53616f25284f507834f0f82c0895a1a0",
+  "commit": "6e0fd2b824fde7ad3c3673c7b661d79a7bbc840c",
   "status": "failure",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39570453340"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39749185999"
  },
  "Vaayaa__rift-fw": {
   "repo": "Vaayaa/rift-fw",
@@ -98,12 +108,12 @@
  },
  "d0pe1__md-one": {
   "repo": "d0pe1/md-one",
-  "commit": "a8370b24be1aac918e9e9108d23be7bbc64041dd",
+  "commit": "629042526b2e555f267314ba86e7436f4e380125",
   "status": "success",
   "recipe": "felucca-sub",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39749185999",
   "assets": [
-   "d0pe1__md-one-a8370b2.fwsc"
+   "d0pe1__md-one-6290425.fwsc"
   ]
  },
  "dzwerg__miniBRUTE": {
@@ -143,14 +153,25 @@
   "recipe": "build-sh",
   "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39458154260"
  },
- "ruppert__organvave-1": {
-  "repo": "ruppert/organvave-1",
-  "commit": "088055bdfbac2c95f1782d92ff20cafba55d34d7",
+ "monch1962__mvave-fm1-mpe": {
+  "repo": "monch1962/mvave-fm1-mpe",
+  "commit": "715d1ca97df392cb4246ac191e6345720769c795",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39570453340",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39749185999",
   "assets": [
-   "ruppert__organvave-1-088055b.fwsc"
+   "monch1962__mvave-fm1-mpe-715d1ca.fwsc"
+  ]
+ },
+ "ruppert__organvave-1": {
+  "repo": "ruppert/organvave-1",
+  "commit": "21775a8bdc4790ef4cb98c84d658474b45b49249",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39749185999",
+  "assets": [
+   "ruppert__organvave-1-21775a8-1.fwsc",
+   "ruppert__organvave-1-21775a8-2.fwsc"
   ]
  },
  "sirpearson__fm-1-monomachine": {
@@ -199,6 +220,13 @@
   "assets": [
    "thefriendlyhedgehog__FM-Cat1-820251d.fwsc"
   ]
+ },
+ "twaroshinto__AEther": {
+  "repo": "twaroshinto/AEther",
+  "commit": "fe73a48dadede32a864955bc89eb7d9920e51367",
+  "status": "failure",
+  "recipe": "build-sh",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39749185999"
  },
  "y6zkcqnf5r-hue__fm1-trawler": {
   "repo": "y6zkcqnf5r-hue/fm1-trawler",
