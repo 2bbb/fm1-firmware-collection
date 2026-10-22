@@ -43,9 +43,19 @@
 	url = https://github.com/apiel/fm1-tribe.git
 	branch = main
 	shallow = true
+[submodule "firmwares/awolace/IVee"]
+	path = firmwares/awolace/IVee
+	url = https://github.com/awolace/IVee.git
+	branch = main
+	shallow = true
 [submodule "firmwares/beashoko/april-os"]
 	path = firmwares/beashoko/april-os
 	url = https://github.com/beashoko/april-os.git
+	branch = main
+	shallow = true
+[submodule "firmwares/benbadio/hera-fm1"]
+	path = firmwares/benbadio/hera-fm1
+	url = https://github.com/benbadio/hera-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/benbadio/morpheus-fm1"]
@@ -218,11 +228,6 @@
 	url = https://github.com/dspaudio/orbit.git
 	branch = main
 	shallow = true
-[submodule "firmwares/dzwerg/miniBRUTE"]
-	path = firmwares/dzwerg/miniBRUTE
-	url = https://github.com/dzwerg/miniBRUTE.git
-	branch = main
-	shallow = true
 [submodule "firmwares/echoe/Felucca_seq_per_track"]
 	path = firmwares/echoe/Felucca_seq_per_track
 	url = https://github.com/echoe/Felucca_seq_per_track.git
@@ -333,9 +338,19 @@
 	url = https://github.com/hericdk/winampFM.git
 	branch = main
 	shallow = true
+[submodule "firmwares/hiroikezawa/brutal-fm"]
+	path = firmwares/hiroikezawa/brutal-fm
+	url = https://github.com/hiroikezawa/brutal-fm.git
+	branch = master
+	shallow = true
 [submodule "firmwares/hugelton/Felucca"]
 	path = firmwares/hugelton/Felucca
 	url = https://github.com/hugelton/Felucca.git
+	branch = main
+	shallow = true
+[submodule "firmwares/I-am-MaxPower/drift-fm1"]
+	path = firmwares/I-am-MaxPower/drift-fm1
+	url = https://github.com/I-am-MaxPower/drift-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/ignis32/trireme_fm1"]
@@ -508,6 +523,11 @@
 	url = https://github.com/math0ne/fm1-chord.git
 	branch = main
 	shallow = true
+[submodule "firmwares/megagott/launchparty-fm1"]
+	path = firmwares/megagott/launchparty-fm1
+	url = https://github.com/megagott/launchparty-fm1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/megagott/mycelium-fm1"]
 	path = firmwares/megagott/mycelium-fm1
 	url = https://github.com/megagott/mycelium-fm1.git
@@ -523,14 +543,19 @@
 	url = https://github.com/MikeTsak/Evanders-Music-Box--FM-1-LARP-firmware.git
 	branch = main
 	shallow = true
+[submodule "firmwares/monch1962/mvave-fm1-mpe"]
+	path = firmwares/monch1962/mvave-fm1-mpe
+	url = https://github.com/monch1962/mvave-fm1-mpe.git
+	branch = main
+	shallow = true
 [submodule "firmwares/Mr-Roboto/fm1-x0x-rmx"]
 	path = firmwares/Mr-Roboto/fm1-x0x-rmx
 	url = https://github.com/Mr-Roboto/fm1-x0x-rmx.git
 	branch = orb-remix
 	shallow = true
-[submodule "firmwares/netroxic/fm1-fm-plaits"]
-	path = firmwares/netroxic/fm1-fm-plaits
-	url = https://github.com/netroxic/fm1-fm-plaits.git
+[submodule "firmwares/Narti-Live/fm1-fm-plaits"]
+	path = firmwares/Narti-Live/fm1-fm-plaits
+	url = https://github.com/Narti-Live/fm1-fm-plaits.git
 	branch = main
 	shallow = true
 [submodule "firmwares/NicholasPratt/Prysm"]
@@ -566,11 +591,6 @@
 [submodule "firmwares/ocean/estampie"]
 	path = firmwares/ocean/estampie
 	url = https://github.com/ocean/estampie.git
-	branch = main
-	shallow = true
-[submodule "firmwares/OGFM24/FM-1"]
-	path = firmwares/OGFM24/FM-1
-	url = https://github.com/OGFM24/FM-1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/okumurari2/maku"]
@@ -678,6 +698,11 @@
 	url = https://github.com/seanohollaren/fm1-doom.git
 	branch = main
 	shallow = true
+[submodule "firmwares/severak/wolfware"]
+	path = firmwares/severak/wolfware
+	url = https://github.com/severak/wolfware.git
+	branch = main
+	shallow = true
 [submodule "firmwares/shaw-core/Sloop_ALG02"]
 	path = firmwares/shaw-core/Sloop_ALG02
 	url = https://github.com/shaw-core/Sloop_ALG02.git
@@ -713,6 +738,11 @@
 	url = https://github.com/Spiralfractalplugins/spiralfm1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/SylarPu-X/nightfall-fm1"]
+	path = firmwares/SylarPu-X/nightfall-fm1
+	url = https://github.com/SylarPu-X/nightfall-fm1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/synthi/fm1-1971"]
 	path = firmwares/synthi/fm1-1971
 	url = https://github.com/synthi/fm1-1971.git
@@ -741,6 +771,11 @@
 [submodule "firmwares/TheShrimpBlimp/pigeon"]
 	path = firmwares/TheShrimpBlimp/pigeon
 	url = https://github.com/TheShrimpBlimp/pigeon.git
+	branch = main
+	shallow = true
+[submodule "firmwares/twaroshinto/AEther"]
+	path = firmwares/twaroshinto/AEther
+	url = https://github.com/twaroshinto/AEther.git
 	branch = main
 	shallow = true
 [submodule "firmwares/twochannels/CS-1"]
