@@ -78,6 +78,11 @@
 	url = https://github.com/catacombius/NoteSorcery.git
 	branch = main
 	shallow = true
+[submodule "firmwares/CausticCatastrophe/fm1-vital"]
+	path = firmwares/CausticCatastrophe/fm1-vital
+	url = https://github.com/CausticCatastrophe/fm1-vital.git
+	branch = main
+	shallow = true
 [submodule "firmwares/ChanceTheMaker/doom-fm1-smk"]
 	path = firmwares/ChanceTheMaker/doom-fm1-smk
 	url = https://github.com/ChanceTheMaker/doom-fm1-smk.git
@@ -228,6 +233,11 @@
 	url = https://github.com/dspaudio/orbit.git
 	branch = main
 	shallow = true
+[submodule "firmwares/dzwerg/Golana-DZ"]
+	path = firmwares/dzwerg/Golana-DZ
+	url = https://github.com/dzwerg/Golana-DZ.git
+	branch = main
+	shallow = true
 [submodule "firmwares/echoe/Felucca_seq_per_track"]
 	path = firmwares/echoe/Felucca_seq_per_track
 	url = https://github.com/echoe/Felucca_seq_per_track.git
@@ -338,6 +348,11 @@
 	url = https://github.com/hericdk/winampFM.git
 	branch = main
 	shallow = true
+[submodule "firmwares/hirakos999/MODELAR"]
+	path = firmwares/hirakos999/MODELAR
+	url = https://github.com/hirakos999/MODELAR.git
+	branch = main
+	shallow = true
 [submodule "firmwares/hiroikezawa/brutal-fm"]
 	path = firmwares/hiroikezawa/brutal-fm
 	url = https://github.com/hiroikezawa/brutal-fm.git
@@ -407,6 +422,11 @@
 	path = firmwares/jasonpersinger/ghoulbox-fm1-dungeon-synth
 	url = https://github.com/jasonpersinger/ghoulbox-fm1-dungeon-synth.git
 	branch = ghoulbox
+	shallow = true
+[submodule "firmwares/joakimeriksson/scintilla-fm1"]
+	path = firmwares/joakimeriksson/scintilla-fm1
+	url = https://github.com/joakimeriksson/scintilla-fm1.git
+	branch = main
 	shallow = true
 [submodule "firmwares/johnskiller/fm1-ctrl"]
 	path = firmwares/johnskiller/fm1-ctrl
@@ -598,6 +618,11 @@
 	url = https://github.com/okumurari2/maku.git
 	branch = main
 	shallow = true
+[submodule "firmwares/OllieNicklinUK/switchblade"]
+	path = firmwares/OllieNicklinUK/switchblade
+	url = https://github.com/OllieNicklinUK/switchblade.git
+	branch = main
+	shallow = true
 [submodule "firmwares/oscillr/DUELL"]
 	path = firmwares/oscillr/DUELL
 	url = https://github.com/oscillr/DUELL.git
@@ -611,6 +636,11 @@
 [submodule "firmwares/pbarilla/chipbox"]
 	path = firmwares/pbarilla/chipbox
 	url = https://github.com/pbarilla/chipbox.git
+	branch = main
+	shallow = true
+[submodule "firmwares/pianomansam/fm1-vnl"]
+	path = firmwares/pianomansam/fm1-vnl
+	url = https://github.com/pianomansam/fm1-vnl.git
 	branch = main
 	shallow = true
 [submodule "firmwares/PierreArnaudGUYOT/FM1-Oktowave-Firmware"]
@@ -643,9 +673,9 @@
 	url = https://github.com/Quixotic7/RemoteFM1.git
 	branch = main
 	shallow = true
-[submodule "firmwares/Rastapopolix/melodee-tess"]
-	path = firmwares/Rastapopolix/melodee-tess
-	url = https://github.com/Rastapopolix/melodee-tess.git
+[submodule "firmwares/Rastapopolix/tessera"]
+	path = firmwares/Rastapopolix/tessera
+	url = https://github.com/Rastapopolix/tessera.git
 	branch = main
 	shallow = true
 [submodule "firmwares/rcell233/OpenIFW-fm1"]
@@ -656,6 +686,11 @@
 [submodule "firmwares/renebohne/sloop-fm1"]
 	path = firmwares/renebohne/sloop-fm1
 	url = https://github.com/renebohne/sloop-fm1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/Reytian/fm1-luogu"]
+	path = firmwares/Reytian/fm1-luogu
+	url = https://github.com/Reytian/fm1-luogu.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Reytian/fm1-min1"]
