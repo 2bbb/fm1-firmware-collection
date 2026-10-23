@@ -39,6 +39,16 @@
    "Kiwi3p__fm1-deal-or-no-deal-a8ffcf7.fwsc"
   ]
  },
+ "OllieNicklinUK__switchblade": {
+  "repo": "OllieNicklinUK/switchblade",
+  "commit": "9d0752714a93c0b905c8d8e7425b9ca67dae082d",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39925583992",
+  "assets": [
+   "OllieNicklinUK__switchblade-9d07527.fwsc"
+  ]
+ },
  "PierreArnaudGUYOT__FM1-Oktowave-Firmware": {
   "repo": "PierreArnaudGUYOT/FM1-Oktowave-Firmware",
   "commit": "60619dbb28e57e953b9cb0c929612a1a3d01c168",
@@ -108,12 +118,12 @@
  },
  "d0pe1__md-one": {
   "repo": "d0pe1/md-one",
-  "commit": "629042526b2e555f267314ba86e7436f4e380125",
+  "commit": "6db198515da051d31b903535958788137c153dc4",
   "status": "success",
   "recipe": "felucca-sub",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39749185999",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39925583992",
   "assets": [
-   "d0pe1__md-one-6290425.fwsc"
+   "d0pe1__md-one-6db1985.fwsc"
   ]
  },
  "dzwerg__miniBRUTE": {
@@ -146,6 +156,16 @@
    "gaumondp__patricktronics-a6e5e28.fwsc"
   ]
  },
+ "joakimeriksson__scintilla-fm1": {
+  "repo": "joakimeriksson/scintilla-fm1",
+  "commit": "e4d5e7b36943aba16a2fa17faf6a2db7be783474",
+  "status": "success",
+  "recipe": "felucca-sub",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39925583992",
+  "assets": [
+   "joakimeriksson__scintilla-fm1-e4d5e7b.fwsc"
+  ]
+ },
  "johnskiller__fm1-ctrl": {
   "repo": "johnskiller/fm1-ctrl",
   "commit": "3f024a22a2e8a3f0031d915700c0d99a4a61bd04",
@@ -163,15 +183,25 @@
    "monch1962__mvave-fm1-mpe-715d1ca.fwsc"
   ]
  },
+ "pianomansam__fm1-vnl": {
+  "repo": "pianomansam/fm1-vnl",
+  "commit": "559bee12171ca7360b5a8c07fa9f6b9975ab22bd",
+  "status": "success",
+  "recipe": "build-sh",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39925583992",
+  "assets": [
+   "pianomansam__fm1-vnl-559bee1.fwsc"
+  ]
+ },
  "ruppert__organvave-1": {
   "repo": "ruppert/organvave-1",
-  "commit": "21775a8bdc4790ef4cb98c84d658474b45b49249",
+  "commit": "e9505915a056532e53af94a686dfe63781e42c3b",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39749185999",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39925583992",
   "assets": [
-   "ruppert__organvave-1-21775a8-1.fwsc",
-   "ruppert__organvave-1-21775a8-2.fwsc"
+   "ruppert__organvave-1-e950591-1.fwsc",
+   "ruppert__organvave-1-e950591-2.fwsc"
   ]
  },
  "sirpearson__fm-1-monomachine": {
@@ -223,10 +253,10 @@
  },
  "twaroshinto__AEther": {
   "repo": "twaroshinto/AEther",
-  "commit": "fe73a48dadede32a864955bc89eb7d9920e51367",
+  "commit": "a8802a6ca4c85505fb3213a21e185e3bd0ff3e90",
   "status": "failure",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39749185999"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39925583992"
  },
  "y6zkcqnf5r-hue__fm1-trawler": {
   "repo": "y6zkcqnf5r-hue/fm1-trawler",
