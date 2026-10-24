@@ -146,6 +146,16 @@
    "erikdevos__glitchbox-9028685.fwsc"
   ]
  },
+ "fantasmoslam__dinobox-fm1": {
+  "repo": "fantasmoslam/dinobox-fm1",
+  "commit": "c9b74a44111a911231c3fb229a9a7cf2e9ed3928",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40076915769",
+  "assets": [
+   "fantasmoslam__dinobox-fm1-c9b74a4.fwsc"
+  ]
+ },
  "gaumondp__patricktronics": {
   "repo": "gaumondp/patricktronics",
   "commit": "a6e5e28472fd770d4cced99e32978ce9f8e6e276",
@@ -175,12 +185,12 @@
  },
  "monch1962__mvave-fm1-mpe": {
   "repo": "monch1962/mvave-fm1-mpe",
-  "commit": "715d1ca97df392cb4246ac191e6345720769c795",
+  "commit": "2aaeae37eef590dacdac609e76d84fc821c5c698",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39749185999",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40076915769",
   "assets": [
-   "monch1962__mvave-fm1-mpe-715d1ca.fwsc"
+   "monch1962__mvave-fm1-mpe-2aaeae3.fwsc"
   ]
  },
  "pianomansam__fm1-vnl": {
@@ -195,13 +205,13 @@
  },
  "ruppert__organvave-1": {
   "repo": "ruppert/organvave-1",
-  "commit": "e9505915a056532e53af94a686dfe63781e42c3b",
+  "commit": "61d71ed2c352cf098461d08dd874738d9daaf068",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39925583992",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40076915769",
   "assets": [
-   "ruppert__organvave-1-e950591-1.fwsc",
-   "ruppert__organvave-1-e950591-2.fwsc"
+   "ruppert__organvave-1-61d71ed-1.fwsc",
+   "ruppert__organvave-1-61d71ed-2.fwsc"
   ]
  },
  "sirpearson__fm-1-monomachine": {
