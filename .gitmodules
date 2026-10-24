@@ -278,6 +278,16 @@
 	url = https://github.com/evanyerburgh/niagara-drift.git
 	branch = main
 	shallow = true
+[submodule "firmwares/fantasmoslam/dinobox-fm1"]
+	path = firmwares/fantasmoslam/dinobox-fm1
+	url = https://github.com/fantasmoslam/dinobox-fm1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/FBNFRTG/drift-fm1"]
+	path = firmwares/FBNFRTG/drift-fm1
+	url = https://github.com/FBNFRTG/drift-fm1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/FicusFicusov/CoralFlower"]
 	path = firmwares/FicusFicusov/CoralFlower
 	url = https://github.com/FicusFicusov/CoralFlower.git
@@ -378,6 +388,11 @@
 	url = https://github.com/illuminus5/skiff.git
 	branch = main
 	shallow = true
+[submodule "firmwares/ImpossibleKnot/bongo-cat-studio"]
+	path = firmwares/ImpossibleKnot/bongo-cat-studio
+	url = https://github.com/ImpossibleKnot/bongo-cat-studio.git
+	branch = main
+	shallow = true
 [submodule "firmwares/InigoHernandez/mono2k"]
 	path = firmwares/InigoHernandez/mono2k
 	url = https://github.com/InigoHernandez/mono2k.git
@@ -438,6 +453,11 @@
 	url = https://github.com/Jonbenderr/fm1-p6.git
 	branch = main
 	shallow = true
+[submodule "firmwares/Joolo09/zombie-fm1-web"]
+	path = firmwares/Joolo09/zombie-fm1-web
+	url = https://github.com/Joolo09/zombie-fm1-web.git
+	branch = main
+	shallow = true
 [submodule "firmwares/joshbartlettband-web/felucca-rainbow"]
 	path = firmwares/joshbartlettband-web/felucca-rainbow
 	url = https://github.com/joshbartlettband-web/felucca-rainbow.git
@@ -446,6 +466,11 @@
 [submodule "firmwares/jsmith13/fm_lab"]
 	path = firmwares/jsmith13/fm_lab
 	url = https://github.com/jsmith13/fm_lab.git
+	branch = main
+	shallow = true
+[submodule "firmwares/jsopdebeeck/fm1-delrio"]
+	path = firmwares/jsopdebeeck/fm1-delrio
+	url = https://github.com/jsopdebeeck/fm1-delrio.git
 	branch = main
 	shallow = true
 [submodule "firmwares/juanjiant-bit/JIANT"]
@@ -476,6 +501,11 @@
 [submodule "firmwares/keremimo/melodee"]
 	path = firmwares/keremimo/melodee
 	url = https://github.com/keremimo/melodee.git
+	branch = main
+	shallow = true
+[submodule "firmwares/keremimo/saadet"]
+	path = firmwares/keremimo/saadet
+	url = https://github.com/keremimo/saadet.git
 	branch = main
 	shallow = true
 [submodule "firmwares/kidbee85-beep/AMB-1-Evolved"]
@@ -566,6 +596,11 @@
 [submodule "firmwares/monch1962/mvave-fm1-mpe"]
 	path = firmwares/monch1962/mvave-fm1-mpe
 	url = https://github.com/monch1962/mvave-fm1-mpe.git
+	branch = main
+	shallow = true
+[submodule "firmwares/moocowblue/fm1-loom-editor"]
+	path = firmwares/moocowblue/fm1-loom-editor
+	url = https://github.com/moocowblue/fm1-loom-editor.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Mr-Roboto/fm1-x0x-rmx"]
@@ -773,6 +808,11 @@
 	url = https://github.com/Spiralfractalplugins/spiralfm1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/styvesgoupil/frasil"]
+	path = firmwares/styvesgoupil/frasil
+	url = https://github.com/styvesgoupil/frasil.git
+	branch = main
+	shallow = true
 [submodule "firmwares/SylarPu-X/nightfall-fm1"]
 	path = firmwares/SylarPu-X/nightfall-fm1
 	url = https://github.com/SylarPu-X/nightfall-fm1.git
@@ -818,6 +858,11 @@
 	url = https://github.com/twochannels/CS-1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/u4ia-dev/strata"]
+	path = firmwares/u4ia-dev/strata
+	url = https://github.com/u4ia-dev/strata.git
+	branch = main
+	shallow = true
 [submodule "firmwares/Vaayaa/rift-fw"]
 	path = firmwares/Vaayaa/rift-fw
 	url = https://github.com/Vaayaa/rift-fw.git
@@ -846,6 +891,11 @@
 [submodule "firmwares/y6zkcqnf5r-hue/fm1-trawler"]
 	path = firmwares/y6zkcqnf5r-hue/fm1-trawler
 	url = https://github.com/y6zkcqnf5r-hue/fm1-trawler.git
+	branch = main
+	shallow = true
+[submodule "firmwares/yentzee/My-Name-is-Mod"]
+	path = firmwares/yentzee/My-Name-is-Mod
+	url = https://github.com/yentzee/My-Name-is-Mod.git
 	branch = main
 	shallow = true
 [submodule "firmwares/zednaked/jangada"]
