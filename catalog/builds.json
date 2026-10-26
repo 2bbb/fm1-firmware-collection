@@ -1,10 +1,10 @@
 {
  "DarkHelmet67__fm1-insert-coin": {
   "repo": "DarkHelmet67/fm1-insert-coin",
-  "commit": "7588e7425b999b6b9fb29fa26d6bfcce13f3736c",
+  "commit": "9c8f0589194479f7a5ea8276332c6d096e0ee5b1",
   "status": "failure",
   "recipe": "make",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40176628792"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40295856591"
  },
  "DeadActive__FMDj": {
   "repo": "DeadActive/FMDj",
@@ -38,12 +38,12 @@
  },
  "KemstheSage__reggae-os": {
   "repo": "KemstheSage/reggae-os",
-  "commit": "dfaa7dcd16ac05a0bee122c7575610d4335d0901",
+  "commit": "c4bc66f04aa665d18e858a656c3f875002409ab5",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40176628792",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40295856591",
   "assets": [
-   "KemstheSage__reggae-os-dfaa7dc.fwsc"
+   "KemstheSage__reggae-os-c4bc66f.fwsc"
   ]
  },
  "Kiwi3p__fm1-deal-or-no-deal": {
@@ -82,6 +82,16 @@
   "status": "failure",
   "recipe": "felucca",
   "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39749185999"
+ },
+ "UnkleBlairy__BBL-JAM-BOX": {
+  "repo": "UnkleBlairy/BBL-JAM-BOX",
+  "commit": "03d8660f092edc86c87c560e9c04029f896a491a",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40295856591",
+  "assets": [
+   "UnkleBlairy__BBL-JAM-BOX-03d8660.fwsc"
+  ]
  },
  "Vaayaa__rift-fw": {
   "repo": "Vaayaa/rift-fw",
@@ -165,12 +175,12 @@
  },
  "fantasmoslam__dinobox-fm1": {
   "repo": "fantasmoslam/dinobox-fm1",
-  "commit": "961bdb2a82cb5172cc37bad59512773b46c7fa1f",
+  "commit": "752dfa607e7a8b443dfbfb410292b1c0f92b7a18",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40176628792",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40295856591",
   "assets": [
-   "fantasmoslam__dinobox-fm1-961bdb2.fwsc"
+   "fantasmoslam__dinobox-fm1-752dfa6.fwsc"
   ]
  },
  "gaumondp__patricktronics": {
@@ -212,12 +222,12 @@
  },
  "pianomansam__fm1-vnl": {
   "repo": "pianomansam/fm1-vnl",
-  "commit": "559bee12171ca7360b5a8c07fa9f6b9975ab22bd",
+  "commit": "d015b4fb72600fd23bf0b4f09ffddfc4d4b5b7af",
   "status": "success",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39925583992",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40295856591",
   "assets": [
-   "pianomansam__fm1-vnl-559bee1.fwsc"
+   "pianomansam__fm1-vnl-d015b4f.fwsc"
   ]
  },
  "ruppert__organvave-1": {
