@@ -28,6 +28,11 @@
 	url = https://github.com/amacias/octo-vave.git
 	branch = main
 	shallow = true
+[submodule "firmwares/AndrewGG88/S1Vave"]
+	path = firmwares/AndrewGG88/S1Vave
+	url = https://github.com/AndrewGG88/S1Vave.git
+	branch = master
+	shallow = true
 [submodule "firmwares/anonymousacademe/FM-1-TripDeck"]
 	path = firmwares/anonymousacademe/FM-1-TripDeck
 	url = https://github.com/anonymousacademe/FM-1-TripDeck.git
@@ -228,10 +233,20 @@
 	url = https://github.com/DeadActive/hortator.git
 	branch = main
 	shallow = true
+[submodule "firmwares/deamonSLINKY/PERF-1"]
+	path = firmwares/deamonSLINKY/PERF-1
+	url = https://github.com/deamonSLINKY/PERF-1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/delirioux/flyfish"]
 	path = firmwares/delirioux/flyfish
 	url = https://github.com/delirioux/flyfish.git
 	branch = dev
+	shallow = true
+[submodule "firmwares/delirioux/makohai"]
+	path = firmwares/delirioux/makohai
+	url = https://github.com/delirioux/makohai.git
+	branch = main
 	shallow = true
 [submodule "firmwares/delirioux/tuna"]
 	path = firmwares/delirioux/tuna
@@ -416,6 +431,11 @@
 [submodule "firmwares/I-am-MaxPower/drift-fm1"]
 	path = firmwares/I-am-MaxPower/drift-fm1
 	url = https://github.com/I-am-MaxPower/drift-fm1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/ignis32/midimonitor_fm1"]
+	path = firmwares/ignis32/midimonitor_fm1
+	url = https://github.com/ignis32/midimonitor_fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/ignis32/trireme_fm1"]
@@ -618,6 +638,16 @@
 	url = https://github.com/majnikool/sloop-fm1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/marksweiss/tastywaves"]
+	path = firmwares/marksweiss/tastywaves
+	url = https://github.com/marksweiss/tastywaves.git
+	branch = main
+	shallow = true
+[submodule "firmwares/markterm/monohull"]
+	path = firmwares/markterm/monohull
+	url = https://github.com/markterm/monohull.git
+	branch = main
+	shallow = true
 [submodule "firmwares/math0ne/fm1-chord"]
 	path = firmwares/math0ne/fm1-chord
 	url = https://github.com/math0ne/fm1-chord.git
@@ -698,6 +728,11 @@
 	url = https://github.com/ocean/estampie.git
 	branch = main
 	shallow = true
+[submodule "firmwares/ograndebe/fm1wheel"]
+	path = firmwares/ograndebe/fm1wheel
+	url = https://github.com/ograndebe/fm1wheel.git
+	branch = main
+	shallow = true
 [submodule "firmwares/okumurari2/maku"]
 	path = firmwares/okumurari2/maku
 	url = https://github.com/okumurari2/maku.git
@@ -738,6 +773,11 @@
 	url = https://github.com/PierreArnaudGUYOT/FM1-Oktowave-Firmware.git
 	branch = main
 	shallow = true
+[submodule "firmwares/PolarPatch/Arctic-scream-FM-1"]
+	path = firmwares/PolarPatch/Arctic-scream-FM-1
+	url = https://github.com/PolarPatch/Arctic-scream-FM-1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/putchdev/opn-1"]
 	path = firmwares/putchdev/opn-1
 	url = https://github.com/putchdev/opn-1.git
@@ -753,6 +793,11 @@
 	url = https://github.com/Quixotic7/ChoralRootFM1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/Quixotic7/FIZZ"]
+	path = firmwares/Quixotic7/FIZZ
+	url = https://github.com/Quixotic7/FIZZ.git
+	branch = master
+	shallow = true
 [submodule "firmwares/Quixotic7/PurpleMonkeyFM1"]
 	path = firmwares/Quixotic7/PurpleMonkeyFM1
 	url = https://github.com/Quixotic7/PurpleMonkeyFM1.git
@@ -766,6 +811,11 @@
 [submodule "firmwares/r7819smith-oss/slowmorph"]
 	path = firmwares/r7819smith-oss/slowmorph
 	url = https://github.com/r7819smith-oss/slowmorph.git
+	branch = main
+	shallow = true
+[submodule "firmwares/RahelPuest/tonic-fm1"]
+	path = firmwares/RahelPuest/tonic-fm1
+	url = https://github.com/RahelPuest/tonic-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Rastapopolix/tessera"]
@@ -888,6 +938,11 @@
 	url = https://github.com/synthi/fm1-1971.git
 	branch = fw-1971
 	shallow = true
+[submodule "firmwares/telespial/virtuox-mvave-fm1"]
+	path = firmwares/telespial/virtuox-mvave-fm1
+	url = https://github.com/telespial/virtuox-mvave-fm1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/tensor-programming/fm1-t1"]
 	path = firmwares/tensor-programming/fm1-t1
 	url = https://github.com/tensor-programming/fm1-t1.git
@@ -926,6 +981,11 @@
 [submodule "firmwares/twochannels/CS-1"]
 	path = firmwares/twochannels/CS-1
 	url = https://github.com/twochannels/CS-1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/UnkleBlairy/BBL-JAM-BOX"]
+	path = firmwares/UnkleBlairy/BBL-JAM-BOX
+	url = https://github.com/UnkleBlairy/BBL-JAM-BOX.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Vaayaa/rift-fw"]
