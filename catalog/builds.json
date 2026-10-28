@@ -16,6 +16,13 @@
    "DeadActive__FMDj-10f98c0.fwsc"
   ]
  },
+ "Gadlele__COSMOS": {
+  "repo": "Gadlele/COSMOS",
+  "commit": "0df037ce5f9fd4b0da40e1e32eb1af73021a1984",
+  "status": "failure",
+  "recipe": "build-sh",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40666198618"
+ },
  "Gadlele__Pelucco": {
   "repo": "Gadlele/Pelucco",
   "commit": "b717e85e90c94f6b7f709cb6676c306eeddba185",
@@ -48,12 +55,12 @@
  },
  "KemstheSage__reggae-os": {
   "repo": "KemstheSage/reggae-os",
-  "commit": "83866f4d5629f7b0397400cb8228d963a352d849",
+  "commit": "5ca358b69061d42ba0a04388b64455033977f2d9",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40477670585",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40666198618",
   "assets": [
-   "KemstheSage__reggae-os-83866f4.fwsc"
+   "KemstheSage__reggae-os-5ca358b.fwsc"
   ]
  },
  "Kiwi3p__fm1-deal-or-no-deal": {
@@ -225,12 +232,12 @@
  },
  "dmajka__elixir": {
   "repo": "dmajka/elixir",
-  "commit": "010e40e187bc67bd8d296c82cdfb452e9b24d623",
+  "commit": "4a21b524c681a36fe58652a0242d6d508be594ca",
   "status": "success",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40477670585",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40666198618",
   "assets": [
-   "dmajka__elixir-010e40e.fwsc"
+   "dmajka__elixir-4a21b52.fwsc"
   ]
  },
  "dpwe__fm1-amy": {
@@ -275,12 +282,12 @@
  },
  "fantasmoslam__Paleotone": {
   "repo": "fantasmoslam/Paleotone",
-  "commit": "40ed4ec132e5cafe082f4dd56c1255d9e32c73ee",
+  "commit": "99a39c19f81f85d1df3d999e6a578dc4af9f1b81",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40477670585",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40666198618",
   "assets": [
-   "fantasmoslam__Paleotone-40ed4ec.fwsc"
+   "fantasmoslam__Paleotone-99a39c1.fwsc"
   ]
  },
  "fantasmoslam__dinobox-fm1": {
@@ -372,13 +379,13 @@
  },
  "ruppert__organvave-1": {
   "repo": "ruppert/organvave-1",
-  "commit": "1ce1a37afd0078bd0dee6a5a64a70a5f7b2f8391",
+  "commit": "3f8045978ac19638e324a70553ccb59582a3b7d2",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40176628792",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40666198618",
   "assets": [
-   "ruppert__organvave-1-1ce1a37-1.fwsc",
-   "ruppert__organvave-1-1ce1a37-2.fwsc"
+   "ruppert__organvave-1-3f80459-1.fwsc",
+   "ruppert__organvave-1-3f80459-2.fwsc"
   ]
  },
  "sirpearson__fm-1-monomachine": {
