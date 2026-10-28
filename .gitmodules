@@ -398,6 +398,11 @@
 	url = https://github.com/fvalente/GammaWave-FM1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/Gadlele/COSMOS"]
+	path = firmwares/Gadlele/COSMOS
+	url = https://github.com/Gadlele/COSMOS.git
+	branch = main
+	shallow = true
 [submodule "firmwares/Gadlele/Fantasma"]
 	path = firmwares/Gadlele/Fantasma
 	url = https://github.com/Gadlele/Fantasma.git
@@ -411,6 +416,11 @@
 [submodule "firmwares/Gadlele/Pelucco"]
 	path = firmwares/Gadlele/Pelucco
 	url = https://github.com/Gadlele/Pelucco.git
+	branch = main
+	shallow = true
+[submodule "firmwares/galfaroth/mnm1"]
+	path = firmwares/galfaroth/mnm1
+	url = https://github.com/galfaroth/mnm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/gaumondp/patricktronics"]
@@ -573,6 +583,11 @@
 	url = https://github.com/JB-Interactive/Felucca-Meow.git
 	branch = main
 	shallow = true
+[submodule "firmwares/jiripisa/fm1-berlinan"]
+	path = firmwares/jiripisa/fm1-berlinan
+	url = https://github.com/jiripisa/fm1-berlinan.git
+	branch = main
+	shallow = true
 [submodule "firmwares/joakimeriksson/fm1-dock"]
 	path = firmwares/joakimeriksson/fm1-dock
 	url = https://github.com/joakimeriksson/fm1-dock.git
@@ -651,11 +666,6 @@
 [submodule "firmwares/KemstheSage/reggae-os"]
 	path = firmwares/KemstheSage/reggae-os
 	url = https://github.com/KemstheSage/reggae-os.git
-	branch = main
-	shallow = true
-[submodule "firmwares/Kenneth-Rakentine/Ravel-FM1"]
-	path = firmwares/Kenneth-Rakentine/Ravel-FM1
-	url = https://github.com/Kenneth-Rakentine/Ravel-FM1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/keremimo/melodee"]
@@ -828,6 +838,11 @@
 	url = https://github.com/Nicodesy06/FM1-MOVE.git
 	branch = fm1-move/dev
 	shallow = true
+[submodule "firmwares/Ninjathune-Human/Fm1"]
+	path = firmwares/Ninjathune-Human/Fm1
+	url = https://github.com/Ninjathune-Human/Fm1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/NOVALENTI/fm1-polyseq"]
 	path = firmwares/NOVALENTI/fm1-polyseq
 	url = https://github.com/NOVALENTI/fm1-polyseq.git
@@ -893,9 +908,9 @@
 	url = https://github.com/pianomansam/fm1-vnl.git
 	branch = main
 	shallow = true
-[submodule "firmwares/PierreArnaudGUYOT/FM1-Oktowave-Firmware"]
-	path = firmwares/PierreArnaudGUYOT/FM1-Oktowave-Firmware
-	url = https://github.com/PierreArnaudGUYOT/FM1-Oktowave-Firmware.git
+[submodule "firmwares/pjac1810/duodrone"]
+	path = firmwares/pjac1810/duodrone
+	url = https://github.com/pjac1810/duodrone.git
 	branch = main
 	shallow = true
 [submodule "firmwares/PolarPatch/Arctic-scream-FM-1"]
@@ -1053,6 +1068,11 @@
 	url = https://github.com/sirpearson/fm-1-monomachine.git
 	branch = claude/clever-mccarthy-ts58no
 	shallow = true
+[submodule "firmwares/slothpallas/mope-1"]
+	path = firmwares/slothpallas/mope-1
+	url = https://github.com/slothpallas/mope-1.git
+	branch = mope
+	shallow = true
 [submodule "firmwares/snpwball/fm1-neverhood"]
 	path = firmwares/snpwball/fm1-neverhood
 	url = https://github.com/snpwball/fm1-neverhood.git
@@ -1098,11 +1118,6 @@
 	url = https://github.com/tamabotmusic/TamaMPE.git
 	branch = main
 	shallow = true
-[submodule "firmwares/telespial/virtuox-mvave-fm1"]
-	path = firmwares/telespial/virtuox-mvave-fm1
-	url = https://github.com/telespial/virtuox-mvave-fm1.git
-	branch = main
-	shallow = true
 [submodule "firmwares/tensor-programming/fm1-t1"]
 	path = firmwares/tensor-programming/fm1-t1
 	url = https://github.com/tensor-programming/fm1-t1.git
@@ -1143,9 +1158,14 @@
 	url = https://github.com/TristanoSuriani/bluehare.git
 	branch = main
 	shallow = true
-[submodule "firmwares/twaroshinto/AEther"]
-	path = firmwares/twaroshinto/AEther
-	url = https://github.com/twaroshinto/AEther.git
+[submodule "firmwares/ttreu/fm1-glider"]
+	path = firmwares/ttreu/fm1-glider
+	url = https://github.com/ttreu/fm1-glider.git
+	branch = main
+	shallow = true
+[submodule "firmwares/ttreu/fm1-glitch"]
+	path = firmwares/ttreu/fm1-glitch
+	url = https://github.com/ttreu/fm1-glitch.git
 	branch = main
 	shallow = true
 [submodule "firmwares/twochannels/CS-1"]
