@@ -18,10 +18,10 @@
  },
  "Gadlele__COSMOS": {
   "repo": "Gadlele/COSMOS",
-  "commit": "0df037ce5f9fd4b0da40e1e32eb1af73021a1984",
+  "commit": "966ff8761e361178f1c1e4f342c56142362b8b94",
   "status": "failure",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40666198618"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40854011802"
  },
  "Gadlele__Pelucco": {
   "repo": "Gadlele/Pelucco",
@@ -55,12 +55,12 @@
  },
  "KemstheSage__reggae-os": {
   "repo": "KemstheSage/reggae-os",
-  "commit": "5ca358b69061d42ba0a04388b64455033977f2d9",
+  "commit": "9a67ddfbe4e828cb01000a850df43988824f52ea",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40666198618",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40854011802",
   "assets": [
-   "KemstheSage__reggae-os-5ca358b.fwsc"
+   "KemstheSage__reggae-os-9a67ddf.fwsc"
   ]
  },
  "Kiwi3p__fm1-deal-or-no-deal": {
@@ -120,6 +120,13 @@
   "recipe": "felucca",
   "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39749185999"
  },
+ "TexasRADIO__bb1-firmware": {
+  "repo": "TexasRADIO/bb1-firmware",
+  "commit": "ed11d1161f8dfd9a26b26329db807822ce8178a3",
+  "status": "failure",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40854011802"
+ },
  "TristanoSuriani__bluehare": {
   "repo": "TristanoSuriani/bluehare",
   "commit": "f21d6d69e88e2e70908beaa97179fa8818ccae4e",
@@ -152,12 +159,12 @@
  },
  "Wulgaren__Araminta": {
   "repo": "Wulgaren/Araminta",
-  "commit": "e1d49121e38e2f49de4aef7fadc445693ff6f92c",
+  "commit": "752d568b6dc846b354dfb548f5bdd1c4f7f0cde0",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40477670585",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40854011802",
   "assets": [
-   "Wulgaren__Araminta-e1d4912.fwsc"
+   "Wulgaren__Araminta-752d568.fwsc"
   ]
  },
  "anonymousacademe__FM-1-TripDeck": {
@@ -232,22 +239,22 @@
  },
  "dmajka__elixir": {
   "repo": "dmajka/elixir",
-  "commit": "4a21b524c681a36fe58652a0242d6d508be594ca",
+  "commit": "1a247769bd371692031fd44aa49a330ff1dcaefe",
   "status": "success",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40666198618",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40854011802",
   "assets": [
-   "dmajka__elixir-4a21b52.fwsc"
+   "dmajka__elixir-1a24776.fwsc"
   ]
  },
  "dpwe__fm1-amy": {
   "repo": "dpwe/fm1-amy",
-  "commit": "9bd5453bb759de4a5949878c101c58ed81f35354",
+  "commit": "729e940fbf363c18947a7f4664eec71649625c04",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40477670585",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40854011802",
   "assets": [
-   "dpwe__fm1-amy-9bd5453.fwsc"
+   "dpwe__fm1-amy-729e940.fwsc"
   ]
  },
  "dzwerg__miniBRUTE": {
@@ -279,6 +286,13 @@
   "assets": [
    "fabiomassimopasquazzi__dinghy-d44df7d.fwsc"
   ]
+ },
+ "fantasmogenesis__fntsmg-1": {
+  "repo": "fantasmogenesis/fntsmg-1",
+  "commit": "3b40067811574d0f3f31010e4bbbfa9f9d0be5d7",
+  "status": "failure",
+  "recipe": "felucca-sub",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40854011802"
  },
  "fantasmoslam__Paleotone": {
   "repo": "fantasmoslam/Paleotone",
@@ -379,13 +393,13 @@
  },
  "ruppert__organvave-1": {
   "repo": "ruppert/organvave-1",
-  "commit": "3f8045978ac19638e324a70553ccb59582a3b7d2",
+  "commit": "4356d803bbc380219f45cb14c4bc7849d06b3163",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40666198618",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40854011802",
   "assets": [
-   "ruppert__organvave-1-3f80459-1.fwsc",
-   "ruppert__organvave-1-3f80459-2.fwsc"
+   "ruppert__organvave-1-4356d80-1.fwsc",
+   "ruppert__organvave-1-4356d80-2.fwsc"
   ]
  },
  "sirpearson__fm-1-monomachine": {
