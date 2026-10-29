@@ -83,6 +83,11 @@
 	url = https://github.com/bonszaimusic/caravel.git
 	branch = main
 	shallow = true
+[submodule "firmwares/BourbonWX/Dungeon-Tracker"]
+	path = firmwares/BourbonWX/Dungeon-Tracker
+	url = https://github.com/BourbonWX/Dungeon-Tracker.git
+	branch = main
+	shallow = true
 [submodule "firmwares/briwil/Felucca"]
 	path = firmwares/briwil/Felucca
 	url = https://github.com/briwil/Felucca.git
@@ -126,6 +131,11 @@
 [submodule "firmwares/charlesvestal/fm1-base"]
 	path = firmwares/charlesvestal/fm1-base
 	url = https://github.com/charlesvestal/fm1-base.git
+	branch = main
+	shallow = true
+[submodule "firmwares/charlesvestal/fm1-boardwalk"]
+	path = firmwares/charlesvestal/fm1-boardwalk
+	url = https://github.com/charlesvestal/fm1-boardwalk.git
 	branch = main
 	shallow = true
 [submodule "firmwares/charlesvestal/fm1-ctl"]
@@ -253,6 +263,11 @@
 	url = https://github.com/deamonSLINKY/PERF-1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/delirioux/daurade"]
+	path = firmwares/delirioux/daurade
+	url = https://github.com/delirioux/daurade.git
+	branch = main
+	shallow = true
 [submodule "firmwares/delirioux/flyfish"]
 	path = firmwares/delirioux/flyfish
 	url = https://github.com/delirioux/flyfish.git
@@ -373,9 +388,19 @@
 	url = https://github.com/fabiomassimopasquazzi/dinghy.git
 	branch = main
 	shallow = true
+[submodule "firmwares/fantasmogenesis/fntsmg-1"]
+	path = firmwares/fantasmogenesis/fntsmg-1
+	url = https://github.com/fantasmogenesis/fntsmg-1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/fantasmoslam/Paleotone"]
 	path = firmwares/fantasmoslam/Paleotone
 	url = https://github.com/fantasmoslam/Paleotone.git
+	branch = main
+	shallow = true
+[submodule "firmwares/FartyPants/fm1-nachtfahrt"]
+	path = firmwares/FartyPants/fm1-nachtfahrt
+	url = https://github.com/FartyPants/fm1-nachtfahrt.git
 	branch = main
 	shallow = true
 [submodule "firmwares/FBNFRTG/drift-fm1"]
@@ -483,6 +508,11 @@
 	url = https://github.com/hiroikezawa/brutal-fm.git
 	branch = master
 	shallow = true
+[submodule "firmwares/hitosu/ptfm"]
+	path = firmwares/hitosu/ptfm
+	url = https://github.com/hitosu/ptfm.git
+	branch = main
+	shallow = true
 [submodule "firmwares/hugelton/Felucca"]
 	path = firmwares/hugelton/Felucca
 	url = https://github.com/hugelton/Felucca.git
@@ -506,6 +536,11 @@
 [submodule "firmwares/ignis32/trireme_fm1"]
 	path = firmwares/ignis32/trireme_fm1
 	url = https://github.com/ignis32/trireme_fm1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/ignis32/typhoon_fm1"]
+	path = firmwares/ignis32/typhoon_fm1
+	url = https://github.com/ignis32/typhoon_fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/illuminus5/skiff"]
@@ -591,11 +626,6 @@
 [submodule "firmwares/joakimeriksson/fm1-dock"]
 	path = firmwares/joakimeriksson/fm1-dock
 	url = https://github.com/joakimeriksson/fm1-dock.git
-	branch = main
-	shallow = true
-[submodule "firmwares/joakimeriksson/scintilla-fm1"]
-	path = firmwares/joakimeriksson/scintilla-fm1
-	url = https://github.com/joakimeriksson/scintilla-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/johnskiller/driftseq"]
@@ -738,6 +768,11 @@
 	url = https://github.com/llozd/bytemania.git
 	branch = main
 	shallow = true
+[submodule "firmwares/lucian-labs/fm1-waveloop-kits"]
+	path = firmwares/lucian-labs/fm1-waveloop-kits
+	url = https://github.com/lucian-labs/fm1-waveloop-kits.git
+	branch = main
+	shallow = true
 [submodule "firmwares/m-vave/fm1_open"]
 	path = firmwares/m-vave/fm1_open
 	url = https://github.com/m-vave/fm1_open.git
@@ -761,6 +796,11 @@
 [submodule "firmwares/math0ne/fm1-chord"]
 	path = firmwares/math0ne/fm1-chord
 	url = https://github.com/math0ne/fm1-chord.git
+	branch = main
+	shallow = true
+[submodule "firmwares/mattb/fm1-beets"]
+	path = firmwares/mattb/fm1-beets
+	url = https://github.com/mattb/fm1-beets.git
 	branch = main
 	shallow = true
 [submodule "firmwares/megagott/launchparty-fm1"]
@@ -812,6 +852,11 @@
 	path = firmwares/Mr-Roboto/fm1-x0x-rmx
 	url = https://github.com/Mr-Roboto/fm1-x0x-rmx.git
 	branch = orb-remix
+	shallow = true
+[submodule "firmwares/Mr-Roboto/nauclerus"]
+	path = firmwares/Mr-Roboto/nauclerus
+	url = https://github.com/Mr-Roboto/nauclerus.git
+	branch = main
 	shallow = true
 [submodule "firmwares/Mystereon/FM1-DUB200"]
 	path = firmwares/Mystereon/FM1-DUB200
@@ -911,6 +956,11 @@
 [submodule "firmwares/pjac1810/duodrone"]
 	path = firmwares/pjac1810/duodrone
 	url = https://github.com/pjac1810/duodrone.git
+	branch = main
+	shallow = true
+[submodule "firmwares/pjac1810/spellbox"]
+	path = firmwares/pjac1810/spellbox
+	url = https://github.com/pjac1810/spellbox.git
 	branch = main
 	shallow = true
 [submodule "firmwares/PolarPatch/Arctic-scream-FM-1"]
@@ -1078,6 +1128,11 @@
 	url = https://github.com/snpwball/fm1-neverhood.git
 	branch = main
 	shallow = true
+[submodule "firmwares/Spampy-Droid/SPAMPY-0.0-r949"]
+	path = firmwares/Spampy-Droid/SPAMPY-0.0-r949
+	url = https://github.com/Spampy-Droid/SPAMPY-0.0-r949.git
+	branch = main
+	shallow = true
 [submodule "firmwares/SPIKE-the-Percussionist/noiz_demons"]
 	path = firmwares/SPIKE-the-Percussionist/noiz_demons
 	url = https://github.com/SPIKE-the-Percussionist/noiz_demons.git
@@ -1128,6 +1183,11 @@
 	url = https://github.com/TerkWerX/Crepuscular_Homunculus.git
 	branch = main
 	shallow = true
+[submodule "firmwares/TexasRADIO/bb1-firmware"]
+	path = firmwares/TexasRADIO/bb1-firmware
+	url = https://github.com/TexasRADIO/bb1-firmware.git
+	branch = main
+	shallow = true
 [submodule "firmwares/thebrodi/fm1-haave"]
 	path = firmwares/thebrodi/fm1-haave
 	url = https://github.com/thebrodi/fm1-haave.git
@@ -1152,6 +1212,11 @@
 	path = firmwares/thomasgregorymarsden-code/Felucca-opx
 	url = https://github.com/thomasgregorymarsden-code/Felucca-opx.git
 	branch = opx-engine
+	shallow = true
+[submodule "firmwares/thomasj/fm1-sidj"]
+	path = firmwares/thomasj/fm1-sidj
+	url = https://github.com/thomasj/fm1-sidj.git
+	branch = main
 	shallow = true
 [submodule "firmwares/TristanoSuriani/bluehare"]
 	path = firmwares/TristanoSuriani/bluehare
