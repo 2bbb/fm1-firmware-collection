@@ -18,10 +18,10 @@
  },
  "Gadlele__COSMOS": {
   "repo": "Gadlele/COSMOS",
-  "commit": "966ff8761e361178f1c1e4f342c56142362b8b94",
+  "commit": "1fbabe1bc3323ba482a88206ce08c155ca2d59ce",
   "status": "failure",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40854011802"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41037813311"
  },
  "Gadlele__Pelucco": {
   "repo": "Gadlele/Pelucco",
@@ -55,12 +55,12 @@
  },
  "KemstheSage__reggae-os": {
   "repo": "KemstheSage/reggae-os",
-  "commit": "9a67ddfbe4e828cb01000a850df43988824f52ea",
+  "commit": "7561b5f873bbe103324f545d6f9ca36aa97c713f",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40854011802",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41037813311",
   "assets": [
-   "KemstheSage__reggae-os-9a67ddf.fwsc"
+   "KemstheSage__reggae-os-7561b5f.fwsc"
   ]
  },
  "Kiwi3p__fm1-deal-or-no-deal": {
@@ -113,6 +113,16 @@
    "RayDNoper__fm1-jambox-44d6a12.fwsc"
   ]
  },
+ "Saintpid__Wild": {
+  "repo": "Saintpid/Wild",
+  "commit": "36693354a55852d375591b85e48ead83f6b2c76a",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41037813311",
+  "assets": [
+   "Saintpid__Wild-3669335.fwsc"
+  ]
+ },
  "Spiralfractalplugins__spiralfm1": {
   "repo": "Spiralfractalplugins/spiralfm1",
   "commit": "6e0fd2b824fde7ad3c3673c7b661d79a7bbc840c",
@@ -139,12 +149,12 @@
  },
  "UnkleBlairy__BBL-JAM-BOX": {
   "repo": "UnkleBlairy/BBL-JAM-BOX",
-  "commit": "03d8660f092edc86c87c560e9c04029f896a491a",
+  "commit": "bb71a5013337ee204166ca45859d029db767d06d",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40295856591",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41037813311",
   "assets": [
-   "UnkleBlairy__BBL-JAM-BOX-03d8660.fwsc"
+   "UnkleBlairy__BBL-JAM-BOX-bb71a50.fwsc"
   ]
  },
  "Vaayaa__rift-fw": {
@@ -159,12 +169,12 @@
  },
  "Wulgaren__Araminta": {
   "repo": "Wulgaren/Araminta",
-  "commit": "752d568b6dc846b354dfb548f5bdd1c4f7f0cde0",
+  "commit": "301f91be2c1213056b8216d08a530876638baadd",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40854011802",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41037813311",
   "assets": [
-   "Wulgaren__Araminta-752d568.fwsc"
+   "Wulgaren__Araminta-301f91b.fwsc"
   ]
  },
  "anonymousacademe__FM-1-TripDeck": {
@@ -289,10 +299,10 @@
  },
  "fantasmogenesis__fntsmg-1": {
   "repo": "fantasmogenesis/fntsmg-1",
-  "commit": "3b40067811574d0f3f31010e4bbbfa9f9d0be5d7",
+  "commit": "8062f217d5ae5fd3ea545e8811327d88195bc4b4",
   "status": "failure",
   "recipe": "felucca-sub",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40854011802"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41037813311"
  },
  "fantasmoslam__Paleotone": {
   "repo": "fantasmoslam/Paleotone",
@@ -393,13 +403,13 @@
  },
  "ruppert__organvave-1": {
   "repo": "ruppert/organvave-1",
-  "commit": "4356d803bbc380219f45cb14c4bc7849d06b3163",
+  "commit": "ab44019c4691c0fe0516558ee273bfb9b7ecf4e0",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40854011802",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41037813311",
   "assets": [
-   "ruppert__organvave-1-4356d80-1.fwsc",
-   "ruppert__organvave-1-4356d80-2.fwsc"
+   "ruppert__organvave-1-ab44019-1.fwsc",
+   "ruppert__organvave-1-ab44019-2.fwsc"
   ]
  },
  "sirpearson__fm-1-monomachine": {
