@@ -203,6 +203,11 @@
 	url = https://github.com/Co-oscillator/Loom-FM-1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/codemtm/FM1-Atmosphere-OS"]
+	path = firmwares/codemtm/FM1-Atmosphere-OS
+	url = https://github.com/codemtm/FM1-Atmosphere-OS.git
+	branch = main
+	shallow = true
 [submodule "firmwares/cotrino/fm1-betis-mode"]
 	path = firmwares/cotrino/fm1-betis-mode
 	url = https://github.com/cotrino/fm1-betis-mode.git
@@ -221,6 +226,11 @@
 [submodule "firmwares/DarkHelmet67/fm1-insert-coin"]
 	path = firmwares/DarkHelmet67/fm1-insert-coin
 	url = https://github.com/DarkHelmet67/fm1-insert-coin.git
+	branch = main
+	shallow = true
+[submodule "firmwares/darrenjaworski/fm-1-impressionism"]
+	path = firmwares/darrenjaworski/fm-1-impressionism
+	url = https://github.com/darrenjaworski/fm-1-impressionism.git
 	branch = main
 	shallow = true
 [submodule "firmwares/davidpryan/haunted-fm1"]
@@ -256,6 +266,11 @@
 [submodule "firmwares/deamonSLINKY/PERF-1"]
 	path = firmwares/deamonSLINKY/PERF-1
 	url = https://github.com/deamonSLINKY/PERF-1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/DedrichVonDorn/wt2-fm1-firmware"]
+	path = firmwares/DedrichVonDorn/wt2-fm1-firmware
+	url = https://github.com/DedrichVonDorn/wt2-fm1-firmware.git
 	branch = main
 	shallow = true
 [submodule "firmwares/delirioux/daurade"]
@@ -333,9 +348,19 @@
 	url = https://github.com/dzwerg/Golana-DZ.git
 	branch = main
 	shallow = true
+[submodule "firmwares/eatyourgreensstudio-dotcom/karma-fm1"]
+	path = firmwares/eatyourgreensstudio-dotcom/karma-fm1
+	url = https://github.com/eatyourgreensstudio-dotcom/karma-fm1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/echoe/Felucca_seq_per_track"]
 	path = firmwares/echoe/Felucca_seq_per_track
 	url = https://github.com/echoe/Felucca_seq_per_track.git
+	branch = main
+	shallow = true
+[submodule "firmwares/echoe/fm1-argo"]
+	path = firmwares/echoe/fm1-argo
+	url = https://github.com/echoe/fm1-argo.git
 	branch = main
 	shallow = true
 [submodule "firmwares/ejtb76/FMLarynx"]
@@ -483,6 +508,11 @@
 	url = https://github.com/GRiMMBIENT/grimm.git
 	branch = main
 	shallow = true
+[submodule "firmwares/Guizmoh/K-Glitch"]
+	path = firmwares/Guizmoh/K-Glitch
+	url = https://github.com/Guizmoh/K-Glitch.git
+	branch = main
+	shallow = true
 [submodule "firmwares/Guizmoh/K-WASUB_Firmware_for_FM1"]
 	path = firmwares/Guizmoh/K-WASUB_Firmware_for_FM1
 	url = https://github.com/Guizmoh/K-WASUB_Firmware_for_FM1.git
@@ -608,6 +638,11 @@
 	url = https://github.com/jadamsowers/fm1-fimba.git
 	branch = main
 	shallow = true
+[submodule "firmwares/jaeggerr/moondaw-fm1"]
+	path = firmwares/jaeggerr/moondaw-fm1
+	url = https://github.com/jaeggerr/moondaw-fm1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/jamesusmusic/fm1-studio-tess"]
 	path = firmwares/jamesusmusic/fm1-studio-tess
 	url = https://github.com/jamesusmusic/fm1-studio-tess.git
@@ -656,11 +691,6 @@
 [submodule "firmwares/Jonbenderr/fm1-p6"]
 	path = firmwares/Jonbenderr/fm1-p6
 	url = https://github.com/Jonbenderr/fm1-p6.git
-	branch = main
-	shallow = true
-[submodule "firmwares/Joolo09/zombie-fm1-web"]
-	path = firmwares/Joolo09/zombie-fm1-web
-	url = https://github.com/Joolo09/zombie-fm1-web.git
 	branch = main
 	shallow = true
 [submodule "firmwares/joshbartlettband-web/felucca-rainbow"]
@@ -788,6 +818,11 @@
 	url = https://github.com/llozd/bytemania.git
 	branch = main
 	shallow = true
+[submodule "firmwares/lucian-labs/fm1-waveloop-kits"]
+	path = firmwares/lucian-labs/fm1-waveloop-kits
+	url = https://github.com/lucian-labs/fm1-waveloop-kits.git
+	branch = main
+	shallow = true
 [submodule "firmwares/m-vave/fm1_open"]
 	path = firmwares/m-vave/fm1_open
 	url = https://github.com/m-vave/fm1_open.git
@@ -876,11 +911,6 @@
 [submodule "firmwares/Mr-Roboto/nauclerus"]
 	path = firmwares/Mr-Roboto/nauclerus
 	url = https://github.com/Mr-Roboto/nauclerus.git
-	branch = main
-	shallow = true
-[submodule "firmwares/Mystereon/FM1-DUB200"]
-	path = firmwares/Mystereon/FM1-DUB200
-	url = https://github.com/Mystereon/FM1-DUB200.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Nacsez/FMER"]
@@ -993,6 +1023,11 @@
 	url = https://github.com/pjh-133/tidepool-fm1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/Plieuw/hawk-chua"]
+	path = firmwares/Plieuw/hawk-chua
+	url = https://github.com/Plieuw/hawk-chua.git
+	branch = main
+	shallow = true
 [submodule "firmwares/PolarPatch/Arctic-scream-FM-1"]
 	path = firmwares/PolarPatch/Arctic-scream-FM-1
 	url = https://github.com/PolarPatch/Arctic-scream-FM-1.git
@@ -1031,11 +1066,6 @@
 [submodule "firmwares/Quixotic7/RemoteFM1"]
 	path = firmwares/Quixotic7/RemoteFM1
 	url = https://github.com/Quixotic7/RemoteFM1.git
-	branch = main
-	shallow = true
-[submodule "firmwares/RahelPuest/tonic-fm1"]
-	path = firmwares/RahelPuest/tonic-fm1
-	url = https://github.com/RahelPuest/tonic-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Rastapopolix/tessera"]
