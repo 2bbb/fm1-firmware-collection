@@ -83,6 +83,11 @@
 	url = https://github.com/BourbonWX/Dungeon-Tracker.git
 	branch = main
 	shallow = true
+[submodule "firmwares/briksquared/fm1-emulator"]
+	path = firmwares/briksquared/fm1-emulator
+	url = https://github.com/briksquared/fm1-emulator.git
+	branch = main
+	shallow = true
 [submodule "firmwares/briwil/Felucca"]
 	path = firmwares/briwil/Felucca
 	url = https://github.com/briwil/Felucca.git
@@ -326,6 +331,11 @@
 [submodule "firmwares/dpwe/fm1-amy"]
 	path = firmwares/dpwe/fm1-amy
 	url = https://github.com/dpwe/fm1-amy.git
+	branch = main
+	shallow = true
+[submodule "firmwares/dreamsofbacon/lsdj-burrito-src"]
+	path = firmwares/dreamsofbacon/lsdj-burrito-src
+	url = https://github.com/dreamsofbacon/lsdj-burrito-src.git
 	branch = main
 	shallow = true
 [submodule "firmwares/dsablic/sidou"]
@@ -653,6 +663,11 @@
 	url = https://github.com/jartificer/fm1-gm.git
 	branch = main
 	shallow = true
+[submodule "firmwares/jartificer/fm1-trax"]
+	path = firmwares/jartificer/fm1-trax
+	url = https://github.com/jartificer/fm1-trax.git
+	branch = main
+	shallow = true
 [submodule "firmwares/jasonpersinger/ghoulbox-fm1-dungeon-synth"]
 	path = firmwares/jasonpersinger/ghoulbox-fm1-dungeon-synth
 	url = https://github.com/jasonpersinger/ghoulbox-fm1-dungeon-synth.git
@@ -676,6 +691,16 @@
 [submodule "firmwares/joakimeriksson/fm1-dock"]
 	path = firmwares/joakimeriksson/fm1-dock
 	url = https://github.com/joakimeriksson/fm1-dock.git
+	branch = main
+	shallow = true
+[submodule "firmwares/joakimeriksson/fm1-sid"]
+	path = firmwares/joakimeriksson/fm1-sid
+	url = https://github.com/joakimeriksson/fm1-sid.git
+	branch = main
+	shallow = true
+[submodule "firmwares/joakimeriksson/scintilla-fm1"]
+	path = firmwares/joakimeriksson/scintilla-fm1
+	url = https://github.com/joakimeriksson/scintilla-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/johnskiller/driftseq"]
@@ -793,6 +818,11 @@
 	url = https://github.com/konsumer/fomajam.git
 	branch = main
 	shallow = true
+[submodule "firmwares/konsumer/mutantcloud"]
+	path = firmwares/konsumer/mutantcloud
+	url = https://github.com/konsumer/mutantcloud.git
+	branch = main
+	shallow = true
 [submodule "firmwares/KotMorderca/XMOD"]
 	path = firmwares/KotMorderca/XMOD
 	url = https://github.com/KotMorderca/XMOD.git
@@ -898,9 +928,14 @@
 	url = https://github.com/monch1962/mvave-fm1-mpe.git
 	branch = main
 	shallow = true
-[submodule "firmwares/moocowblue/fm1-loom-editor"]
-	path = firmwares/moocowblue/fm1-loom-editor
-	url = https://github.com/moocowblue/fm1-loom-editor.git
+[submodule "firmwares/mongio/grana-fm1"]
+	path = firmwares/mongio/grana-fm1
+	url = https://github.com/mongio/grana-fm1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/MPASTEAU/FM-Stud1o-FM-1-Firmware"]
+	path = firmwares/MPASTEAU/FM-Stud1o-FM-1-Firmware
+	url = https://github.com/MPASTEAU/FM-Stud1o-FM-1-Firmware.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Mr-Roboto/fm1-x0x-rmx"]
@@ -1001,11 +1036,6 @@
 [submodule "firmwares/pbarilla/smileyface"]
 	path = firmwares/pbarilla/smileyface
 	url = https://github.com/pbarilla/smileyface.git
-	branch = main
-	shallow = true
-[submodule "firmwares/pianomansam/fm1-vnl"]
-	path = firmwares/pianomansam/fm1-vnl
-	url = https://github.com/pianomansam/fm1-vnl.git
 	branch = main
 	shallow = true
 [submodule "firmwares/pjac1810/duodrone"]
@@ -1158,11 +1188,6 @@
 	url = https://github.com/seanohollaren/fm1-doom.git
 	branch = main
 	shallow = true
-[submodule "firmwares/severak/wolfware"]
-	path = firmwares/severak/wolfware
-	url = https://github.com/severak/wolfware.git
-	branch = main
-	shallow = true
 [submodule "firmwares/shaw-core/Sloop_ALG02"]
 	path = firmwares/shaw-core/Sloop_ALG02
 	url = https://github.com/shaw-core/Sloop_ALG02.git
@@ -1243,6 +1268,11 @@
 	url = https://github.com/tamabotmusic/TamaMPE.git
 	branch = main
 	shallow = true
+[submodule "firmwares/TEG-Lizard-Man/cyma-1"]
+	path = firmwares/TEG-Lizard-Man/cyma-1
+	url = https://github.com/TEG-Lizard-Man/cyma-1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/tensor-programming/fm1-t1"]
 	path = firmwares/tensor-programming/fm1-t1
 	url = https://github.com/tensor-programming/fm1-t1.git
@@ -1251,6 +1281,11 @@
 [submodule "firmwares/TerkWerX/Crepuscular_Homunculus"]
 	path = firmwares/TerkWerX/Crepuscular_Homunculus
 	url = https://github.com/TerkWerX/Crepuscular_Homunculus.git
+	branch = main
+	shallow = true
+[submodule "firmwares/Teryox77/ondadream-fm1"]
+	path = firmwares/Teryox77/ondadream-fm1
+	url = https://github.com/Teryox77/ondadream-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/TexasRADIO/bb1-firmware"]
@@ -1317,11 +1352,6 @@
 	path = firmwares/UnkleBlairy/BBL-JAM-BOX
 	url = https://github.com/UnkleBlairy/BBL-JAM-BOX.git
 	branch = main
-	shallow = true
-[submodule "firmwares/Vaayaa/rift-fw"]
-	path = firmwares/Vaayaa/rift-fw
-	url = https://github.com/Vaayaa/rift-fw.git
-	branch = master
 	shallow = true
 [submodule "firmwares/w0ts/optimist"]
 	path = firmwares/w0ts/optimist
