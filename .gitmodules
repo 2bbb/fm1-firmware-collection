@@ -1,3 +1,8 @@
+[submodule "firmwares/646timur-cell/pulhra_main"]
+	path = firmwares/646timur-cell/pulhra_main
+	url = https://github.com/646timur-cell/pulhra_main.git
+	branch = main
+	shallow = true
 [submodule "firmwares/aceyprime/zen-1"]
 	path = firmwares/aceyprime/zen-1
 	url = https://github.com/aceyprime/zen-1.git
@@ -68,6 +73,11 @@
 	url = https://github.com/benbadio/morpheus-fm1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/BlackKittenDevices/kitten-rack"]
+	path = firmwares/BlackKittenDevices/kitten-rack
+	url = https://github.com/BlackKittenDevices/kitten-rack.git
+	branch = main
+	shallow = true
 [submodule "firmwares/BlackKittenDevices/Kitten-Synths"]
 	path = firmwares/BlackKittenDevices/Kitten-Synths
 	url = https://github.com/BlackKittenDevices/Kitten-Synths.git
@@ -136,11 +146,6 @@
 [submodule "firmwares/charlesvestal/fm1-base"]
 	path = firmwares/charlesvestal/fm1-base
 	url = https://github.com/charlesvestal/fm1-base.git
-	branch = main
-	shallow = true
-[submodule "firmwares/charlesvestal/fm1-boardwalk"]
-	path = firmwares/charlesvestal/fm1-boardwalk
-	url = https://github.com/charlesvestal/fm1-boardwalk.git
 	branch = main
 	shallow = true
 [submodule "firmwares/charlesvestal/fm1-ctl"]
@@ -373,6 +378,11 @@
 	url = https://github.com/echoe/fm1-argo.git
 	branch = main
 	shallow = true
+[submodule "firmwares/ejtb76/amenity"]
+	path = firmwares/ejtb76/amenity
+	url = https://github.com/ejtb76/amenity.git
+	branch = main
+	shallow = true
 [submodule "firmwares/ejtb76/FMLarynx"]
 	path = firmwares/ejtb76/FMLarynx
 	url = https://github.com/ejtb76/FMLarynx.git
@@ -453,6 +463,11 @@
 	url = https://github.com/fenderberg/fm1-nc-companion.git
 	branch = main
 	shallow = true
+[submodule "firmwares/ferluht/fm1-lofi-sampler"]
+	path = firmwares/ferluht/fm1-lofi-sampler
+	url = https://github.com/ferluht/fm1-lofi-sampler.git
+	branch = main
+	shallow = true
 [submodule "firmwares/FicusFicusov/CoralFlower"]
 	path = firmwares/FicusFicusov/CoralFlower
 	url = https://github.com/FicusFicusov/CoralFlower.git
@@ -516,6 +531,11 @@
 [submodule "firmwares/GRiMMBIENT/grimm"]
 	path = firmwares/GRiMMBIENT/grimm
 	url = https://github.com/GRiMMBIENT/grimm.git
+	branch = main
+	shallow = true
+[submodule "firmwares/GuinanNo1/fm1-gio"]
+	path = firmwares/GuinanNo1/fm1-gio
+	url = https://github.com/GuinanNo1/fm1-gio.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Guizmoh/K-Glitch"]
@@ -808,6 +828,11 @@
 	url = https://github.com/Kiwi3p/fm1-deal-or-no-deal.git
 	branch = main
 	shallow = true
+[submodule "firmwares/konsumer/fm1buddy"]
+	path = firmwares/konsumer/fm1buddy
+	url = https://github.com/konsumer/fm1buddy.git
+	branch = main
+	shallow = true
 [submodule "firmwares/konsumer/foma"]
 	path = firmwares/konsumer/foma
 	url = https://github.com/konsumer/foma.git
@@ -881,11 +906,6 @@
 [submodule "firmwares/math0ne/fm1-chord"]
 	path = firmwares/math0ne/fm1-chord
 	url = https://github.com/math0ne/fm1-chord.git
-	branch = main
-	shallow = true
-[submodule "firmwares/mattb/fm1-beets"]
-	path = firmwares/mattb/fm1-beets
-	url = https://github.com/mattb/fm1-beets.git
 	branch = main
 	shallow = true
 [submodule "firmwares/megagott/launchparty-fm1"]
@@ -1018,6 +1038,11 @@
 	url = https://github.com/oscillr/DUELL.git
 	branch = main
 	shallow = true
+[submodule "firmwares/OSR-Experiment/OSR-1"]
+	path = firmwares/OSR-Experiment/OSR-1
+	url = https://github.com/OSR-Experiment/OSR-1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/OwenKirby/carnac-os"]
 	path = firmwares/OwenKirby/carnac-os
 	url = https://github.com/OwenKirby/carnac-os.git
@@ -1046,11 +1071,6 @@
 [submodule "firmwares/pjac1810/spellbox"]
 	path = firmwares/pjac1810/spellbox
 	url = https://github.com/pjac1810/spellbox.git
-	branch = main
-	shallow = true
-[submodule "firmwares/pjh-133/tidepool-fm1"]
-	path = firmwares/pjh-133/tidepool-fm1
-	url = https://github.com/pjh-133/tidepool-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Plieuw/hawk-chua"]
@@ -1203,9 +1223,19 @@
 	url = https://github.com/SikkenWorks/BEETLE.git
 	branch = main
 	shallow = true
+[submodule "firmwares/SikkenWorks/BEETLE-BLUE"]
+	path = firmwares/SikkenWorks/BEETLE-BLUE
+	url = https://github.com/SikkenWorks/BEETLE-BLUE.git
+	branch = main
+	shallow = true
 [submodule "firmwares/SikkenWorks/ETCH"]
 	path = firmwares/SikkenWorks/ETCH
 	url = https://github.com/SikkenWorks/ETCH.git
+	branch = main
+	shallow = true
+[submodule "firmwares/SikkenWorks/RUPTURE"]
+	path = firmwares/SikkenWorks/RUPTURE
+	url = https://github.com/SikkenWorks/RUPTURE.git
 	branch = main
 	shallow = true
 [submodule "firmwares/sirpearson/fm-1-monomachine"]
@@ -1228,9 +1258,19 @@
 	url = https://github.com/Spampy-Droid/SPAMPY-0.0-r949.git
 	branch = main
 	shallow = true
+[submodule "firmwares/sparky480v/Dark-1"]
+	path = firmwares/sparky480v/Dark-1
+	url = https://github.com/sparky480v/Dark-1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/SPIKE-the-Percussionist/noiz_demons"]
 	path = firmwares/SPIKE-the-Percussionist/noiz_demons
 	url = https://github.com/SPIKE-the-Percussionist/noiz_demons.git
+	branch = main
+	shallow = true
+[submodule "firmwares/spinnicholas/lvm-wanderer-fm1"]
+	path = firmwares/spinnicholas/lvm-wanderer-fm1
+	url = https://github.com/spinnicholas/lvm-wanderer-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Spiralfractalplugins/spiralfm1"]
@@ -1391,6 +1431,11 @@
 [submodule "firmwares/zednaked/jangada"]
 	path = firmwares/zednaked/jangada
 	url = https://github.com/zednaked/jangada.git
+	branch = main
+	shallow = true
+[submodule "firmwares/zeptosecond-dsp/Arcturus-S6"]
+	path = firmwares/zeptosecond-dsp/Arcturus-S6
+	url = https://github.com/zeptosecond-dsp/Arcturus-S6.git
 	branch = main
 	shallow = true
 [submodule "firmwares/zisonzishen/crate-fm1"]
