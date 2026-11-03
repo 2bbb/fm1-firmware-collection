@@ -125,12 +125,12 @@
  },
  "Saintpid__Wild": {
   "repo": "Saintpid/Wild",
-  "commit": "5083f1ab10f92fba2bac95cd72c5480365cfc8e9",
+  "commit": "23d31890637fbd7ad5c606a2e4f640b71b36928f",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41434495962",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41623091081",
   "assets": [
-   "Saintpid__Wild-5083f1a.fwsc"
+   "Saintpid__Wild-23d3189.fwsc"
   ]
  },
  "Spiralfractalplugins__spiralfm1": {
@@ -179,12 +179,12 @@
  },
  "Wulgaren__Araminta": {
   "repo": "Wulgaren/Araminta",
-  "commit": "b8b26d99d64bcecebcfa56a9fa86714d6a1fc3aa",
+  "commit": "c9a7830ac6ab7f4e49910e65d4012ca9069970dd",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41434495962",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41623091081",
   "assets": [
-   "Wulgaren__Araminta-b8b26d9.fwsc"
+   "Wulgaren__Araminta-c9a7830.fwsc"
   ]
  },
  "anonymousacademe__FM-1-TripDeck": {
@@ -319,10 +319,10 @@
  },
  "fantasmogenesis__fntsmg-1": {
   "repo": "fantasmogenesis/fntsmg-1",
-  "commit": "b1f4f4488f7c1cd69622d704cab86c03a8ecb582",
+  "commit": "4d12d8e8ce9f7b73b0158e9f9d498bd3ebb907b2",
   "status": "failure",
   "recipe": "felucca-sub",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41434495962"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41623091081"
  },
  "fantasmoslam__Paleotone": {
   "repo": "fantasmoslam/Paleotone",
@@ -423,13 +423,13 @@
  },
  "ruppert__organvave-1": {
   "repo": "ruppert/organvave-1",
-  "commit": "e78c7e424c6ae3ae250484f3d6d670902b1776d9",
+  "commit": "8e1c99f0a7ec10079dc3c2c742d1c439871f98e3",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41434495962",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41623091081",
   "assets": [
-   "ruppert__organvave-1-e78c7e4-1.fwsc",
-   "ruppert__organvave-1-e78c7e4-2.fwsc"
+   "ruppert__organvave-1-8e1c99f-1.fwsc",
+   "ruppert__organvave-1-8e1c99f-2.fwsc"
   ]
  },
  "sirpearson__fm-1-monomachine": {
