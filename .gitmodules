@@ -1,3 +1,8 @@
+[submodule "firmwares/1andesc/fm1-firmware-downloader"]
+	path = firmwares/1andesc/fm1-firmware-downloader
+	url = https://github.com/1andesc/fm1-firmware-downloader.git
+	branch = main
+	shallow = true
 [submodule "firmwares/646timur-cell/pulhra_main"]
 	path = firmwares/646timur-cell/pulhra_main
 	url = https://github.com/646timur-cell/pulhra_main.git
@@ -197,6 +202,11 @@
 	path = firmwares/chinotto1/unibox
 	url = https://github.com/chinotto1/unibox.git
 	branch = cursor/unibox-firmware-4509
+	shallow = true
+[submodule "firmwares/chmess/fm1-keyboard-academy"]
+	path = firmwares/chmess/fm1-keyboard-academy
+	url = https://github.com/chmess/fm1-keyboard-academy.git
+	branch = main
 	shallow = true
 [submodule "firmwares/cmlarsen/fm1-rocket-os"]
 	path = firmwares/cmlarsen/fm1-rocket-os
@@ -603,6 +613,11 @@
 	url = https://github.com/I-am-MaxPower/drift-fm1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/IanP06/bocjuhn"]
+	path = firmwares/IanP06/bocjuhn
+	url = https://github.com/IanP06/bocjuhn.git
+	branch = codex/living-rc6
+	shallow = true
 [submodule "firmwares/ignis32/midimonitor_fm1"]
 	path = firmwares/ignis32/midimonitor_fm1
 	url = https://github.com/ignis32/midimonitor_fm1.git
@@ -631,6 +646,11 @@
 [submodule "firmwares/ImpossibleKnot/bongo-cat-studio"]
 	path = firmwares/ImpossibleKnot/bongo-cat-studio
 	url = https://github.com/ImpossibleKnot/bongo-cat-studio.git
+	branch = main
+	shallow = true
+[submodule "firmwares/InigoHernandez/demake-synth"]
+	path = firmwares/InigoHernandez/demake-synth
+	url = https://github.com/InigoHernandez/demake-synth.git
 	branch = main
 	shallow = true
 [submodule "firmwares/InigoHernandez/mono2k"]
@@ -773,9 +793,9 @@
 	url = https://github.com/justynroberts/fm1-finton.git
 	branch = main
 	shallow = true
-[submodule "firmwares/Kayman18/genAMB"]
-	path = firmwares/Kayman18/genAMB
-	url = https://github.com/Kayman18/genAMB.git
+[submodule "firmwares/Kayman18/FM1-genAMB"]
+	path = firmwares/Kayman18/FM1-genAMB
+	url = https://github.com/Kayman18/FM1-genAMB.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Keitark/fm1-mdx"]
@@ -843,9 +863,9 @@
 	url = https://github.com/konsumer/fomajam.git
 	branch = main
 	shallow = true
-[submodule "firmwares/konsumer/mutantcloud"]
-	path = firmwares/konsumer/mutantcloud
-	url = https://github.com/konsumer/mutantcloud.git
+[submodule "firmwares/konsumer/lilfm1buddy"]
+	path = firmwares/konsumer/lilfm1buddy
+	url = https://github.com/konsumer/lilfm1buddy.git
 	branch = main
 	shallow = true
 [submodule "firmwares/KotMorderca/XMOD"]
@@ -908,6 +928,11 @@
 	url = https://github.com/math0ne/fm1-chord.git
 	branch = main
 	shallow = true
+[submodule "firmwares/matttallison/quadro-fm1"]
+	path = firmwares/matttallison/quadro-fm1
+	url = https://github.com/matttallison/quadro-fm1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/megagott/launchparty-fm1"]
 	path = firmwares/megagott/launchparty-fm1
 	url = https://github.com/megagott/launchparty-fm1.git
@@ -966,6 +991,11 @@
 [submodule "firmwares/Mr-Roboto/nauclerus"]
 	path = firmwares/Mr-Roboto/nauclerus
 	url = https://github.com/Mr-Roboto/nauclerus.git
+	branch = main
+	shallow = true
+[submodule "firmwares/mx57/Mvave-Fm1-firmware-hub-flasher-unbricker"]
+	path = firmwares/mx57/Mvave-Fm1-firmware-hub-flasher-unbricker
+	url = https://github.com/mx57/Mvave-Fm1-firmware-hub-flasher-unbricker.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Nacsez/FMER"]
@@ -1061,6 +1091,11 @@
 [submodule "firmwares/pbarilla/smileyface"]
 	path = firmwares/pbarilla/smileyface
 	url = https://github.com/pbarilla/smileyface.git
+	branch = main
+	shallow = true
+[submodule "firmwares/Philip-Bos/echofield-fm1"]
+	path = firmwares/Philip-Bos/echofield-fm1
+	url = https://github.com/Philip-Bos/echofield-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/pjac1810/duodrone"]
@@ -1183,11 +1218,6 @@
 	url = https://github.com/Saintpid/Wild.git
 	branch = main
 	shallow = true
-[submodule "firmwares/sbegueria/fm1-dev-wiki"]
-	path = firmwares/sbegueria/fm1-dev-wiki
-	url = https://github.com/sbegueria/fm1-dev-wiki.git
-	branch = master
-	shallow = true
 [submodule "firmwares/sbegueria/fm1-dub"]
 	path = firmwares/sbegueria/fm1-dub
 	url = https://github.com/sbegueria/fm1-dub.git
@@ -1281,6 +1311,11 @@
 [submodule "firmwares/stanleygurvich/FeluccaMPE"]
 	path = firmwares/stanleygurvich/FeluccaMPE
 	url = https://github.com/stanleygurvich/FeluccaMPE.git
+	branch = main
+	shallow = true
+[submodule "firmwares/stephencummins/fm1-aisling"]
+	path = firmwares/stephencummins/fm1-aisling
+	url = https://github.com/stephencummins/fm1-aisling.git
 	branch = main
 	shallow = true
 [submodule "firmwares/stoogs/guitchordi"]
