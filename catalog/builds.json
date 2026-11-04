@@ -75,12 +75,12 @@
  },
  "MPASTEAU__FM-Stud1o-FM-1-Firmware": {
   "repo": "MPASTEAU/FM-Stud1o-FM-1-Firmware",
-  "commit": "08acd98614127c374f023172a2e2e0a30423977d",
+  "commit": "df98771567777f6d57a83ce12fa035edb918e4ca",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41434495962",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41817637748",
   "assets": [
-   "MPASTEAU__FM-Stud1o-FM-1-Firmware-08acd98.fwsc"
+   "MPASTEAU__FM-Stud1o-FM-1-Firmware-df98771.fwsc"
   ]
  },
  "Mystereon__FM1-DUB200": {
@@ -125,12 +125,12 @@
  },
  "Saintpid__Wild": {
   "repo": "Saintpid/Wild",
-  "commit": "23d31890637fbd7ad5c606a2e4f640b71b36928f",
+  "commit": "89356a7836e039a08660c7b5b9b6a296070eeefe",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41623091081",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41817637748",
   "assets": [
-   "Saintpid__Wild-23d3189.fwsc"
+   "Saintpid__Wild-89356a7.fwsc"
   ]
  },
  "Spiralfractalplugins__spiralfm1": {
@@ -319,10 +319,10 @@
  },
  "fantasmogenesis__fntsmg-1": {
   "repo": "fantasmogenesis/fntsmg-1",
-  "commit": "4d12d8e8ce9f7b73b0158e9f9d498bd3ebb907b2",
+  "commit": "21da011ce314e1d742b558d9b1d0d260981e1bc9",
   "status": "failure",
   "recipe": "felucca-sub",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41623091081"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41817637748"
  },
  "fantasmoslam__Paleotone": {
   "repo": "fantasmoslam/Paleotone",
@@ -401,6 +401,16 @@
    "monch1962__mvave-fm1-mpe-2aaeae3.fwsc"
   ]
  },
+ "mykeln__fm1-rift": {
+  "repo": "mykeln/fm1-rift",
+  "commit": "09858020e5f8633e1ecd2d5e2ba28f4b32065d03",
+  "status": "success",
+  "recipe": "felucca-sub",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41817637748",
+  "assets": [
+   "mykeln__fm1-rift-0985802.fwsc"
+  ]
+ },
  "pianomansam__fm1-vnl": {
   "repo": "pianomansam/fm1-vnl",
   "commit": "d015b4fb72600fd23bf0b4f09ffddfc4d4b5b7af",
@@ -423,13 +433,13 @@
  },
  "ruppert__organvave-1": {
   "repo": "ruppert/organvave-1",
-  "commit": "8e1c99f0a7ec10079dc3c2c742d1c439871f98e3",
+  "commit": "60174e4d30b2dc2d9827b3068f0a4e3b09d921d1",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41623091081",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41817637748",
   "assets": [
-   "ruppert__organvave-1-8e1c99f-1.fwsc",
-   "ruppert__organvave-1-8e1c99f-2.fwsc"
+   "ruppert__organvave-1-60174e4-1.fwsc",
+   "ruppert__organvave-1-60174e4-2.fwsc"
   ]
  },
  "sirpearson__fm-1-monomachine": {
