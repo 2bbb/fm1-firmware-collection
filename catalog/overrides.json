@@ -43,9 +43,12 @@
     "m-vave/fm1_open": "none",
     "cotrino/fm1-betis-mode": "none",
     "johnskiller/fm1-ctrl": "none",
-    "y6zkcqnf5r-hue/fm1-trawler": "none"
+    "y6zkcqnf5r-hue/fm1-trawler": "none",
+    "mykeln/fm1-rift": "none"
   },
-  "include": [],
+  "include": [
+    "mykeln/fm1-rift"
+  ],
   "prepare": {
     "zvenson/fm1doom": "for z in freedm-0.13.0 freedoom-0.13.0; do curl -fsSL -o $z.zip https://github.com/freedoom/freedoom/releases/download/v0.13.0/$z.zip && unzip -q -o $z.zip && rm $z.zip; done"
   }
