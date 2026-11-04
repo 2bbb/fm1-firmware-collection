@@ -33,6 +33,11 @@
 	url = https://github.com/adamcharleswilsonmusic-code/Trumpagotchi.git
 	branch = main
 	shallow = true
+[submodule "firmwares/albinoIguana/FM1-Lab"]
+	path = firmwares/albinoIguana/FM1-Lab
+	url = https://github.com/albinoIguana/FM1-Lab.git
+	branch = main
+	shallow = true
 [submodule "firmwares/AlexanderSeel/TheReFmB1rth"]
 	path = firmwares/AlexanderSeel/TheReFmB1rth
 	url = https://github.com/AlexanderSeel/TheReFmB1rth.git
@@ -208,6 +213,11 @@
 	url = https://github.com/chmess/fm1-keyboard-academy.git
 	branch = main
 	shallow = true
+[submodule "firmwares/clickysteve/clatter-pocket"]
+	path = firmwares/clickysteve/clatter-pocket
+	url = https://github.com/clickysteve/clatter-pocket.git
+	branch = main
+	shallow = true
 [submodule "firmwares/cmlarsen/fm1-rocket-os"]
 	path = firmwares/cmlarsen/fm1-rocket-os
 	url = https://github.com/cmlarsen/fm1-rocket-os.git
@@ -241,6 +251,11 @@
 [submodule "firmwares/d0pe1/md-one"]
 	path = firmwares/d0pe1/md-one
 	url = https://github.com/d0pe1/md-one.git
+	branch = main
+	shallow = true
+[submodule "firmwares/dagnazty/phreak-fm1"]
+	path = firmwares/dagnazty/phreak-fm1
+	url = https://github.com/dagnazty/phreak-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/DarkHelmet67/fm1-insert-coin"]
@@ -998,6 +1013,11 @@
 	url = https://github.com/mx57/Mvave-Fm1-firmware-hub-flasher-unbricker.git
 	branch = main
 	shallow = true
+[submodule "firmwares/mykeln/fm1-rift"]
+	path = firmwares/mykeln/fm1-rift
+	url = https://github.com/mykeln/fm1-rift.git
+	branch = main
+	shallow = true
 [submodule "firmwares/Nacsez/FMER"]
 	path = firmwares/Nacsez/FMER
 	url = https://github.com/Nacsez/FMER.git
@@ -1118,11 +1138,6 @@
 	url = https://github.com/PolarPatch/Arctic-scream-FM-1.git
 	branch = main
 	shallow = true
-[submodule "firmwares/profikid/fm1-break-choppah"]
-	path = firmwares/profikid/fm1-break-choppah
-	url = https://github.com/profikid/fm1-break-choppah.git
-	branch = main
-	shallow = true
 [submodule "firmwares/putchdev/opn-1"]
 	path = firmwares/putchdev/opn-1
 	url = https://github.com/putchdev/opn-1.git
@@ -1217,6 +1232,11 @@
 	path = firmwares/Saintpid/Wild
 	url = https://github.com/Saintpid/Wild.git
 	branch = main
+	shallow = true
+[submodule "firmwares/sbegueria/fm1-dev-wiki"]
+	path = firmwares/sbegueria/fm1-dev-wiki
+	url = https://github.com/sbegueria/fm1-dev-wiki.git
+	branch = master
 	shallow = true
 [submodule "firmwares/sbegueria/fm1-dub"]
 	path = firmwares/sbegueria/fm1-dub
