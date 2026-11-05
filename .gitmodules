@@ -203,11 +203,6 @@
 	url = https://github.com/charlesvestal/fm1-x0x.git
 	branch = main
 	shallow = true
-[submodule "firmwares/chinotto1/unibox"]
-	path = firmwares/chinotto1/unibox
-	url = https://github.com/chinotto1/unibox.git
-	branch = cursor/unibox-firmware-4509
-	shallow = true
 [submodule "firmwares/chmess/fm1-keyboard-academy"]
 	path = firmwares/chmess/fm1-keyboard-academy
 	url = https://github.com/chmess/fm1-keyboard-academy.git
@@ -316,7 +311,7 @@
 [submodule "firmwares/delirioux/flyfish"]
 	path = firmwares/delirioux/flyfish
 	url = https://github.com/delirioux/flyfish.git
-	branch = dev
+	branch = main
 	shallow = true
 [submodule "firmwares/delirioux/makohai"]
 	path = firmwares/delirioux/makohai
@@ -531,6 +526,11 @@
 [submodule "firmwares/galfaroth/mnm1"]
 	path = firmwares/galfaroth/mnm1
 	url = https://github.com/galfaroth/mnm1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/galfaroth/veffbox"]
+	path = firmwares/galfaroth/veffbox
+	url = https://github.com/galfaroth/veffbox.git
 	branch = main
 	shallow = true
 [submodule "firmwares/gaumondp/patricktronics"]
@@ -1138,6 +1138,11 @@
 	url = https://github.com/PolarPatch/Arctic-scream-FM-1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/profikid/fm1-break-choppah"]
+	path = firmwares/profikid/fm1-break-choppah
+	url = https://github.com/profikid/fm1-break-choppah.git
+	branch = main
+	shallow = true
 [submodule "firmwares/putchdev/opn-1"]
 	path = firmwares/putchdev/opn-1
 	url = https://github.com/putchdev/opn-1.git
@@ -1166,6 +1171,11 @@
 [submodule "firmwares/Quixotic7/RemoteFM1"]
 	path = firmwares/Quixotic7/RemoteFM1
 	url = https://github.com/Quixotic7/RemoteFM1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/R-Jeb/setBfree-fm1"]
+	path = firmwares/R-Jeb/setBfree-fm1
+	url = https://github.com/R-Jeb/setBfree-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Rastapopolix/tessera"]
