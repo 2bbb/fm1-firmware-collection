@@ -75,12 +75,12 @@
  },
  "MPASTEAU__FM-Stud1o-FM-1-Firmware": {
   "repo": "MPASTEAU/FM-Stud1o-FM-1-Firmware",
-  "commit": "df98771567777f6d57a83ce12fa035edb918e4ca",
+  "commit": "a174916578a42ddc21fc46dc41436f44bcaec8c8",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41817637748",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42015027947",
   "assets": [
-   "MPASTEAU__FM-Stud1o-FM-1-Firmware-df98771.fwsc"
+   "MPASTEAU__FM-Stud1o-FM-1-Firmware-a174916.fwsc"
   ]
  },
  "Mystereon__FM1-DUB200": {
@@ -319,10 +319,10 @@
  },
  "fantasmogenesis__fntsmg-1": {
   "repo": "fantasmogenesis/fntsmg-1",
-  "commit": "21da011ce314e1d742b558d9b1d0d260981e1bc9",
+  "commit": "2e84d101b9dd40dea2ab8d707df5b1690c8d2fe8",
   "status": "failure",
   "recipe": "felucca-sub",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41817637748"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42015027947"
  },
  "fantasmoslam__Paleotone": {
   "repo": "fantasmoslam/Paleotone",
