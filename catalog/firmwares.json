@@ -113,7 +113,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 10,
+   "stars": 11,
    "pushed": "2026-10-21T20:37:01Z",
    "branch": "main",
    "head": "ec9295233ea64ddac224b58b4d07216706c1b8ee",
@@ -359,7 +359,7 @@
    "fork_of": null,
    "archived": false,
    "stars": 1,
-   "pushed": "2026-11-05T05:04:11Z",
+   "pushed": "2026-11-06T05:42:54Z",
    "branch": "main",
    "head": "39beb7f8a93ecfe4b46189f6f37dbb3a28283fd8",
    "has_submodules": true,
@@ -442,9 +442,9 @@
    "fork_of": null,
    "archived": false,
    "stars": 3,
-   "pushed": "2026-11-04T14:43:30Z",
+   "pushed": "2026-11-05T14:49:25Z",
    "branch": "main",
-   "head": "1c85d840ef7ca9e50649cdb5ef8f3581c745187c",
+   "head": "75ef608ec862e1d7aa2f4c65d09a22e31fe21768",
    "has_submodules": false,
    "auto_recipe": "none",
    "recipe": "none",
@@ -482,7 +482,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 6,
+   "stars": 9,
    "pushed": "2026-11-04T22:36:27Z",
    "branch": "master",
    "head": "feaf96f725b51d7d5accae218a2881ec14204d2e",
@@ -836,7 +836,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 3,
+   "stars": 5,
    "pushed": "2026-11-02T05:32:34Z",
    "branch": "main",
    "head": "9a6f5a1c824b77614deb86e34151b3c66960a59b",
@@ -904,7 +904,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 3,
+   "stars": 5,
    "pushed": "2026-11-02T05:29:01Z",
    "branch": "main",
    "head": "68ffbc815981aa00a6ff77b0b4108bea9551206c",
@@ -1237,6 +1237,37 @@
    "status": "ok"
   },
   {
+   "id": "CallieSchmallie__Beetroot-tempura",
+   "repo": "CallieSchmallie/Beetroot-tempura",
+   "url": "https://github.com/CallieSchmallie/Beetroot-tempura",
+   "description": "Stinky",
+   "sources": [
+    "aroum"
+   ],
+   "hub": null,
+   "license": "NOASSERTION",
+   "redistributable": false,
+   "fork_of": null,
+   "archived": false,
+   "stars": 0,
+   "pushed": "2026-11-04T16:00:16Z",
+   "branch": "main",
+   "head": "1b3dfc513b82461b9bf34d3aaab67b7f5927e8fd",
+   "has_submodules": false,
+   "auto_recipe": "none",
+   "recipe": "none",
+   "prepare": null,
+   "upstream_releases": [],
+   "tree_fwsc": [
+    "sdk/firmware/FM-1_015.fwsc"
+   ],
+   "has_build": true,
+   "needs_ci_build": false,
+   "buildable": false,
+   "path": "firmwares/CallieSchmallie/Beetroot-tempura",
+   "status": "ok"
+  },
+  {
    "id": "cartesive__fumi-1",
    "repo": "cartesive/fumi-1",
    "url": "https://github.com/cartesive/fumi-1",
@@ -1485,12 +1516,12 @@
    "hub": {
     "id": "amb",
     "name": "AMB-1",
-    "version": "1.3",
-    "product": "FM-1_7010300",
-    "sha256": "59dbc6b688e3a64bb0da912c1e40890da7bc214b2a3269704627369b776707cb",
-    "size": 610108,
-    "pkg": "fw/amb-1.3.fwsc",
-    "release": "https://github.com/charlesvestal/fm1-amb/releases/tag/v1.3",
+    "version": "1.3.2",
+    "product": "FM-1_7010302",
+    "sha256": "a949a6a2a1ced8b3857d156ad0409a55e6ba53bbdd4094d0a38f2779364064f3",
+    "size": 614938,
+    "pkg": "fw/amb-1.3.2.fwsc",
+    "release": "https://github.com/charlesvestal/fm1-amb/releases/tag/v1.3.2",
     "kind": "synth"
    },
    "license": "MPL-2.0",
@@ -1498,14 +1529,30 @@
    "fork_of": null,
    "archived": false,
    "stars": 114,
-   "pushed": "2026-10-31T19:02:40Z",
+   "pushed": "2026-11-06T05:20:35Z",
    "branch": "main",
-   "head": "62a588ab102b5f1cf5e4aa72553694eaa7ddaaa5",
+   "head": "7c538516d6c52216ff4c8a4881cf2f0dcb07c44b",
    "has_submodules": true,
    "auto_recipe": "build-sh",
    "recipe": "build-sh",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v1.3.2",
+     "name": "amb-1.3.2.fwsc",
+     "url": "https://github.com/charlesvestal/fm1-amb/releases/download/v1.3.2/amb-1.3.2.fwsc",
+     "size": 614938,
+     "prerelease": false,
+     "published": "2026-11-06T05:16:23Z"
+    },
+    {
+     "tag": "v1.3.1",
+     "name": "amb-1.3.1.fwsc",
+     "url": "https://github.com/charlesvestal/fm1-amb/releases/download/v1.3.1/amb-1.3.1.fwsc",
+     "size": 614938,
+     "prerelease": false,
+     "published": "2026-11-05T19:55:13Z"
+    },
     {
      "tag": "v1.3",
      "name": "amb-1.3.fwsc",
@@ -1513,22 +1560,6 @@
      "size": 610108,
      "prerelease": false,
      "published": "2026-10-17T12:31:42Z"
-    },
-    {
-     "tag": "v1.2",
-     "name": "amb-1.2.fwsc",
-     "url": "https://github.com/charlesvestal/fm1-amb/releases/download/v1.2/amb-1.2.fwsc",
-     "size": 609666,
-     "prerelease": false,
-     "published": "2026-10-15T16:43:46Z"
-    },
-    {
-     "tag": "v1.1",
-     "name": "amb-1.1.fwsc",
-     "url": "https://github.com/charlesvestal/fm1-amb/releases/download/v1.1/amb-1.1.fwsc",
-     "size": 609657,
-     "prerelease": false,
-     "published": "2026-10-10T07:25:53Z"
     }
    ],
    "tree_fwsc": [],
@@ -1551,10 +1582,10 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 28,
-   "pushed": "2026-11-05T07:46:29Z",
+   "stars": 29,
+   "pushed": "2026-11-06T07:55:27Z",
    "branch": "main",
-   "head": "3c4a57eea659f942b0c80a99949dddafc094a57b",
+   "head": "e07ebca2dda5fbd3bb40287d1f6083923f9ae999",
    "has_submodules": true,
    "auto_recipe": "none",
    "recipe": "none",
@@ -1582,12 +1613,12 @@
    "hub": {
     "id": "ctl",
     "name": "CTL-1",
-    "version": "1.0",
-    "product": "FM-1_6010000",
-    "sha256": "fd9df8eac1d37a1bb296842728057b42bb5e666f4b0112ece01f5f179cd82f75",
-    "size": 610108,
-    "pkg": "fw/ctl-1.0.fwsc",
-    "release": "https://github.com/charlesvestal/fm1-ctl/releases/tag/v1.0",
+    "version": "1.0.2",
+    "product": "FM-1_6010002",
+    "sha256": "41e98c201ee4478bcc9fc98403ee2c312762a2b412cf3cef3ba5d193ce42bdb7",
+    "size": 614938,
+    "pkg": "fw/ctl-1.0.2.fwsc",
+    "release": "https://github.com/charlesvestal/fm1-ctl/releases/tag/v1.0.2",
     "kind": "other"
    },
    "license": "MPL-2.0",
@@ -1595,37 +1626,37 @@
    "fork_of": null,
    "archived": false,
    "stars": 23,
-   "pushed": "2026-10-31T09:32:30Z",
+   "pushed": "2026-11-06T05:20:45Z",
    "branch": "main",
-   "head": "772b90f8e7d84fb8f87d51857f2289cc6aac8e32",
+   "head": "20580fc1e80f2acbbf1e6f4c7e7996d48feb9f08",
    "has_submodules": true,
    "auto_recipe": "build-sh",
    "recipe": "build-sh",
    "prepare": null,
    "upstream_releases": [
     {
-     "tag": "v1.0",
-     "name": "ctl-usb-1.0.fwsc",
-     "url": "https://github.com/charlesvestal/fm1-ctl/releases/download/v1.0/ctl-usb-1.0.fwsc",
-     "size": 610108,
+     "tag": "v1.0.2",
+     "name": "ctl-usb-1.0.2.fwsc",
+     "url": "https://github.com/charlesvestal/fm1-ctl/releases/download/v1.0.2/ctl-usb-1.0.2.fwsc",
+     "size": 614938,
      "prerelease": false,
-     "published": "2026-10-17T09:39:20Z"
+     "published": "2026-11-06T05:16:47Z"
     },
     {
-     "tag": "v1.0",
-     "name": "ctl-1.0.fwsc",
-     "url": "https://github.com/charlesvestal/fm1-ctl/releases/download/v1.0/ctl-1.0.fwsc",
-     "size": 610108,
+     "tag": "v1.0.2",
+     "name": "ctl-1.0.2.fwsc",
+     "url": "https://github.com/charlesvestal/fm1-ctl/releases/download/v1.0.2/ctl-1.0.2.fwsc",
+     "size": 614938,
      "prerelease": false,
-     "published": "2026-10-17T09:39:20Z"
+     "published": "2026-11-06T05:16:47Z"
     },
     {
-     "tag": "v0.9.2",
-     "name": "ctl-usb-0.9.2.fwsc",
-     "url": "https://github.com/charlesvestal/fm1-ctl/releases/download/v0.9.2/ctl-usb-0.9.2.fwsc",
-     "size": 609661,
+     "tag": "v1.0.1",
+     "name": "ctl-usb-1.0.1.fwsc",
+     "url": "https://github.com/charlesvestal/fm1-ctl/releases/download/v1.0.1/ctl-usb-1.0.1.fwsc",
+     "size": 614938,
      "prerelease": false,
-     "published": "2026-10-15T19:16:52Z"
+     "published": "2026-11-05T20:22:31Z"
     }
    ],
    "tree_fwsc": [],
@@ -1648,12 +1679,12 @@
    "hub": {
     "id": "fomni",
     "name": "FoMni",
-    "version": "0.4",
-    "product": "FM-1_8000400",
-    "sha256": "71fa8304b91bff89078bfd27e981ed28ca4f0d3c5f406e8fdb5a2ab240fbdbb5",
-    "size": 609661,
-    "pkg": "fw/fomni-0.4.fwsc",
-    "release": "https://github.com/charlesvestal/fm1-fomni/releases/tag/v0.4",
+    "version": "0.4.1",
+    "product": "FM-1_8000401",
+    "sha256": "f937b807da1cfe13d43bef86c2469fa45d6a88b2b3a7f4b6f5b9741bdb0351ab",
+    "size": 609659,
+    "pkg": "fw/fomni-0.4.1.fwsc",
+    "release": "https://github.com/charlesvestal/fm1-fomni/releases/tag/v0.4.1",
     "kind": "chords"
    },
    "license": "GPL-3.0",
@@ -1661,14 +1692,22 @@
    "fork_of": null,
    "archived": false,
    "stars": 77,
-   "pushed": "2026-10-31T18:53:06Z",
+   "pushed": "2026-11-05T19:48:47Z",
    "branch": "main",
-   "head": "b9c6cf3ff53204fa96d007789902db205d820606",
+   "head": "17a740b7b2d19615ffe19aa73f8eda67f60f223d",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v0.4.1",
+     "name": "omni-0.4.1.fwsc",
+     "url": "https://github.com/charlesvestal/fm1-fomni/releases/download/v0.4.1/omni-0.4.1.fwsc",
+     "size": 609659,
+     "prerelease": false,
+     "published": "2026-11-05T19:44:56Z"
+    },
     {
      "tag": "v0.4",
      "name": "omni-0.4.fwsc",
@@ -1684,14 +1723,6 @@
      "size": 609657,
      "prerelease": false,
      "published": "2026-10-08T14:40:22Z"
-    },
-    {
-     "tag": "v0.3.1",
-     "name": "omni-0.3.1.fwsc",
-     "url": "https://github.com/charlesvestal/fm1-fomni/releases/download/v0.3.1/omni-0.3.1.fwsc",
-     "size": 609657,
-     "prerelease": false,
-     "published": "2026-10-08T11:22:55Z"
     }
    ],
    "tree_fwsc": [],
@@ -1713,27 +1744,43 @@
    "hub": {
     "id": "loom",
     "name": "LOOM-8",
-    "version": "0.12.1",
-    "product": "FM-1_10001201",
-    "sha256": "d917d14b20074b03839cc662b9f8ef238436faa6240cdbe37af04c6f1b40a885",
-    "size": 611496,
-    "pkg": "fw/loom-0.12.1.fwsc",
-    "release": "https://github.com/charlesvestal/fm1-loom/releases/tag/v0.12.1",
+    "version": "0.13.1",
+    "product": "FM-1_10001301",
+    "sha256": "1d9aa4b9c9933614ebdaedc0d9cdf1a11a1c8c597f36022bf1638a493be154d4",
+    "size": 614938,
+    "pkg": "fw/loom-0.13.1.fwsc",
+    "release": "https://github.com/charlesvestal/fm1-loom/releases/tag/v0.13.1",
     "kind": "groove"
    },
    "license": "MPL-2.0",
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 65,
-   "pushed": "2026-11-01T09:20:00Z",
+   "stars": 66,
+   "pushed": "2026-11-06T07:56:19Z",
    "branch": "main",
-   "head": "105c70e043f82fbb8d5fdbc326f5981c86bbc721",
+   "head": "0ec8d82739621be0900bdaeb92d9efb05e618f64",
    "has_submodules": true,
    "auto_recipe": "build-sh",
    "recipe": "build-sh",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v0.13.1",
+     "name": "loom-0.13.1.fwsc",
+     "url": "https://github.com/charlesvestal/fm1-loom/releases/download/v0.13.1/loom-0.13.1.fwsc",
+     "size": 614938,
+     "prerelease": false,
+     "published": "2026-11-06T05:17:52Z"
+    },
+    {
+     "tag": "v0.13",
+     "name": "loom-0.13.fwsc",
+     "url": "https://github.com/charlesvestal/fm1-loom/releases/download/v0.13/loom-0.13.fwsc",
+     "size": 614938,
+     "prerelease": false,
+     "published": "2026-11-05T20:33:34Z"
+    },
     {
      "tag": "v0.12.1",
      "name": "loom-0.12.1.fwsc",
@@ -1741,22 +1788,6 @@
      "size": 611496,
      "prerelease": false,
      "published": "2026-11-01T09:44:25Z"
-    },
-    {
-     "tag": "v0.12",
-     "name": "loom-0.12.fwsc",
-     "url": "https://github.com/charlesvestal/fm1-loom/releases/download/v0.12/loom-0.12.fwsc",
-     "size": 611496,
-     "prerelease": false,
-     "published": "2026-11-01T06:51:01Z"
-    },
-    {
-     "tag": "v0.11",
-     "name": "loom-0.11.fwsc",
-     "url": "https://github.com/charlesvestal/fm1-loom/releases/download/v0.11/loom-0.11.fwsc",
-     "size": 611496,
-     "prerelease": false,
-     "published": "2026-10-29T20:18:27Z"
     }
    ],
    "tree_fwsc": [],
@@ -1781,14 +1812,22 @@
    "fork_of": null,
    "archived": false,
    "stars": 3,
-   "pushed": "2026-10-31T19:05:12Z",
+   "pushed": "2026-11-05T19:52:52Z",
    "branch": "main",
-   "head": "b0ef2961c2a7c2e91a3d52a193f45d116e8bc5a8",
+   "head": "a9a754514c4764faa2423b2e1b2025c10ab9b142",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v0.9.2",
+     "name": "mocky-0.9.2.fwsc",
+     "url": "https://github.com/charlesvestal/fm1-mocky/releases/download/v0.9.2/mocky-0.9.2.fwsc",
+     "size": 609659,
+     "prerelease": false,
+     "published": "2026-11-05T19:52:36Z"
+    },
     {
      "tag": "v0.9.1",
      "name": "mocky-0.9.1.fwsc",
@@ -1825,12 +1864,12 @@
    "hub": {
     "id": "monk",
     "name": "MONK-1",
-    "version": "0.9.1",
-    "product": "FM-1_5000901",
-    "sha256": "76fe9af0ab18b49e197ebae2224daf8a354424bd89cd241527a85bf7048eb192",
-    "size": 609661,
-    "pkg": "fw/monk-0.9.1.fwsc",
-    "release": "https://github.com/charlesvestal/fm1-monk/releases/tag/v0.9.1",
+    "version": "0.10",
+    "product": "FM-1_45001000",
+    "sha256": "60b4f16be48fc3c088b626b8a5403620de2377941cc96c570c5d886eaa1165c5",
+    "size": 609659,
+    "pkg": "fw/monk-0.10.fwsc",
+    "release": "https://github.com/charlesvestal/fm1-monk/releases/tag/v0.10",
     "kind": "synth"
    },
    "license": "GPL-3.0",
@@ -1838,14 +1877,22 @@
    "fork_of": null,
    "archived": false,
    "stars": 11,
-   "pushed": "2026-10-31T18:53:08Z",
+   "pushed": "2026-11-05T20:04:18Z",
    "branch": "main",
-   "head": "30d674e8fda59f104993bc9b0782f8236cc4bc7f",
+   "head": "7f4de9c94ee4cffc5671babd01adefd1c62ed1a2",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v0.10",
+     "name": "monk-0.10.fwsc",
+     "url": "https://github.com/charlesvestal/fm1-monk/releases/download/v0.10/monk-0.10.fwsc",
+     "size": 609659,
+     "prerelease": false,
+     "published": "2026-11-05T20:03:44Z"
+    },
     {
      "tag": "v0.9.1",
      "name": "monk-0.9.1.fwsc",
@@ -1883,12 +1930,12 @@
    "hub": {
     "id": "polly",
     "name": "Polly",
-    "version": "0.6",
-    "product": "FM-1_3000600",
-    "sha256": "d6184be32ac08348bf9865e2ebfa47d07698dea6995bab320908047b99cd5aa5",
-    "size": 611496,
-    "pkg": "fw/polly-0.6.fwsc",
-    "release": "https://github.com/charlesvestal/fm1-polly/releases/tag/v0.6",
+    "version": "0.6.2",
+    "product": "FM-1_3000602",
+    "sha256": "77dce089612e1d68a35ee6d2374d5d0612a667952b8f2ef632a6c27fb7235d56",
+    "size": 614938,
+    "pkg": "fw/polly-0.6.2.fwsc",
+    "release": "https://github.com/charlesvestal/fm1-polly/releases/tag/v0.6.2",
     "kind": "groove"
    },
    "license": "GPL-3.0",
@@ -1896,14 +1943,30 @@
    "fork_of": null,
    "archived": false,
    "stars": 26,
-   "pushed": "2026-11-01T09:00:07Z",
+   "pushed": "2026-11-06T05:20:54Z",
    "branch": "main",
-   "head": "853ebd7a31e35a878f89148628e06199ef596d92",
+   "head": "cdd8ff59e4edcaf2e4e8ea01a4ab5f8f0ab610e2",
    "has_submodules": true,
    "auto_recipe": "build-sh",
    "recipe": "build-sh",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v0.6.2",
+     "name": "polly-0.6.2.fwsc",
+     "url": "https://github.com/charlesvestal/fm1-polly/releases/download/v0.6.2/polly-0.6.2.fwsc",
+     "size": 614938,
+     "prerelease": false,
+     "published": "2026-11-06T05:17:23Z"
+    },
+    {
+     "tag": "v0.6.1",
+     "name": "polly-0.6.1.fwsc",
+     "url": "https://github.com/charlesvestal/fm1-polly/releases/download/v0.6.1/polly-0.6.1.fwsc",
+     "size": 614938,
+     "prerelease": false,
+     "published": "2026-11-05T20:32:43Z"
+    },
     {
      "tag": "v0.6",
      "name": "polly-0.6.fwsc",
@@ -1911,22 +1974,6 @@
      "size": 611496,
      "prerelease": false,
      "published": "2026-11-01T07:46:12Z"
-    },
-    {
-     "tag": "v0.5",
-     "name": "polly-0.5.fwsc",
-     "url": "https://github.com/charlesvestal/fm1-polly/releases/download/v0.5/polly-0.5.fwsc",
-     "size": 610136,
-     "prerelease": false,
-     "published": "2026-10-17T14:59:19Z"
-    },
-    {
-     "tag": "v0.4.3",
-     "name": "polly-0.4.3.fwsc",
-     "url": "https://github.com/charlesvestal/fm1-polly/releases/download/v0.4.3/polly-0.4.3.fwsc",
-     "size": 609934,
-     "prerelease": false,
-     "published": "2026-10-15T16:56:21Z"
     }
    ],
    "tree_fwsc": [],
@@ -1949,10 +1996,10 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 12,
-   "pushed": "2026-10-24T17:13:10Z",
+   "stars": 13,
+   "pushed": "2026-11-05T19:29:37Z",
    "branch": "main",
-   "head": "c9113b5eceb9d6c295e32c86e5d769ed8efa67d6",
+   "head": "e92c632b433860ddf25a8fee129ff259582af597",
    "has_submodules": true,
    "auto_recipe": "build-sh",
    "recipe": "build-sh",
@@ -2004,7 +2051,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 5,
+   "stars": 6,
    "pushed": "2026-10-14T07:03:27Z",
    "branch": "main",
    "head": "8f62ce0d968c91ce8bfdafbb908f81d15351650a",
@@ -2033,27 +2080,35 @@
    "hub": {
     "id": "x0x",
     "name": "X0X",
-    "version": "1.2.0",
-    "product": "FM-1_9010200",
-    "sha256": "61ef7c84b9401beffb75b5e02fd9d96fb4d8f8c443c6407cc4929f8dec52ba08",
-    "size": 609684,
-    "pkg": "fw/x0x-1.2.0.fwsc",
-    "release": "https://github.com/charlesvestal/fm1-x0x/releases/tag/v1.2.0",
+    "version": "1.2.1",
+    "product": "FM-1_9010201",
+    "sha256": "b0039140d54459d678e27b4101895018d3e127f16ee9e1f1e432459d772b3827",
+    "size": 609682,
+    "pkg": "fw/x0x-1.2.1.fwsc",
+    "release": "https://github.com/charlesvestal/fm1-x0x/releases/tag/v1.2.1",
     "kind": "groove"
    },
    "license": "GPL-3.0",
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 220,
-   "pushed": "2026-11-01T07:10:39Z",
+   "stars": 221,
+   "pushed": "2026-11-05T20:16:40Z",
    "branch": "main",
-   "head": "ca2d377e3b9522579245152a81781a575f4d2fea",
+   "head": "502b2c28c14ab2bff31eb4f0777fdfd0efcf8bea",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v1.2.1",
+     "name": "x0x-1.2.1.fwsc",
+     "url": "https://github.com/charlesvestal/fm1-x0x/releases/download/v1.2.1/x0x-1.2.1.fwsc",
+     "size": 609682,
+     "prerelease": false,
+     "published": "2026-11-05T19:42:40Z"
+    },
     {
      "tag": "v1.2.0",
      "name": "x0x-1.2.0.fwsc",
@@ -2069,14 +2124,6 @@
      "size": 609684,
      "prerelease": false,
      "published": "2026-10-15T16:33:19Z"
-    },
-    {
-     "tag": "v1.0.9",
-     "name": "x0x-1.0.9.fwsc",
-     "url": "https://github.com/charlesvestal/fm1-x0x/releases/download/v1.0.9/x0x-1.0.9.fwsc",
-     "size": 609680,
-     "prerelease": false,
-     "published": "2026-10-15T05:45:28Z"
     }
    ],
    "tree_fwsc": [],
@@ -2165,7 +2212,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 1,
+   "stars": 2,
    "pushed": "2026-11-03T23:34:08Z",
    "branch": "main",
    "head": "90cce204a99db97af85c21e0c5998df5c1bb7df0",
@@ -2450,7 +2497,7 @@
    "fork_of": null,
    "archived": false,
    "stars": 0,
-   "pushed": "2026-11-04T02:04:17Z",
+   "pushed": "2026-11-06T10:07:36Z",
    "branch": "main",
    "head": "30b4c0d802ec6328629c632a1579b809476cf6a0",
    "has_submodules": false,
@@ -2465,6 +2512,37 @@
    "needs_ci_build": false,
    "buildable": true,
    "path": "firmwares/dagnazty/phreak-fm1",
+   "status": "ok"
+  },
+  {
+   "id": "DanimanX__ReplicantFM1",
+   "repo": "DanimanX/ReplicantFM1",
+   "url": "https://github.com/DanimanX/ReplicantFM1",
+   "description": "Hard techno firmware for the M-VAVE FM-1 — custom GPL-3.0 firmware (fork of Felucca) with kick/drum/bass/hi-hat and acid sounds",
+   "sources": [
+    "search"
+   ],
+   "hub": null,
+   "license": "GPL-3.0",
+   "redistributable": true,
+   "fork_of": null,
+   "archived": false,
+   "stars": 0,
+   "pushed": "2026-11-05T19:44:33Z",
+   "branch": "main",
+   "head": "3af549635438a03015241330e2eec7c26443bddb",
+   "has_submodules": false,
+   "auto_recipe": "felucca",
+   "recipe": "felucca",
+   "prepare": null,
+   "upstream_releases": [],
+   "tree_fwsc": [
+    "ReplicantFM1-1.8.1-ht1.fwsc"
+   ],
+   "has_build": true,
+   "needs_ci_build": false,
+   "buildable": true,
+   "path": "firmwares/DanimanX/ReplicantFM1",
    "status": "ok"
   },
   {
@@ -2556,8 +2634,7 @@
    "url": "https://github.com/davidpryan/haunted-fm1",
    "description": "Five generative firmwares for the M-VAVE FM-1: haunted ambient with meaningful controls",
    "sources": [
-    "aroum",
-    "search"
+    "aroum"
    ],
    "hub": null,
    "license": "MIT",
@@ -2647,50 +2724,50 @@
    "hub": {
     "id": "ravel",
     "name": "Ravel",
-    "version": "1.16.0",
-    "product": "FM-1_82011600",
-    "sha256": "4a13f9e68e23bdb62b28ecc0a05c30bdd7034f2faf6382fe9819b5809330181e",
+    "version": "1.19.0",
+    "product": "FM-1_82011900",
+    "sha256": "dd65287c9d6f9f612cb12aa86acc015c875403d39b062fd342e6319ad37b6694",
     "size": 609686,
-    "pkg": "fw/ravel-1.16.0.fwsc",
-    "release": "https://github.com/De-Pattern/Ravel_FM1/releases/tag/v1.16.0",
+    "pkg": "fw/ravel-1.19.0.fwsc",
+    "release": "https://github.com/De-Pattern/Ravel_FM1/releases/tag/v1.19.0",
     "kind": "groove"
    },
    "license": "GPL-3.0",
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 23,
-   "pushed": "2026-11-05T09:58:01Z",
+   "stars": 24,
+   "pushed": "2026-11-05T19:16:12Z",
    "branch": "main",
-   "head": "d08f808bc42c1291488510038db3270346c9759b",
+   "head": "723fa4506df69558c97dce8f53bbd72ca97c1a6b",
    "has_submodules": false,
    "auto_recipe": "none",
    "recipe": "none",
    "prepare": null,
    "upstream_releases": [
     {
-     "tag": "v1.16.0",
+     "tag": "v1.19.0",
      "name": "Ravel-FM1.fwsc",
-     "url": "https://github.com/De-Pattern/Ravel_FM1/releases/download/v1.16.0/Ravel-FM1.fwsc",
+     "url": "https://github.com/De-Pattern/Ravel_FM1/releases/download/v1.19.0/Ravel-FM1.fwsc",
      "size": 609686,
      "prerelease": false,
-     "published": "2026-11-05T09:59:14Z"
+     "published": "2026-11-05T19:17:35Z"
     },
     {
-     "tag": "v1.15.4",
+     "tag": "v1.18.0",
      "name": "Ravel-FM1.fwsc",
-     "url": "https://github.com/De-Pattern/Ravel_FM1/releases/download/v1.15.4/Ravel-FM1.fwsc",
+     "url": "https://github.com/De-Pattern/Ravel_FM1/releases/download/v1.18.0/Ravel-FM1.fwsc",
      "size": 609686,
      "prerelease": false,
-     "published": "2026-11-05T08:48:42Z"
+     "published": "2026-11-05T18:02:07Z"
     },
     {
-     "tag": "v0.91.0",
+     "tag": "v1.17.1",
      "name": "Ravel-FM1.fwsc",
-     "url": "https://github.com/De-Pattern/Ravel_FM1/releases/download/v0.91.0/Ravel-FM1.fwsc",
+     "url": "https://github.com/De-Pattern/Ravel_FM1/releases/download/v1.17.1/Ravel-FM1.fwsc",
      "size": 609686,
-     "prerelease": true,
-     "published": "2026-11-04T23:29:43Z"
+     "prerelease": false,
+     "published": "2026-11-05T16:38:28Z"
     }
    ],
    "tree_fwsc": [],
@@ -2805,7 +2882,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 50,
+   "stars": 53,
    "pushed": "2026-11-05T08:51:18Z",
    "branch": "main",
    "head": "44c9ad4aa57bebf63f412bd552e57143c30b4065",
@@ -3437,9 +3514,20 @@
    "url": "https://github.com/dmajka/elixir",
    "description": "Elixir drum machine for M-Vave FM-1 - Ported and extended LXR-02 drum machine",
    "sources": [
+    "hub",
     "aroum"
    ],
-   "hub": null,
+   "hub": {
+    "id": "elixir",
+    "name": "Elixir",
+    "version": "0.25.2",
+    "product": "FM-1_359002502",
+    "sha256": "ade517a250cacb45c4f8ab7e7a09c24b7c5913e409db8bb4871095a0f7aeff97",
+    "size": 610090,
+    "pkg": "fw/elixir-0.25.2.fwsc",
+    "release": "https://github.com/dmajka/elixir/releases/tag/v0.25.2",
+    "kind": "drums"
+   },
    "license": "GPL-3.0",
    "redistributable": true,
    "fork_of": null,
@@ -3566,7 +3654,7 @@
    "id": "dsablic__sidou",
    "repo": "dsablic/sidou",
    "url": "https://github.com/dsablic/sidou",
-   "description": "C64 SID tracker-synth firmware for the M-VAVE FM-1: faithful SID emulation with chip character, step/tracker/live views, .sid playback, MIDI",
+   "description": "GPL firmware that turns the M-VAVE FM-1 into a C64 SID machine: two SIDs measured against real 6581 and 8580 chips, a GoatTracker 2 tracker and STEP sequencer, LAB for layered sounds with tables and LFOs, .sid playback, SidStation and MIDIbox SID patch import, and a browser demo with Live Link.",
    "sources": [
     "hub",
     "aroum"
@@ -3574,12 +3662,12 @@
    "hub": {
     "id": "sidou",
     "name": "SIDOU",
-    "version": "1.6.0",
+    "version": "1.7.0",
     "product": "FM-1_964",
-    "sha256": "24b2696885454e32910b7d218e3c145cba3ee0e42ad02c4ea8395f44b8737f45",
+    "sha256": "38a83cedf2fcf2f587b65f2d71446b4c057c44f673c5b771f674494ec29ec0de",
     "size": 610090,
-    "pkg": "fw/sidou-1.6.0.fwsc",
-    "release": "https://github.com/dsablic/sidou/releases/tag/v1.6.0",
+    "pkg": "fw/sidou-1.7.0.fwsc",
+    "release": "https://github.com/dsablic/sidou/releases/tag/v1.7.0",
     "kind": "tracker"
    },
    "license": "GPL-3.0",
@@ -3587,14 +3675,22 @@
    "fork_of": null,
    "archived": false,
    "stars": 6,
-   "pushed": "2026-11-05T05:46:17Z",
+   "pushed": "2026-11-05T17:54:36Z",
    "branch": "main",
-   "head": "bfac4c7c3177d5ab89235809a2f1f682ed1241f6",
+   "head": "6dca8fbee49cf7fdb2a8228e92a83c542c555249",
    "has_submodules": true,
    "auto_recipe": "none",
    "recipe": "none",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v1.7.0",
+     "name": "sidou-1.7.0.fwsc",
+     "url": "https://github.com/dsablic/sidou/releases/download/v1.7.0/sidou-1.7.0.fwsc",
+     "size": 610090,
+     "prerelease": false,
+     "published": "2026-11-05T17:24:43Z"
+    },
     {
      "tag": "v1.6.0",
      "name": "sidou-1.6.0.fwsc",
@@ -3610,14 +3706,6 @@
      "size": 610090,
      "prerelease": false,
      "published": "2026-11-02T22:22:08Z"
-    },
-    {
-     "tag": "v1.1.0",
-     "name": "sidou-1.1.0.fwsc",
-     "url": "https://github.com/dsablic/sidou/releases/download/v1.1.0/sidou-1.1.0.fwsc",
-     "size": 610090,
-     "prerelease": false,
-     "published": "2026-10-30T21:26:09Z"
     }
    ],
    "tree_fwsc": [],
@@ -3718,7 +3806,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 40,
+   "stars": 39,
    "pushed": "2026-11-04T11:39:31Z",
    "branch": "main",
    "head": "1dbb77d61236d77ef363af1f4c8620e0c2996480",
@@ -3840,7 +3928,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 24,
+   "stars": 25,
    "pushed": "2026-11-02T14:53:30Z",
    "branch": "main",
    "head": "db3cda79359ae914d1e58c0fc96c6ca744e7950e",
@@ -3884,10 +3972,10 @@
    "status": "ok"
   },
   {
-   "id": "echoe__Felucca_seq_per_track",
-   "repo": "echoe/Felucca_seq_per_track",
-   "url": "https://github.com/echoe/Felucca_seq_per_track",
-   "description": "This custom firmware for M-VAVE FM-1 is a Felucca branch written via free LLM. It adds 8 sequences you can swap between live per track, track sequence chaining, a generative arp engine, and playable/saveable chord mode. It removes user samples to make room. Documentation on unique features is at the bottom of the README.",
+   "id": "echoe__argo_fm1",
+   "repo": "echoe/argo_fm1",
+   "url": "https://github.com/echoe/argo_fm1",
+   "description": "This custom firmware for the M-VAVE FM-1 is a Felucca modification written via free LLM. It adds 8 sequences you can swap between per track, sequence chaining, a generative arp engine, playable/saveable chord mode, engines, and preset swaps. It removes all sampling engines. Documentation on unique features is in the README. ",
    "sources": [
     "hub",
     "aroum"
@@ -3895,31 +3983,39 @@
    "hub": {
     "id": "felucca8",
     "name": "Felucca 8 Patterns",
-    "version": "1.6.1_and_sequences_2",
+    "version": "1.7.0",
     "product": "FM-1_900",
-    "sha256": "09074180318202b8b4ddbbc5f4a5261e90ea54fc3a95dbb6183b1d045786c60e",
-    "size": 610090,
-    "pkg": "fw/felucca8-1.6.1_and_sequences_2.fwsc",
-    "release": "https://github.com/echoe/Felucca_8_patterns/releases/tag/1.6.1_and_sequences_2",
+    "sha256": "4a1ffe6f5527e3ad25b432984b2d3841106124bd3dc082d8d395635bdfa8c48d",
+    "size": 610286,
+    "pkg": "fw/felucca8-1.7.0.fwsc",
+    "release": "https://github.com/echoe/Felucca_8_patterns/releases/tag/1.7.0",
     "kind": "groove"
    },
    "license": "GPL-3.0",
    "redistributable": true,
-   "fork_of": "hugelton/Felucca",
+   "fork_of": null,
    "archived": false,
    "stars": 6,
-   "pushed": "2026-11-03T05:50:01Z",
+   "pushed": "2026-11-06T07:24:04Z",
    "branch": "main",
-   "head": "578c77a6adc55c24ef80a110d47a0aa2733634cd",
+   "head": "49122c9cc9aff1952802519b9baeca398177718d",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
     {
+     "tag": "1.7.0",
+     "name": "felucca-1.70.fwsc",
+     "url": "https://github.com/echoe/argo_fm1/releases/download/1.7.0/felucca-1.70.fwsc",
+     "size": 610286,
+     "prerelease": false,
+     "published": "2026-11-06T03:59:41Z"
+    },
+    {
      "tag": "1.6.1_and_sequences_2",
      "name": "felucca-1.6.1_sequences_2.fwsc",
-     "url": "https://github.com/echoe/Felucca_seq_per_track/releases/download/1.6.1_and_sequences_2/felucca-1.6.1_sequences_2.fwsc",
+     "url": "https://github.com/echoe/argo_fm1/releases/download/1.6.1_and_sequences_2/felucca-1.6.1_sequences_2.fwsc",
      "size": 610090,
      "prerelease": false,
      "published": "2026-10-29T15:12:40Z"
@@ -3927,54 +4023,17 @@
     {
      "tag": "1.6.1_and_sequences",
      "name": "felucca-1.6.1_sequences.fwsc",
-     "url": "https://github.com/echoe/Felucca_seq_per_track/releases/download/1.6.1_and_sequences/felucca-1.6.1_sequences.fwsc",
+     "url": "https://github.com/echoe/argo_fm1/releases/download/1.6.1_and_sequences/felucca-1.6.1_sequences.fwsc",
      "size": 610090,
      "prerelease": false,
      "published": "2026-10-19T18:31:04Z"
-    },
-    {
-     "tag": "1.5.1_and_sequences",
-     "name": "felucca-1.51.fwsc",
-     "url": "https://github.com/echoe/Felucca_seq_per_track/releases/download/1.5.1_and_sequences/felucca-1.51.fwsc",
-     "size": 610086,
-     "prerelease": false,
-     "published": "2026-10-12T01:07:06Z"
     }
    ],
    "tree_fwsc": [],
    "has_build": true,
    "needs_ci_build": false,
    "buildable": true,
-   "path": "firmwares/echoe/Felucca_seq_per_track",
-   "status": "ok"
-  },
-  {
-   "id": "echoe__fm1-argo",
-   "repo": "echoe/fm1-argo",
-   "url": "https://github.com/echoe/fm1-argo",
-   "description": "new fm-1 firmware repository. based off of felucca but with a ton of changes to run via local llm.",
-   "sources": [
-    "search"
-   ],
-   "hub": null,
-   "license": "GPL-3.0",
-   "redistributable": true,
-   "fork_of": null,
-   "archived": false,
-   "stars": 0,
-   "pushed": "2026-10-30T16:31:49Z",
-   "branch": "main",
-   "head": "281f8e91c5af91085abae87f0bf80717ae63f583",
-   "has_submodules": false,
-   "auto_recipe": "none",
-   "recipe": "none",
-   "prepare": null,
-   "upstream_releases": [],
-   "tree_fwsc": [],
-   "has_build": false,
-   "needs_ci_build": false,
-   "buildable": false,
-   "path": "firmwares/echoe/fm1-argo",
+   "path": "firmwares/echoe/argo_fm1",
    "status": "ok"
   },
   {
@@ -3984,6 +4043,7 @@
    "description": "Amenity: a live jungle firmware for the M-VAVE FM-1, built on FM1 Open",
    "sources": [
     "hub",
+    "aroum",
     "search"
    ],
    "hub": {
@@ -4001,7 +4061,7 @@
    "redistributable": false,
    "fork_of": null,
    "archived": false,
-   "stars": 12,
+   "stars": 14,
    "pushed": "2026-11-01T10:59:14Z",
    "branch": "main",
    "head": "afa67d29412386719d426616484aa7657f6c91dc",
@@ -4430,6 +4490,56 @@
    "status": "ok"
   },
   {
+   "id": "esbenvb__fm1-dx747",
+   "repo": "esbenvb/fm1-dx747",
+   "url": "https://github.com/esbenvb/fm1-dx747",
+   "description": null,
+   "sources": [
+    "hub"
+   ],
+   "hub": {
+    "id": "dx747",
+    "name": "DX747",
+    "version": "0.1",
+    "product": "FM-1_8747747",
+    "sha256": "91f9acd06e37cea10d2af519d74a50343507709f5edd69b635d7711b69520934",
+    "size": 487988,
+    "pkg": "fw/dx747-0.1.fwsc",
+    "release": "https://github.com/esbenvb/fm1-dx747/releases/tag/v0.1",
+    "kind": "synth"
+   },
+   "license": "NOASSERTION",
+   "redistributable": false,
+   "fork_of": null,
+   "archived": false,
+   "stars": 1,
+   "pushed": "2026-11-06T10:02:37Z",
+   "branch": "dx747",
+   "head": "5fdc1fe168102affec50b7f936d62c25d92ebadf",
+   "has_submodules": false,
+   "auto_recipe": "build-sh",
+   "recipe": "build-sh",
+   "prepare": null,
+   "upstream_releases": [
+    {
+     "tag": "v0.1",
+     "name": "FM1_DX747.fwsc",
+     "url": "https://github.com/esbenvb/fm1-dx747/releases/download/v0.1/FM1_DX747.fwsc",
+     "size": 487988,
+     "prerelease": false,
+     "published": "2026-11-06T00:37:20Z"
+    }
+   ],
+   "tree_fwsc": [
+    "sdk/firmware/FM-1_015.fwsc"
+   ],
+   "has_build": true,
+   "needs_ci_build": false,
+   "buildable": false,
+   "path": "firmwares/esbenvb/fm1-dx747",
+   "status": "ok"
+  },
+  {
    "id": "evanyerburgh__niagara-drift",
    "repo": "evanyerburgh/niagara-drift",
    "url": "https://github.com/evanyerburgh/niagara-drift",
@@ -4537,9 +4647,9 @@
    "fork_of": null,
    "archived": false,
    "stars": 1,
-   "pushed": "2026-11-04T18:38:15Z",
+   "pushed": "2026-11-05T17:36:27Z",
    "branch": "main",
-   "head": "2e84d101b9dd40dea2ab8d707df5b1690c8d2fe8",
+   "head": "8f1420718f275cc92ac384a62373221b9237c7ca",
    "has_submodules": true,
    "auto_recipe": "felucca-sub",
    "recipe": "felucca-sub",
@@ -4566,8 +4676,8 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 8,
-   "pushed": "2026-11-05T08:53:44Z",
+   "stars": 9,
+   "pushed": "2026-11-06T05:54:16Z",
    "branch": "main",
    "head": "99a39c19f81f85d1df3d999e6a578dc4af9f1b81",
    "has_submodules": false,
@@ -4841,7 +4951,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 16,
+   "stars": 17,
    "pushed": "2026-11-01T11:49:24Z",
    "branch": "main",
    "head": "f21410d006896d83fbe152ba35c93d2543e1ef60",
@@ -4884,7 +4994,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 22,
+   "stars": 23,
    "pushed": "2026-10-30T16:18:34Z",
    "branch": "main",
    "head": "272cad9e85a444d879d72598807b7ca01a098d6d",
@@ -5244,7 +5354,8 @@
    "url": "https://github.com/galfaroth/veffbox",
    "description": "Veffbox: resampling sound-design firmware for the M-VAVE FM-1",
    "sources": [
-    "hub"
+    "hub",
+    "aroum"
    ],
    "hub": {
     "id": "veffbox",
@@ -5262,14 +5373,22 @@
    "fork_of": null,
    "archived": false,
    "stars": 2,
-   "pushed": "2026-11-04T10:29:49Z",
+   "pushed": "2026-11-06T10:17:51Z",
    "branch": "main",
-   "head": "dba66b1c26b85856943e974b1ee0d1cfe732ecbd",
+   "head": "c585fb3a1482b1fdc55e9b32290933aa1232aa6b",
    "has_submodules": false,
    "auto_recipe": "make",
    "recipe": "make",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v0.4.0",
+     "name": "veffbox-0.4.0.fwsc",
+     "url": "https://github.com/galfaroth/veffbox/releases/download/v0.4.0/veffbox-0.4.0.fwsc",
+     "size": 609649,
+     "prerelease": false,
+     "published": "2026-11-06T10:19:39Z"
+    },
     {
      "tag": "v0.3.2",
      "name": "veffbox-0.3.2.fwsc",
@@ -5285,14 +5404,6 @@
      "size": 609649,
      "prerelease": false,
      "published": "2026-11-03T16:57:59Z"
-    },
-    {
-     "tag": "v0.3.0",
-     "name": "veffbox-0.3.0.fwsc",
-     "url": "https://github.com/galfaroth/veffbox/releases/download/v0.3.0/veffbox-0.3.0.fwsc",
-     "size": 609649,
-     "prerelease": false,
-     "published": "2026-11-03T16:45:39Z"
     }
    ],
    "tree_fwsc": [
@@ -5477,8 +5588,8 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 6,
-   "pushed": "2026-11-05T10:40:51Z",
+   "stars": 7,
+   "pushed": "2026-11-06T02:03:51Z",
    "branch": "main",
    "head": "4e6ed4d44ee9a2f0e86904148870d8b70373f78c",
    "has_submodules": false,
@@ -5547,7 +5658,7 @@
    "fork_of": null,
    "archived": false,
    "stars": 35,
-   "pushed": "2026-11-05T10:19:14Z",
+   "pushed": "2026-11-06T01:06:41Z",
    "branch": "main",
    "head": "b519acbee7dbdb3e0fb82b15b86a913898c6f8f5",
    "has_submodules": false,
@@ -5681,11 +5792,11 @@
    "hub": {
     "id": "kwasub",
     "name": "K-WASUB",
-    "version": "1.0.52",
+    "version": "1.1.01",
     "product": "FM-1_1990",
-    "sha256": "9643c14350d4304dde460f143c050a97f5954b3b6d408dab081bcf2f45ea0d80",
+    "sha256": "0d5aa67769e2e63a49ddd033cc5cf2293e2e8615e7c4db84bfb4164fae271149",
     "size": 610266,
-    "pkg": "fw/kwasub-1.0.52.fwsc",
+    "pkg": "fw/kwasub-1.1.01.fwsc",
     "release": "https://guizmoh.github.io/K-WASUB_Firmware_for_FM1/",
     "kind": "synth"
    },
@@ -5693,17 +5804,17 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 4,
-   "pushed": "2026-11-04T14:47:07Z",
+   "stars": 5,
+   "pushed": "2026-11-06T00:00:43Z",
    "branch": "main",
-   "head": "00bffd1d6f0eb1f10f6065ad9cdc74d8bb9b7ca3",
+   "head": "2be6305439e571b02b3a7d1e19a4e2d61ddf9245",
    "has_submodules": false,
    "auto_recipe": "none",
    "recipe": "none",
    "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
-    "install/k-wasub-1.0.52.fwsc",
+    "install/k-wasub-1.1.01.fwsc",
     "install/older/k-wa-sub-0.1.fwsc",
     "install/older/k-wa-sub-0.2.fwsc",
     "install/older/k-wa-sub-0.3.fwsc",
@@ -5726,30 +5837,42 @@
    "url": "https://github.com/Guizmoh/Kawa-Tracker-Fm1",
    "description": "Tracker for the FM1 beta version",
    "sources": [
+    "hub",
     "aroum"
    ],
-   "hub": null,
+   "hub": {
+    "id": "kawa",
+    "name": "KAWA",
+    "version": "0.7",
+    "product": "FM-1_957",
+    "sha256": "1678a68f66ac487d8f9f3662a36fff60200b3670ac129eaa667553e6838c1c7d",
+    "size": 610266,
+    "pkg": "fw/kawa-0.7.fwsc",
+    "release": "https://guizmoh.github.io/Kawa-Tracker-Fm1/",
+    "kind": "tracker"
+   },
    "license": "GPL-3.0",
    "redistributable": true,
    "fork_of": null,
    "archived": false,
    "stars": 9,
-   "pushed": "2026-10-30T23:38:50Z",
+   "pushed": "2026-11-06T05:11:38Z",
    "branch": "main",
-   "head": "3b4d7822bbb2cb70a66d59eb36f23f5d7e074029",
+   "head": "b57f8c52a79170bdb904e124251d7f6015ea0625",
    "has_submodules": false,
    "auto_recipe": "none",
    "recipe": "none",
    "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
-    "install/kawa-0.6.fwsc",
+    "install/kawa-0.7.fwsc",
     "install/older/kawa-0.1.fwsc",
     "install/older/kawa-0.2.fwsc",
     "install/older/kawa-0.3.fwsc",
     "install/older/kawa-0.4.fwsc",
     "install/older/kawa-0.5.fwsc",
-    "kawa-0.6.fwsc"
+    "install/older/kawa-0.6.fwsc",
+    "kawa-0.7.fwsc"
    ],
    "has_build": true,
    "needs_ci_build": false,
@@ -6124,7 +6247,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 653,
+   "stars": 655,
    "pushed": "2026-11-04T09:57:05Z",
    "branch": "main",
    "head": "a4f007c9211ea5b37298c01ff6d73430fe2cb96a",
@@ -6479,7 +6602,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 135,
+   "stars": 136,
    "pushed": "2026-11-04T02:07:38Z",
    "branch": "main",
    "head": "db2ce89c8cb4260661f86720f607455a0133aa6a",
@@ -6785,7 +6908,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 77,
+   "stars": 76,
    "pushed": "2026-11-04T02:34:27Z",
    "branch": "main",
    "head": "7bc15a950a8b3fd51aec280514905448e4faaf1b",
@@ -6827,6 +6950,44 @@
    "status": "ok"
   },
   {
+   "id": "isod89__siren-fm1",
+   "repo": "isod89/siren-fm1",
+   "url": "https://github.com/isod89/siren-fm1",
+   "description": "SIREN: a rave that writes itself. A firmware for the M-VAVE FM-1 (from Clipper and SLOOP, based on Felucca)",
+   "sources": [
+    "search"
+   ],
+   "hub": null,
+   "license": "GPL-3.0",
+   "redistributable": true,
+   "fork_of": null,
+   "archived": false,
+   "stars": 1,
+   "pushed": "2026-11-05T22:27:44Z",
+   "branch": "main",
+   "head": "aa6909fffe6232f54a6006bbe4a7a0d07a0d8356",
+   "has_submodules": false,
+   "auto_recipe": "felucca",
+   "recipe": "felucca",
+   "prepare": null,
+   "upstream_releases": [
+    {
+     "tag": "v0.9.1",
+     "name": "siren-0.9.1.fwsc",
+     "url": "https://github.com/isod89/siren-fm1/releases/download/v0.9.1/siren-0.9.1.fwsc",
+     "size": 610105,
+     "prerelease": true,
+     "published": "2026-11-05T22:27:42Z"
+    }
+   ],
+   "tree_fwsc": [],
+   "has_build": true,
+   "needs_ci_build": false,
+   "buildable": true,
+   "path": "firmwares/isod89/siren-fm1",
+   "status": "ok"
+  },
+  {
    "id": "isod89__sloop-fm1",
    "repo": "isod89/sloop-fm1",
    "url": "https://github.com/isod89/sloop-fm1",
@@ -6851,7 +7012,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 741,
+   "stars": 746,
    "pushed": "2026-11-04T02:36:41Z",
    "branch": "main",
    "head": "bac9c05ea7627449405aa10e48da21d75b6c8c56",
@@ -7751,9 +7912,9 @@
    "fork_of": "hugelton/Felucca",
    "archived": false,
    "stars": 19,
-   "pushed": "2026-11-05T08:51:12Z",
+   "pushed": "2026-11-05T17:47:49Z",
    "branch": "main",
-   "head": "9956d061b9c2b39cace346f3dc37cf8d7e98d25e",
+   "head": "39d01bf2bda76ca16dd9dedc271c85b9a1c6dabb",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
@@ -7955,10 +8116,10 @@
    "redistributable": true,
    "fork_of": "hugelton/Felucca",
    "archived": false,
-   "stars": 213,
-   "pushed": "2026-11-04T23:03:50Z",
+   "stars": 214,
+   "pushed": "2026-11-06T02:04:43Z",
    "branch": "main",
-   "head": "3206468966856c98d4712c9f366621ae897246b8",
+   "head": "fd0ff3e3252465064c775bf648178e007ebcf61d",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
@@ -7998,6 +8159,35 @@
    "needs_ci_build": true,
    "buildable": true,
    "path": "firmwares/jukejutsu/FM2000",
+   "status": "ok"
+  },
+  {
+   "id": "JulesMarecaille__mrc-synth",
+   "repo": "JulesMarecaille/mrc-synth",
+   "url": "https://github.com/JulesMarecaille/mrc-synth",
+   "description": "MRC Synth: custom firmware for the M-VAVE FM-1, a modified version of Felucca (GPL-3.0)",
+   "sources": [
+    "search"
+   ],
+   "hub": null,
+   "license": "GPL-3.0",
+   "redistributable": true,
+   "fork_of": null,
+   "archived": false,
+   "stars": 0,
+   "pushed": "2026-11-05T18:21:18Z",
+   "branch": "main",
+   "head": "fcf7e1827df8b5430808e226bc61cb3fc7f4b701",
+   "has_submodules": true,
+   "auto_recipe": "felucca",
+   "recipe": "felucca",
+   "prepare": null,
+   "upstream_releases": [],
+   "tree_fwsc": [],
+   "has_build": false,
+   "needs_ci_build": true,
+   "buildable": true,
+   "path": "firmwares/JulesMarecaille/mrc-synth",
    "status": "ok"
   },
   {
@@ -8045,16 +8235,16 @@
    "fork_of": null,
    "archived": false,
    "stars": 0,
-   "pushed": "2026-11-02T16:50:57Z",
+   "pushed": "2026-11-06T01:14:25Z",
    "branch": "main",
-   "head": "05ae1ec41c70de69c965921fc7dd4ad760267d16",
+   "head": "a1277c5bc90588e644b009211a06e514647bd4a6",
    "has_submodules": false,
    "auto_recipe": "none",
    "recipe": "none",
    "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [
-    "genAMB-1.0-RC2-WET2-WEB1.fwsc"
+    "genAMB-DUSK-Monumatic-Reverb-TEST2.fwsc"
    ],
    "has_build": true,
    "needs_ci_build": false,
@@ -8146,7 +8336,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 184,
+   "stars": 188,
    "pushed": "2026-11-04T06:53:38Z",
    "branch": "main",
    "head": "165d177a425944f3d30b0b669255a6ed0050c3a5",
@@ -8471,7 +8661,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 19,
+   "stars": 20,
    "pushed": "2026-10-31T17:11:15Z",
    "branch": "main",
    "head": "470bf7e9423fd641e12c5bd371faea59415272f0",
@@ -8560,8 +8750,8 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 24,
-   "pushed": "2026-11-05T08:38:03Z",
+   "stars": 25,
+   "pushed": "2026-11-05T20:58:50Z",
    "branch": "main",
    "head": "924a55fa011430968c08604be34e3ef3a4068405",
    "has_submodules": false,
@@ -8590,9 +8780,9 @@
    "fork_of": null,
    "archived": false,
    "stars": 5,
-   "pushed": "2026-11-05T02:11:38Z",
+   "pushed": "2026-11-06T03:55:39Z",
    "branch": "main",
-   "head": "f81e1e86298f6f69e7a59a4c781964f34ac7a050",
+   "head": "885e89d70ea4451b75492e73f3bbd7626b2bef95",
    "has_submodules": false,
    "auto_recipe": "none",
    "recipe": "none",
@@ -8629,7 +8819,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 3,
+   "stars": 4,
    "pushed": "2026-11-03T19:08:18Z",
    "branch": "main",
    "head": "ad4a11e0b73c4cb7099c8a76f3cf26dece953d8c",
@@ -8684,9 +8874,9 @@
    "fork_of": null,
    "archived": false,
    "stars": 3,
-   "pushed": "2026-11-05T00:35:23Z",
+   "pushed": "2026-11-06T07:32:59Z",
    "branch": "main",
-   "head": "543098e09715a9435433785a13a9ca1621428506",
+   "head": "6dc3fa1d10920ea4026c344de02e996227900d25",
    "has_submodules": true,
    "auto_recipe": "none",
    "recipe": "none",
@@ -8858,22 +9048,14 @@
    "fork_of": null,
    "archived": false,
    "stars": 12,
-   "pushed": "2026-11-05T10:46:56Z",
+   "pushed": "2026-11-05T14:02:07Z",
    "branch": "main",
-   "head": "a66e6e28583c9bc8be207d90f6e451eeca14d8dc",
+   "head": "4742349b80ca9960077fa5550e2c58e239334c26",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
-    {
-     "tag": "v0.9.8",
-     "name": "frodhes-smk37-elite-experimental.fwsc",
-     "url": "https://github.com/leonardoMirabal/frodhes/releases/download/v0.9.8/frodhes-smk37-elite-experimental.fwsc",
-     "size": 651367,
-     "prerelease": false,
-     "published": "2026-11-05T09:42:59Z"
-    },
     {
      "tag": "v0.9.8",
      "name": "frodhes.fwsc",
@@ -8887,6 +9069,14 @@
      "name": "frodhes-0.9.8.fwsc",
      "url": "https://github.com/leonardoMirabal/frodhes/releases/download/v0.9.8/frodhes-0.9.8.fwsc",
      "size": 612196,
+     "prerelease": false,
+     "published": "2026-11-05T09:42:59Z"
+    },
+    {
+     "tag": "v0.9.8",
+     "name": "frodhes-0.9.8-mke-p37.fwsc",
+     "url": "https://github.com/leonardoMirabal/frodhes/releases/download/v0.9.8/frodhes-0.9.8-mke-p37.fwsc",
+     "size": 651359,
      "prerelease": false,
      "published": "2026-11-05T09:42:59Z"
     }
@@ -8923,14 +9113,22 @@
    "fork_of": null,
    "archived": false,
    "stars": 5,
-   "pushed": "2026-10-20T16:13:45Z",
+   "pushed": "2026-11-06T09:19:54Z",
    "branch": "main",
-   "head": "e670b35369f8556ee82683f35c6b8bfbcb366155",
+   "head": "d70877ed719f0e5d6be26b6670dade622c5b4f19",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v1.3.0",
+     "name": "bytemania-1.3.0.fwsc",
+     "url": "https://github.com/llozd/bytemania/releases/download/v1.3.0/bytemania-1.3.0.fwsc",
+     "size": 610110,
+     "prerelease": false,
+     "published": "2026-11-06T09:21:02Z"
+    },
     {
      "tag": "v1.2.0",
      "name": "bytemania-1.2.0.fwsc",
@@ -8946,14 +9144,6 @@
      "size": 610110,
      "prerelease": false,
      "published": "2026-10-20T08:11:50Z"
-    },
-    {
-     "tag": "v1.0",
-     "name": "bytemania-1.0.fwsc",
-     "url": "https://github.com/llozd/bytemania/releases/download/v1.0/bytemania-1.0.fwsc",
-     "size": 610110,
-     "prerelease": false,
-     "published": "2026-10-20T07:59:27Z"
     }
    ],
    "tree_fwsc": [],
@@ -9005,7 +9195,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 307,
+   "stars": 313,
    "pushed": "2026-10-21T03:14:01Z",
    "branch": "main",
    "head": "4c7496daac04a95ff10d1afdcc8f9ead2dbabc41",
@@ -9034,27 +9224,35 @@
    "hub": {
     "id": "penumbra",
     "name": "Penumbra",
-    "version": "1.2",
-    "product": "FM-1_73010200",
-    "sha256": "5044d5c2c5795c6a5c03c732062e4c94cccd5c1498c3e22697a0b1430933a3fb",
+    "version": "1.2.1",
+    "product": "FM-1_73010201",
+    "sha256": "3f5cf4805c43de72008c542f9f7318617595a9ee3d7d28258cee8bd4a7a83af0",
     "size": 609697,
-    "pkg": "fw/penumbra-1.2.fwsc",
-    "release": "https://github.com/MadMooneyham/Penumbra/releases/tag/v1.2",
+    "pkg": "fw/penumbra-1.2.1.fwsc",
+    "release": "https://github.com/MadMooneyham/Penumbra/releases/tag/v1.2.1",
     "kind": "synth"
    },
    "license": "GPL-3.0",
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 0,
-   "pushed": "2026-11-04T20:29:31Z",
+   "stars": 1,
+   "pushed": "2026-11-05T20:36:00Z",
    "branch": "main",
-   "head": "44e368e64cee48b0cfa94fb0704b1f58b2f08ee0",
+   "head": "4318a4ddaa806cecd060ff7ae1db13c031571df4",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v1.2.1",
+     "name": "penumbra-1.2.1.fwsc",
+     "url": "https://github.com/MadMooneyham/Penumbra/releases/download/v1.2.1/penumbra-1.2.1.fwsc",
+     "size": 609697,
+     "prerelease": false,
+     "published": "2026-11-05T20:36:00Z"
+    },
     {
      "tag": "v1.2",
      "name": "penumbra-1.2.fwsc",
@@ -9070,14 +9268,6 @@
      "size": 609684,
      "prerelease": false,
      "published": "2026-11-02T19:40:00Z"
-    },
-    {
-     "tag": "v1.0",
-     "name": "penumbra-1.0.fwsc",
-     "url": "https://github.com/MadMooneyham/Penumbra/releases/download/v1.0/penumbra-1.0.fwsc",
-     "size": 609684,
-     "prerelease": false,
-     "published": "2026-10-29T23:42:22Z"
     }
    ],
    "tree_fwsc": [],
@@ -9358,14 +9548,30 @@
    "fork_of": null,
    "archived": false,
    "stars": 0,
-   "pushed": "2026-11-04T17:37:39Z",
+   "pushed": "2026-11-05T20:29:58Z",
    "branch": "main",
-   "head": "3381a6c4abfbd8f77d57f1dc20293f27beaa1f30",
+   "head": "aca08c032e5608bcbd4531a18ce98ae5ea18e280",
    "has_submodules": true,
    "auto_recipe": "build-sh",
    "recipe": "build-sh",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "1.8",
+     "name": "quadro-1.8.fwsc",
+     "url": "https://github.com/matttallison/quadro-fm1/releases/download/1.8/quadro-1.8.fwsc",
+     "size": 614938,
+     "prerelease": false,
+     "published": "2026-11-05T19:30:02Z"
+    },
+    {
+     "tag": "1.7",
+     "name": "quadro-1.7.fwsc",
+     "url": "https://github.com/matttallison/quadro-fm1/releases/download/1.7/quadro-1.7.fwsc",
+     "size": 611496,
+     "prerelease": false,
+     "published": "2026-11-05T19:17:40Z"
+    },
     {
      "tag": "1.0",
      "name": "quadro-1.0.fwsc",
@@ -9554,9 +9760,9 @@
    "fork_of": null,
    "archived": false,
    "stars": 2,
-   "pushed": "2026-11-03T08:06:09Z",
+   "pushed": "2026-11-06T09:11:47Z",
    "branch": "main",
-   "head": "f805ef7c5ce42856b5de6b344f6e471b350ba850",
+   "head": "c71105f73eea9356a0323f534d97c72fd50fa51c",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
@@ -9575,12 +9781,51 @@
     "docs/firmware/numetal-pro-2.0.fwsc",
     "docs/firmware/numetal-pro-2.1.fwsc",
     "docs/firmware/numetal-pro-3.0.fwsc",
-    "docs/firmware/numetal-pro-3.1.fwsc"
+    "docs/firmware/numetal-pro-3.1.fwsc",
+    "docs/firmware/numetal-pro-4.0.fwsc"
    ],
    "has_build": true,
    "needs_ci_build": false,
    "buildable": true,
    "path": "firmwares/mhellar/numetal-skratchmaster-pro-fm1",
+   "status": "ok"
+  },
+  {
+   "id": "MichaelAPerry__MIKU-FM1",
+   "repo": "MichaelAPerry/MIKU-FM1",
+   "url": "https://github.com/MichaelAPerry/MIKU-FM1",
+   "description": "A singing songwriter firmware for the M-VAVE FM-1: a pixel singer sings your songs in Japanese, writes her own, and dances. Free, GPL-3.0; the singer is Hatsune Miku fan art (PCL).",
+   "sources": [
+    "aroum"
+   ],
+   "hub": null,
+   "license": "GPL-3.0",
+   "redistributable": true,
+   "fork_of": null,
+   "archived": false,
+   "stars": 0,
+   "pushed": "2026-11-04T15:21:17Z",
+   "branch": "main",
+   "head": "88b0ef3e568cf615eb5dfaa42d170d8c0f75d431",
+   "has_submodules": false,
+   "auto_recipe": "none",
+   "recipe": "none",
+   "prepare": null,
+   "upstream_releases": [
+    {
+     "tag": "v0.6",
+     "name": "miku-fm-0.6.fwsc",
+     "url": "https://github.com/MichaelAPerry/MIKU-FM1/releases/download/v0.6/miku-fm-0.6.fwsc",
+     "size": 612223,
+     "prerelease": false,
+     "published": "2026-11-04T13:59:07Z"
+    }
+   ],
+   "tree_fwsc": [],
+   "has_build": true,
+   "needs_ci_build": false,
+   "buildable": false,
+   "path": "firmwares/MichaelAPerry/MIKU-FM1",
    "status": "ok"
   },
   {
@@ -9640,6 +9885,60 @@
    "needs_ci_build": false,
    "buildable": true,
    "path": "firmwares/michaeljsmalley/synthesthetic",
+   "status": "ok"
+  },
+  {
+   "id": "mikejohnsonbeats__OG-Synth-source",
+   "repo": "mikejohnsonbeats/OG-Synth-source",
+   "url": "https://github.com/mikejohnsonbeats/OG-Synth-source",
+   "description": "OG Synth (FM-1 firmware): source of the MPL-2.0 part. Site, installer, manual: https://ogsynth.cc",
+   "sources": [
+    "aroum"
+   ],
+   "hub": null,
+   "license": "MPL-2.0",
+   "redistributable": true,
+   "fork_of": null,
+   "archived": false,
+   "stars": 5,
+   "pushed": "2026-11-05T23:05:06Z",
+   "branch": "main",
+   "head": "b076f12ee9d80ae51bbaaab6671030250a3b884b",
+   "has_submodules": false,
+   "auto_recipe": "none",
+   "recipe": "none",
+   "prepare": null,
+   "upstream_releases": [
+    {
+     "tag": "v1.1.2",
+     "name": "ogs-1.1.2.fwsc",
+     "url": "https://github.com/mikejohnsonbeats/OG-Synth-source/releases/download/v1.1.2/ogs-1.1.2.fwsc",
+     "size": 617737,
+     "prerelease": false,
+     "published": "2026-11-05T23:00:23Z"
+    },
+    {
+     "tag": "v1.1.1",
+     "name": "ogs-1.1.1.fwsc",
+     "url": "https://github.com/mikejohnsonbeats/OG-Synth-source/releases/download/v1.1.1/ogs-1.1.1.fwsc",
+     "size": 617737,
+     "prerelease": false,
+     "published": "2026-11-05T19:23:46Z"
+    },
+    {
+     "tag": "v1.1.0",
+     "name": "ogs-1.1.0.fwsc",
+     "url": "https://github.com/mikejohnsonbeats/OG-Synth-source/releases/download/v1.1.0/ogs-1.1.0.fwsc",
+     "size": 617737,
+     "prerelease": false,
+     "published": "2026-11-05T17:02:16Z"
+    }
+   ],
+   "tree_fwsc": [],
+   "has_build": true,
+   "needs_ci_build": false,
+   "buildable": false,
+   "path": "firmwares/mikejohnsonbeats/OG-Synth-source",
    "status": "ok"
   },
   {
@@ -9804,9 +10103,9 @@
    "fork_of": null,
    "archived": false,
    "stars": 0,
-   "pushed": "2026-11-05T09:04:04Z",
+   "pushed": "2026-11-05T19:17:40Z",
    "branch": "main",
-   "head": "a174916578a42ddc21fc46dc41436f44bcaec8c8",
+   "head": "555d1bcdf5ca17f7e9b195ef65a8403e7fd43c5b",
    "has_submodules": true,
    "auto_recipe": "felucca",
    "recipe": "felucca",
@@ -9895,12 +10194,12 @@
    "hub": {
     "id": "nauclerus",
     "name": "Nauclerus",
-    "version": "0.25.0",
+    "version": "1.0.0",
     "product": "FM-1_25000",
-    "sha256": "b496e081fd78c05eaa3cd368caf384285ec7b708477c5ff638f373e6a3c2a870",
+    "sha256": "72e923840964a892a25dadb3db6b91576734fca1e1e73b86ec1a2aa007f478e0",
     "size": 609649,
-    "pkg": "fw/nauclerus-0.25.0.fwsc",
-    "release": "https://github.com/Mr-Roboto/nauclerus/releases/tag/v0.25.0",
+    "pkg": "fw/nauclerus-1.0.0.fwsc",
+    "release": "https://github.com/Mr-Roboto/nauclerus/releases/tag/v1.0.0",
     "kind": "groove"
    },
    "license": "GPL-3.0",
@@ -9908,14 +10207,22 @@
    "fork_of": "DeadActive/hortator",
    "archived": false,
    "stars": 1,
-   "pushed": "2026-10-28T18:21:14Z",
+   "pushed": "2026-11-05T18:35:43Z",
    "branch": "main",
-   "head": "726ebb46b59e5aa4952ec03689363ecbfe295c21",
+   "head": "d2860962f2441bb3b2e2cd457c87bae07995cbac",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v1.0.0",
+     "name": "nauclerus-1.0.0.fwsc",
+     "url": "https://github.com/Mr-Roboto/nauclerus/releases/download/v1.0.0/nauclerus-1.0.0.fwsc",
+     "size": 609649,
+     "prerelease": false,
+     "published": "2026-11-05T18:35:37Z"
+    },
     {
      "tag": "v0.25.0",
      "name": "nauclerus-0.25.0.fwsc",
@@ -10004,7 +10311,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 7,
+   "stars": 8,
    "pushed": "2026-11-04T13:03:50Z",
    "branch": "main",
    "head": "2408fc21b843827349005830e7a117bb70bfa218",
@@ -10092,9 +10399,9 @@
    "fork_of": null,
    "archived": false,
    "stars": 0,
-   "pushed": "2026-10-30T03:59:01Z",
+   "pushed": "2026-11-06T09:56:58Z",
    "branch": "main",
-   "head": "87a5c6b8edcfd5504756eb3b739c2d7b2e873d36",
+   "head": "906bc370527384ae53709350baad9554550d5834",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
@@ -10126,7 +10433,7 @@
     }
    ],
    "tree_fwsc": [
-    "site/firmware/prysm-1.4.fwsc"
+    "site/firmware/prysm-1.5.fwsc"
    ],
    "has_build": true,
    "needs_ci_build": false,
@@ -10412,9 +10719,9 @@
    "fork_of": null,
    "archived": false,
    "stars": 2,
-   "pushed": "2026-11-05T06:48:48Z",
+   "pushed": "2026-11-06T04:40:55Z",
    "branch": "main",
-   "head": "c152fee3bccf379d09a796c488e80284a837b3bb",
+   "head": "b71b6cd29984ede46c4aefc98199f8357f7a6a73",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
@@ -10563,7 +10870,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 5,
+   "stars": 6,
    "pushed": "2026-11-02T21:00:43Z",
    "branch": "main",
    "head": "89908da78336856e5c259a5d2f2666ac480dee55",
@@ -10982,10 +11289,10 @@
    "redistributable": false,
    "fork_of": null,
    "archived": false,
-   "stars": 10,
-   "pushed": "2026-11-04T20:44:45Z",
+   "stars": 11,
+   "pushed": "2026-11-05T15:55:03Z",
    "branch": "main",
-   "head": "c5002bd7f0cc14d3d085202f6f778324f13d2d50",
+   "head": "f390f9abc0ca93d208c4f1e512d28266a9cb7d40",
    "has_submodules": true,
    "auto_recipe": "none",
    "recipe": "none",
@@ -11105,12 +11412,12 @@
    "hub": {
     "id": "hawkchua",
     "name": "hawk-chua",
-    "version": "1.7",
+    "version": "1.9",
     "product": "FM-1_007",
-    "sha256": "bc63f5ccb4a98a6ba93b73aca99eb28313e554fbd7a1b4ef29fd68d1836b864f",
+    "sha256": "db18df3e96cc2292e13be26ec6ca4778828d319b31a46cfa7ae4151f34359e36",
     "size": 610090,
-    "pkg": "fw/hawkchua-1.7.fwsc",
-    "release": "https://github.com/Plieuw/hawk-chua/releases/tag/v1.7",
+    "pkg": "fw/hawkchua-1.9.fwsc",
+    "release": "https://github.com/Plieuw/hawk-chua/releases/tag/v1.9",
     "kind": "synth"
    },
    "license": "GPL-3.0",
@@ -11118,14 +11425,30 @@
    "fork_of": null,
    "archived": false,
    "stars": 0,
-   "pushed": "2026-10-31T17:55:53Z",
+   "pushed": "2026-11-05T21:36:19Z",
    "branch": "main",
-   "head": "b29d6a0b40f13092eefb6ded7ccfe364ea244b16",
+   "head": "bafe6f261dcdf725929a3b2df8d1934dcd5bf8fa",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v1.9",
+     "name": "hawk-chua.fwsc",
+     "url": "https://github.com/Plieuw/hawk-chua/releases/download/v1.9/hawk-chua.fwsc",
+     "size": 610090,
+     "prerelease": false,
+     "published": "2026-11-05T21:36:19Z"
+    },
+    {
+     "tag": "v1.8",
+     "name": "hawk-chua.fwsc",
+     "url": "https://github.com/Plieuw/hawk-chua/releases/download/v1.8/hawk-chua.fwsc",
+     "size": 610090,
+     "prerelease": false,
+     "published": "2026-11-05T20:23:07Z"
+    },
     {
      "tag": "v1.7",
      "name": "hawk-chua.fwsc",
@@ -11133,22 +11456,6 @@
      "size": 610090,
      "prerelease": false,
      "published": "2026-10-31T17:55:53Z"
-    },
-    {
-     "tag": "v1.6",
-     "name": "hawk-chua.fwsc",
-     "url": "https://github.com/Plieuw/hawk-chua/releases/download/v1.6/hawk-chua.fwsc",
-     "size": 610090,
-     "prerelease": false,
-     "published": "2026-10-31T15:39:00Z"
-    },
-    {
-     "tag": "v1.5",
-     "name": "hawk-chua.fwsc",
-     "url": "https://github.com/Plieuw/hawk-chua/releases/download/v1.5/hawk-chua.fwsc",
-     "size": 610090,
-     "prerelease": false,
-     "published": "2026-10-31T14:23:11Z"
     }
    ],
    "tree_fwsc": [],
@@ -11169,12 +11476,12 @@
    "hub": {
     "id": "arctic",
     "name": "Arctic Scream",
-    "version": "1.3.1",
+    "version": "1.4",
     "product": "FM-1_977",
-    "sha256": "9a7764dd8bacb2b89c4fce365101d5002727ceaeafa7301029da0607749acf75",
+    "sha256": "16ac8a85fe956e2b985064b63621826c992b18f536ff7718f8770b03e60419db",
     "size": 610160,
-    "pkg": "fw/arctic-1.3.1.fwsc",
-    "release": "https://github.com/PolarPatch/Arctic-scream-FM-1/releases/tag/v1.3.1",
+    "pkg": "fw/arctic-1.4.fwsc",
+    "release": "https://github.com/PolarPatch/Arctic-scream-FM-1/releases/tag/v1.4",
     "kind": "synth"
    },
    "license": "GPL-3.0",
@@ -11182,14 +11489,22 @@
    "fork_of": null,
    "archived": false,
    "stars": 4,
-   "pushed": "2026-11-01T21:52:53Z",
+   "pushed": "2026-11-06T08:31:02Z",
    "branch": "main",
-   "head": "a616332a3d22dc5e2d4ff8be89382d9cb942110e",
+   "head": "16d7e36414492a55a9e8aa9c963a37db45288da5",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v1.4",
+     "name": "arctic-scream-1.4.fwsc",
+     "url": "https://github.com/PolarPatch/Arctic-scream-FM-1/releases/download/v1.4/arctic-scream-1.4.fwsc",
+     "size": 610160,
+     "prerelease": false,
+     "published": "2026-11-06T08:31:55Z"
+    },
     {
      "tag": "v1.3.1",
      "name": "arctic-scream-1.3.1.fwsc",
@@ -11205,14 +11520,6 @@
      "size": 610160,
      "prerelease": false,
      "published": "2026-11-01T16:42:25Z"
-    },
-    {
-     "tag": "v1.2",
-     "name": "arctic-scream-1.2.fwsc",
-     "url": "https://github.com/PolarPatch/Arctic-scream-FM-1/releases/download/v1.2/arctic-scream-1.2.fwsc",
-     "size": 610110,
-     "prerelease": false,
-     "published": "2026-10-31T09:25:43Z"
     }
    ],
    "tree_fwsc": [],
@@ -11234,27 +11541,35 @@
    "hub": {
     "id": "choppah",
     "name": "CHOPPAH",
-    "version": "0.96",
-    "product": "FM-1_86009600",
-    "sha256": "85fabff9a192df535a25a08c8243c8c9e2e1977a1fd39cb69302c29a617f486b",
+    "version": "0.97",
+    "product": "FM-1_86009700",
+    "sha256": "ed157e78aeeaecbb7c388db174d5de94a8eca3fd1dd6a1b5285b93a507c20e6f",
     "size": 611743,
-    "pkg": "fw/choppah-0.96.fwsc",
-    "release": "https://github.com/profikid/fm1-break-choppah/releases/tag/v0.96",
+    "pkg": "fw/choppah-0.97.fwsc",
+    "release": "https://github.com/profikid/fm1-break-choppah/releases/tag/v0.97",
     "kind": "drums"
    },
    "license": "MPL-2.0",
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 6,
-   "pushed": "2026-11-05T06:27:54Z",
+   "stars": 8,
+   "pushed": "2026-11-06T08:20:59Z",
    "branch": "main",
-   "head": "9ef77d2a3678060b50e007a83731040e0bf9936d",
+   "head": "50946c859509f1a6b94418b7a100ff01de0c4bc4",
    "has_submodules": true,
    "auto_recipe": "build-sh",
    "recipe": "build-sh",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v0.97",
+     "name": "choppah-0.97.fwsc",
+     "url": "https://github.com/profikid/fm1-break-choppah/releases/download/v0.97/choppah-0.97.fwsc",
+     "size": 611743,
+     "prerelease": false,
+     "published": "2026-11-06T08:11:48Z"
+    },
     {
      "tag": "v0.96",
      "name": "choppah-0.96.fwsc",
@@ -11270,14 +11585,6 @@
      "size": 611743,
      "prerelease": false,
      "published": "2026-11-05T06:25:19Z"
-    },
-    {
-     "tag": "v0.94",
-     "name": "choppah-0.94.fwsc",
-     "url": "https://github.com/profikid/fm1-break-choppah/releases/download/v0.94/choppah-0.94.fwsc",
-     "size": 611743,
-     "prerelease": false,
-     "published": "2026-11-05T06:21:46Z"
     }
    ],
    "tree_fwsc": [],
@@ -11605,10 +11912,10 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 25,
-   "pushed": "2026-11-05T09:10:42Z",
+   "stars": 28,
+   "pushed": "2026-11-06T07:12:58Z",
    "branch": "main",
-   "head": "8a5a5e806ac7fe842d34c215e99f0366244d51e5",
+   "head": "ed06aa502c7b75a3414c9c1976d0a5abd4350f57",
    "has_submodules": true,
    "auto_recipe": "build-sh",
    "recipe": "build-sh",
@@ -11668,12 +11975,12 @@
    "hub": {
     "id": "b3organ",
     "name": "B3 ORGAN",
-    "version": "0.1",
+    "version": "0.2",
     "product": "FM-1_953",
-    "sha256": "719dfadd34bb15ea5b70ed357650954e2657ffe563804df649fe985bb4658ab7",
+    "sha256": "b8e9572afa1ca4161244ee05d6161dc9b46330e068455490de6dc7ce217f572a",
     "size": 610110,
-    "pkg": "fw/b3organ-0.1.fwsc",
-    "release": "https://github.com/R-Jeb/setBfree-fm1/releases/tag/v0.1",
+    "pkg": "fw/b3organ-0.2.fwsc",
+    "release": "https://github.com/R-Jeb/setBfree-fm1/releases/tag/v0.2",
     "kind": "synth"
    },
    "license": "GPL-3.0",
@@ -11681,14 +11988,22 @@
    "fork_of": null,
    "archived": false,
    "stars": 0,
-   "pushed": "2026-11-05T10:48:11Z",
+   "pushed": "2026-11-06T08:44:01Z",
    "branch": "main",
-   "head": "6b67e95d49cab7737276dd98a8836d1d55e66fb8",
+   "head": "bbc446d7dca81fd6122d5f1a2329947481c65835",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v0.2",
+     "name": "b3organ-0.2.fwsc",
+     "url": "https://github.com/R-Jeb/setBfree-fm1/releases/download/v0.2/b3organ-0.2.fwsc",
+     "size": 610110,
+     "prerelease": false,
+     "published": "2026-11-05T16:12:43Z"
+    },
     {
      "tag": "v0.1",
      "name": "b3organ-0.1.fwsc",
@@ -11709,7 +12024,7 @@
    "id": "Rastapopolix__tessera",
    "repo": "Rastapopolix/tessera",
    "url": "https://github.com/Rastapopolix/tessera",
-   "description": "Tessera: generative firmware for the M-Vave FM-1. 13 generators, song forms, modulation on four tracks.",
+   "description": "Tessera: firmware for composing through systems on the M-Vave FM-1. 13 generators, song forms and a long form that shapes a whole piece, with modulation on four tracks.",
    "sources": [
     "hub",
     "aroum",
@@ -11731,14 +12046,30 @@
    "fork_of": null,
    "archived": false,
    "stars": 23,
-   "pushed": "2026-11-05T10:50:47Z",
+   "pushed": "2026-11-06T10:49:20Z",
    "branch": "main",
-   "head": "4edfeefadc834b9017287a47e50c442afc27b399",
+   "head": "9902ebf4a18ae32dcd42a3242bdd5542d348e415",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v3.3",
+     "name": "tessera-3.3.fwsc",
+     "url": "https://github.com/Rastapopolix/tessera/releases/download/v3.3/tessera-3.3.fwsc",
+     "size": 610617,
+     "prerelease": false,
+     "published": "2026-11-06T09:50:27Z"
+    },
+    {
+     "tag": "v3.3",
+     "name": "tessera-3.3-1core.fwsc",
+     "url": "https://github.com/Rastapopolix/tessera/releases/download/v3.3/tessera-3.3-1core.fwsc",
+     "size": 610617,
+     "prerelease": false,
+     "published": "2026-11-06T09:50:27Z"
+    },
     {
      "tag": "v3.2.2",
      "name": "tessera-3.2.2.fwsc",
@@ -11746,35 +12077,19 @@
      "size": 610571,
      "prerelease": false,
      "published": "2026-11-01T07:52:06Z"
-    },
-    {
-     "tag": "v3.2.2",
-     "name": "tessera-3.2.2-1core.fwsc",
-     "url": "https://github.com/Rastapopolix/tessera/releases/download/v3.2.2/tessera-3.2.2-1core.fwsc",
-     "size": 610571,
-     "prerelease": false,
-     "published": "2026-11-01T07:52:06Z"
-    },
-    {
-     "tag": "v3.2.1",
-     "name": "tessera-3.2.1-1core.fwsc",
-     "url": "https://github.com/Rastapopolix/tessera/releases/download/v3.2.1/tessera-3.2.1-1core.fwsc",
-     "size": 610571,
-     "prerelease": false,
-     "published": "2026-11-01T07:06:40Z"
     }
    ],
    "tree_fwsc": [
     "docs/classic/firmware/tessera-2.1.1-1core.fwsc",
     "docs/classic/firmware/tessera-2.1.1.fwsc",
-    "docs/firmware/tessera-3.2.2-1core.fwsc",
-    "docs/firmware/tessera-3.2.2.fwsc",
-    "docs/firmware/tessera-3.3-beta4-1core.fwsc",
-    "docs/firmware/tessera-3.3-beta4.fwsc",
     "docs/test/1.2.7/firmware/melodee-tess-1.2.7-1core.fwsc",
     "docs/test/1.2.7/firmware/melodee-tess-1.2.7.fwsc",
     "docs/test/1.2.8/firmware/melodee-tess-1.2.8-1core.fwsc",
-    "docs/test/1.2.8/firmware/melodee-tess-1.2.8.fwsc"
+    "docs/test/1.2.8/firmware/melodee-tess-1.2.8.fwsc",
+    "docs/test/1.2.9/firmware/melodee-tess-1.2.9-1core.fwsc",
+    "docs/test/1.2.9/firmware/melodee-tess-1.2.9.fwsc",
+    "docs/test/1.3.0/firmware/melodee-tess-1.3.0-1core.fwsc",
+    "docs/test/1.3.0/firmware/melodee-tess-1.3.0.fwsc"
    ],
    "has_build": true,
    "needs_ci_build": false,
@@ -11932,14 +12247,22 @@
    "fork_of": null,
    "archived": false,
    "stars": 2,
-   "pushed": "2026-10-23T02:53:02Z",
+   "pushed": "2026-11-05T14:43:46Z",
    "branch": "main",
-   "head": "7fd506a83c6f0a9f06dbd8da5d815f1ad59716e0",
+   "head": "ae3a916a3db1976680f6efc29b4bc049850667c2",
    "has_submodules": true,
    "auto_recipe": "build-sh",
    "recipe": "build-sh",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v1.0.2",
+     "name": "luogu-1.0.2.fwsc",
+     "url": "https://github.com/Reytian/fm1-luogu/releases/download/v1.0.2/luogu-1.0.2.fwsc",
+     "size": 611490,
+     "prerelease": false,
+     "published": "2026-11-05T14:43:46Z"
+    },
     {
      "tag": "v1.0.1",
      "name": "luogu-1.0.1.fwsc",
@@ -11955,14 +12278,6 @@
      "size": 610136,
      "prerelease": false,
      "published": "2026-10-22T15:22:28Z"
-    },
-    {
-     "tag": "v0.1",
-     "name": "luogu-0.1.fwsc",
-     "url": "https://github.com/Reytian/fm1-luogu/releases/download/v0.1/luogu-0.1.fwsc",
-     "size": 610136,
-     "prerelease": false,
-     "published": "2026-10-22T15:08:01Z"
     }
    ],
    "tree_fwsc": [],
@@ -11997,14 +12312,22 @@
    "fork_of": null,
    "archived": false,
    "stars": 7,
-   "pushed": "2026-10-16T03:30:19Z",
+   "pushed": "2026-11-05T14:44:40Z",
    "branch": "main",
-   "head": "14d8ddf6390c9639c27ceb7c738353840a7cdb04",
+   "head": "85c26d3055c22e43c88c6605144e4cd9f1d03b9b",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v0.2.2",
+     "name": "min-0.2.2.fwsc",
+     "url": "https://github.com/Reytian/fm1-min1/releases/download/v0.2.2/min-0.2.2.fwsc",
+     "size": 609657,
+     "prerelease": false,
+     "published": "2026-11-05T14:43:37Z"
+    },
     {
      "tag": "v0.2.1",
      "name": "min-0.2.1.fwsc",
@@ -12175,9 +12498,9 @@
    "fork_of": null,
    "archived": false,
    "stars": 31,
-   "pushed": "2026-11-05T01:32:52Z",
+   "pushed": "2026-11-06T10:28:48Z",
    "branch": "main",
-   "head": "54818a171f20df9efbc5a21db1fa21a7ec39881c",
+   "head": "8e62631ed9e082a99550a02b9389ecbc51b44d08",
    "has_submodules": true,
    "auto_recipe": "felucca",
    "recipe": "felucca",
@@ -12230,9 +12553,9 @@
    "fork_of": null,
    "archived": false,
    "stars": 3,
-   "pushed": "2026-11-03T22:05:04Z",
+   "pushed": "2026-11-05T12:31:42Z",
    "branch": "main",
-   "head": "60174e4d30b2dc2d9827b3068f0a4e3b09d921d1",
+   "head": "9e49485ddcfd6a08205b16110dd334ddec1b1bd7",
    "has_submodules": true,
    "auto_recipe": "felucca",
    "recipe": "felucca",
@@ -12257,11 +12580,11 @@
    "hub": {
     "id": "hyp1",
     "name": "HYP-1",
-    "version": "1.5.54",
-    "product": "FM-1_7010554",
-    "sha256": "2d310b243ea4f01197339819d4228c8c1f21fe267e7991142e91df527e18f049",
+    "version": "1.5.56",
+    "product": "FM-1_7010556",
+    "sha256": "5cdfbd46a0678bf444ed06d7e3f5109d8cf624a57cb559ff57f65d2fa72602e9",
     "size": 609657,
-    "pkg": "fw/hyp1-1.5.54.fwsc",
+    "pkg": "fw/hyp1-1.5.56.fwsc",
     "release": "https://rustypawz.github.io/fm1-HYP1/",
     "kind": "groove"
    },
@@ -12269,10 +12592,10 @@
    "redistributable": true,
    "fork_of": "charlesvestal/fm1-amb",
    "archived": false,
-   "stars": 28,
-   "pushed": "2026-10-22T22:38:30Z",
+   "stars": 29,
+   "pushed": "2026-11-06T00:29:38Z",
    "branch": "main",
-   "head": "57c456db61826331d356458c9c1a136517da7cbf",
+   "head": "6908dc1897841463c462202a92aa3aff72c3addb",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
@@ -12368,7 +12691,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 35,
+   "stars": 36,
    "pushed": "2026-10-30T21:58:08Z",
    "branch": "main",
    "head": "501c4cf22bb2c5ffdcf43467890127de623825dd",
@@ -12446,7 +12769,8 @@
    "url": "https://github.com/seajaysec/386-DX-FM1-KaraokeBot",
    "description": "386DX: a singing karaoke robot with a band for the M-VAVE FM-1",
    "sources": [
-    "hub"
+    "hub",
+    "aroum"
    ],
    "hub": {
     "id": "386dx",
@@ -12874,12 +13198,12 @@
    "hub": {
     "id": "rupture",
     "name": "RUPTURE",
-    "version": "1.82",
+    "version": "1.84.2",
     "product": "FM-1_968",
-    "sha256": "b70a895668649a075f565445a436642e80ff388511e8bd2480a78a28d22c2cff",
+    "sha256": "dd0988abeefd5439db602d8a8420e92954de313bf4e041a7f1495144e0603993",
     "size": 610086,
-    "pkg": "fw/rupture-1.82.fwsc",
-    "release": "https://github.com/SikkenWorks/RUPTURE/releases/tag/V1.82",
+    "pkg": "fw/rupture-1.84.2.fwsc",
+    "release": "https://github.com/SikkenWorks/RUPTURE/releases/tag/V1.84.2",
     "kind": "synth"
    },
    "license": "GPL-3.0",
@@ -12887,14 +13211,22 @@
    "fork_of": null,
    "archived": false,
    "stars": 2,
-   "pushed": "2026-11-04T23:01:40Z",
+   "pushed": "2026-11-05T14:50:57Z",
    "branch": "main",
-   "head": "35fc9968e3e9eff7b4758792c535de570f2e7e75",
+   "head": "b4242390fc55a0426e8f7fdafa9e86fa6e412fbe",
    "has_submodules": false,
    "auto_recipe": "none",
    "recipe": "none",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "V1.84.2",
+     "name": "RUPTURE-V1.84.2.fwsc",
+     "url": "https://github.com/SikkenWorks/RUPTURE/releases/download/V1.84.2/RUPTURE-V1.84.2.fwsc",
+     "size": 610086,
+     "prerelease": false,
+     "published": "2026-11-05T11:45:05Z"
+    },
     {
      "tag": "V1.82",
      "name": "RUPTURE-V1.82.fwsc",
@@ -12910,18 +13242,11 @@
      "size": 610086,
      "prerelease": false,
      "published": "2026-11-04T18:59:58Z"
-    },
-    {
-     "tag": "V1.67",
-     "name": "RUPTURE-V1.67.fwsc",
-     "url": "https://github.com/SikkenWorks/RUPTURE/releases/download/V1.67/RUPTURE-V1.67.fwsc",
-     "size": 610086,
-     "prerelease": false,
-     "published": "2026-11-03T23:06:39Z"
     }
    ],
    "tree_fwsc": [
-    "RUPTURE-V1.82.fwsc",
+    "RUPTURE-V1.84.2.fwsc",
+    "emu/web/RUPTURE.fwsc",
     "reference/ETCH-V1.88.fwsc",
     "reference/RUPTURE-V1.41.fwsc",
     "reference/RUPTURE-V1.42.fwsc",
@@ -12929,8 +13254,7 @@
     "reference/RUPTURE-V1.49.fwsc",
     "reference/RUPTURE-V1.50.fwsc",
     "reference/RUPTURE-V1.53.fwsc",
-    "reference/RUPTURE-V1.55.fwsc",
-    "reference/RUPTURE-V1.56.fwsc"
+    "reference/RUPTURE-V1.55.fwsc"
    ],
    "has_build": true,
    "needs_ci_build": false,
@@ -12979,12 +13303,12 @@
    "hub": {
     "id": "mope1",
     "name": "MOPE-1",
-    "version": "0.3.0",
-    "product": "FM-1_6673000300",
-    "sha256": "5a58b365b00e1a41a334fca8a36342a08ac8f5f2a35c03a21b4770bbcd1e02df",
+    "version": "0.4.0",
+    "product": "FM-1_6673000400",
+    "sha256": "ca25f22d7ee399d6b78206811112f56c0417c782e3497227b04994acda3845ab",
     "size": 609657,
-    "pkg": "fw/mope1-0.3.0.fwsc",
-    "release": "https://github.com/slothpallas/mope-1/releases/tag/v0.3.0",
+    "pkg": "fw/mope1-0.4.0.fwsc",
+    "release": "https://github.com/slothpallas/mope-1/releases/tag/v0.4.0",
     "kind": "synth"
    },
    "license": "GPL-3.0",
@@ -12992,14 +13316,22 @@
    "fork_of": null,
    "archived": false,
    "stars": 2,
-   "pushed": "2026-11-05T10:51:22Z",
+   "pushed": "2026-11-05T16:29:01Z",
    "branch": "mope",
-   "head": "8617cac9ee4d451588e8f304dafe5795bcb5a8b5",
+   "head": "2ff2952c441f4f96f3cbd6c1f894803e51d0f088",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v0.4.0",
+     "name": "mope-0.4.0.fwsc",
+     "url": "https://github.com/slothpallas/mope-1/releases/download/v0.4.0/mope-0.4.0.fwsc",
+     "size": 609657,
+     "prerelease": true,
+     "published": "2026-11-05T16:29:01Z"
+    },
     {
      "tag": "v0.3.0",
      "name": "mope-0.3.0.fwsc",
@@ -13015,14 +13347,6 @@
      "size": 609657,
      "prerelease": true,
      "published": "2026-10-28T22:48:15Z"
-    },
-    {
-     "tag": "v0.1.0",
-     "name": "mope-0.1.0.fwsc",
-     "url": "https://github.com/slothpallas/mope-1/releases/download/v0.1.0/mope-0.1.0.fwsc",
-     "size": 609657,
-     "prerelease": true,
-     "published": "2026-10-24T15:37:42Z"
     }
    ],
    "tree_fwsc": [],
@@ -13068,7 +13392,7 @@
    "description": "SPAMPY 0.0 r949 — custom M-VAVE FM-1 firmware, source, release and video guide.",
    "sources": [
     "hub",
-    "search"
+    "aroum"
    ],
    "hub": {
     "id": "spampy",
@@ -13206,7 +13530,7 @@
    "redistributable": true,
    "fork_of": "hugelton/Felucca",
    "archived": false,
-   "stars": 8,
+   "stars": 9,
    "pushed": "2026-10-15T05:15:44Z",
    "branch": "main",
    "head": "4fe0f1afb4d97f56dfb763c176679fe6e059ecec",
@@ -13257,7 +13581,7 @@
    "fork_of": null,
    "archived": false,
    "stars": 0,
-   "pushed": "2026-11-03T04:28:06Z",
+   "pushed": "2026-11-06T00:40:10Z",
    "branch": "main",
    "head": "b368c50c8c9ad6223d345fef00610f636582a59c",
    "has_submodules": false,
@@ -13375,12 +13699,12 @@
    "hub": {
     "id": "aisling",
     "name": "AISLING",
-    "version": "0.4",
-    "product": "FM-1_353000400",
-    "sha256": "970458965745fd230213d1d0eaa5c4e17d92dc301c83770fe18d9f9c055a6717",
+    "version": "0.5.1",
+    "product": "FM-1_353000501",
+    "sha256": "c96630b9c19e6012183dc5946e88dc02cc1d0f28f4ac5b7acbd66a50200dac05",
     "size": 609666,
-    "pkg": "fw/aisling-0.4.fwsc",
-    "release": "https://github.com/stephencummins/fm1-aisling/releases/tag/v0.4",
+    "pkg": "fw/aisling-0.5.1.fwsc",
+    "release": "https://github.com/stephencummins/fm1-aisling/releases/tag/v0.5.1",
     "kind": "synth"
    },
    "license": "GPL-3.0",
@@ -13388,14 +13712,30 @@
    "fork_of": null,
    "archived": false,
    "stars": 1,
-   "pushed": "2026-11-03T23:01:27Z",
+   "pushed": "2026-11-05T22:36:54Z",
    "branch": "main",
-   "head": "6fd7b73292a6379de6c86fd34d91bd3f69015e0d",
+   "head": "c6ab700004e4fd94489344243033e775a51bd1c4",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v0.5.1",
+     "name": "aisling-0.5.1.fwsc",
+     "url": "https://github.com/stephencummins/fm1-aisling/releases/download/v0.5.1/aisling-0.5.1.fwsc",
+     "size": 609666,
+     "prerelease": false,
+     "published": "2026-11-05T17:10:31Z"
+    },
+    {
+     "tag": "v0.5",
+     "name": "aisling-0.5.fwsc",
+     "url": "https://github.com/stephencummins/fm1-aisling/releases/download/v0.5/aisling-0.5.fwsc",
+     "size": 609666,
+     "prerelease": false,
+     "published": "2026-11-05T15:09:08Z"
+    },
     {
      "tag": "v0.4",
      "name": "aisling-0.4.fwsc",
@@ -13403,22 +13743,6 @@
      "size": 609666,
      "prerelease": false,
      "published": "2026-11-03T21:49:37Z"
-    },
-    {
-     "tag": "v0.3",
-     "name": "aisling-0.3.fwsc",
-     "url": "https://github.com/stephencummins/fm1-aisling/releases/download/v0.3/aisling-0.3.fwsc",
-     "size": 609666,
-     "prerelease": false,
-     "published": "2026-11-02T21:17:41Z"
-    },
-    {
-     "tag": "v0.2",
-     "name": "aisling-0.2.fwsc",
-     "url": "https://github.com/stephencummins/fm1-aisling/releases/download/v0.2/aisling-0.2.fwsc",
-     "size": 609666,
-     "prerelease": false,
-     "published": "2026-11-02T11:42:09Z"
     }
    ],
    "tree_fwsc": [],
@@ -14091,12 +14415,12 @@
    "hub": {
     "id": "sidj",
     "name": "SiDJ",
-    "version": "1.3.0",
-    "product": "FM-1_64010300",
-    "sha256": "77f631208e0df15b437c96cb5a3fe182bd732a17f16d64efb4403e2ab5484a59",
-    "size": 609944,
-    "pkg": "fw/sidj-1.3.0.fwsc",
-    "release": "https://github.com/thomasj/fm1-sidj/releases/tag/v1.3.0",
+    "version": "1.5.0",
+    "product": "FM-1_64010500",
+    "sha256": "de05cd7cecbed3c5a30b4100c9374706f9bc55c618c4168680c47ee2e6088c04",
+    "size": 609970,
+    "pkg": "fw/sidj-1.5.0.fwsc",
+    "release": "https://github.com/thomasj/fm1-sidj/releases/tag/v1.5.0",
     "kind": "other"
    },
    "license": "GPL-3.0",
@@ -14104,14 +14428,30 @@
    "fork_of": null,
    "archived": false,
    "stars": 3,
-   "pushed": "2026-11-01T21:36:39Z",
+   "pushed": "2026-11-06T07:17:45Z",
    "branch": "main",
-   "head": "a91d24a0a0adb53f4a6785f2ce9875a0d249cdcd",
+   "head": "28b1ace905274a7c9653d1785b132bd507d9a8a2",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v1.5.0",
+     "name": "sidj-1.5.0.fwsc",
+     "url": "https://github.com/thomasj/fm1-sidj/releases/download/v1.5.0/sidj-1.5.0.fwsc",
+     "size": 609970,
+     "prerelease": false,
+     "published": "2026-11-06T06:28:55Z"
+    },
+    {
+     "tag": "v1.4.0",
+     "name": "sidj-1.4.0.fwsc",
+     "url": "https://github.com/thomasj/fm1-sidj/releases/download/v1.4.0/sidj-1.4.0.fwsc",
+     "size": 609949,
+     "prerelease": false,
+     "published": "2026-11-06T00:32:34Z"
+    },
     {
      "tag": "v1.3.0",
      "name": "sidj-1.3.0.fwsc",
@@ -14119,22 +14459,6 @@
      "size": 609944,
      "prerelease": false,
      "published": "2026-11-01T21:36:34Z"
-    },
-    {
-     "tag": "v1.2.0",
-     "name": "sidj-1.2.0.fwsc",
-     "url": "https://github.com/thomasj/fm1-sidj/releases/download/v1.2.0/sidj-1.2.0.fwsc",
-     "size": 609657,
-     "prerelease": false,
-     "published": "2026-10-31T20:55:42Z"
-    },
-    {
-     "tag": "v1.1.2",
-     "name": "sidj-1.1.2.fwsc",
-     "url": "https://github.com/thomasj/fm1-sidj/releases/download/v1.1.2/sidj-1.1.2.fwsc",
-     "size": 609657,
-     "prerelease": false,
-     "published": "2026-10-30T18:42:22Z"
     }
    ],
    "tree_fwsc": [],
@@ -14443,10 +14767,10 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 31,
-   "pushed": "2026-11-05T03:38:17Z",
+   "stars": 32,
+   "pushed": "2026-11-06T03:45:52Z",
    "branch": "main",
-   "head": "a015e36764e468c1c7080724335ef78b6d463111",
+   "head": "8a91efd6b7725b86df3f35576aa3169664ed1589",
    "has_submodules": true,
    "auto_recipe": "build-sh",
    "recipe": "build-sh",
@@ -14478,7 +14802,7 @@
     }
    ],
    "tree_fwsc": [
-    "web/fm1base/m-bootloader/fm1-uboot-1.2.fwsc",
+    "web/fm1base/m-bootloader/fm1-uboot-1.4.fwsc",
     "web/stock/FM-1_015.fwsc"
    ],
    "has_build": true,
@@ -14568,7 +14892,7 @@
    "redistributable": true,
    "fork_of": "hugelton/Felucca",
    "archived": false,
-   "stars": 14,
+   "stars": 15,
    "pushed": "2026-11-02T21:19:10Z",
    "branch": "main",
    "head": "c9a7830ac6ab7f4e49910e65d4012ca9069970dd",
@@ -14764,7 +15088,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 3,
+   "stars": 5,
    "pushed": "2026-11-03T07:29:17Z",
    "branch": "main",
    "head": "1ad7f6016e75a6f27fe3d69ebb4c606cce45d8cc",
@@ -14843,7 +15167,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 49,
+   "stars": 50,
    "pushed": "2026-11-03T09:41:00Z",
    "branch": "main",
    "head": "f77bf03283bbb2c05294b01cdad68a30b410f93d",
@@ -15005,7 +15329,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 49,
+   "stars": 50,
    "pushed": "2026-11-02T10:53:00Z",
    "branch": "main",
    "head": "099ccd6f30a83591cea3521efaec6d3546004036",
@@ -15163,6 +15487,7 @@
   }
  ],
  "missing": [
+  "28spawn/m-vave-pocket-amp-onyx",
   "JalopyMusic/fm1-milkboyg-ambii",
   "PierreArnaudGUYOT/FM1-Oktowave-Firmware",
   "friendsmakenoise-prog/fm1-pocket-sampler",
@@ -15172,7 +15497,6 @@
   "2bbb/fm1-firmware-collection",
   "al-255/fm-1-re",
   "aroum/fm1-custom-fw",
-  "bratta/fm1-manager",
   "charlesvestal/fm1-reader",
   "cicloid/awesome-fm-1",
   "czietz/fm1-firmware-patcher",
