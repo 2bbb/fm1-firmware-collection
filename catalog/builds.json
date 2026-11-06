@@ -53,6 +53,13 @@
    "JB-Interactive__Felucca-Meow-f21d6d6.fwsc"
   ]
  },
+ "JulesMarecaille__mrc-synth": {
+  "repo": "JulesMarecaille/mrc-synth",
+  "commit": "fcf7e1827df8b5430808e226bc61cb3fc7f4b701",
+  "status": "failure",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42206159740"
+ },
  "KemstheSage__reggae-os": {
   "repo": "KemstheSage/reggae-os",
   "commit": "7561b5f873bbe103324f545d6f9ca36aa97c713f",
@@ -75,12 +82,12 @@
  },
  "MPASTEAU__FM-Stud1o-FM-1-Firmware": {
   "repo": "MPASTEAU/FM-Stud1o-FM-1-Firmware",
-  "commit": "a174916578a42ddc21fc46dc41436f44bcaec8c8",
+  "commit": "555d1bcdf5ca17f7e9b195ef65a8403e7fd43c5b",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42015027947",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42206159740",
   "assets": [
-   "MPASTEAU__FM-Stud1o-FM-1-Firmware-a174916.fwsc"
+   "MPASTEAU__FM-Stud1o-FM-1-Firmware-555d1bc.fwsc"
   ]
  },
  "Mystereon__FM1-DUB200": {
@@ -319,10 +326,10 @@
  },
  "fantasmogenesis__fntsmg-1": {
   "repo": "fantasmogenesis/fntsmg-1",
-  "commit": "2e84d101b9dd40dea2ab8d707df5b1690c8d2fe8",
+  "commit": "8f1420718f275cc92ac384a62373221b9237c7ca",
   "status": "failure",
   "recipe": "felucca-sub",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42015027947"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42206159740"
  },
  "fantasmoslam__Paleotone": {
   "repo": "fantasmoslam/Paleotone",
@@ -433,13 +440,13 @@
  },
  "ruppert__organvave-1": {
   "repo": "ruppert/organvave-1",
-  "commit": "60174e4d30b2dc2d9827b3068f0a4e3b09d921d1",
+  "commit": "9e49485ddcfd6a08205b16110dd334ddec1b1bd7",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41817637748",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42206159740",
   "assets": [
-   "ruppert__organvave-1-60174e4-1.fwsc",
-   "ruppert__organvave-1-60174e4-2.fwsc"
+   "ruppert__organvave-1-9e49485-1.fwsc",
+   "ruppert__organvave-1-9e49485-2.fwsc"
   ]
  },
  "sirpearson__fm-1-monomachine": {
