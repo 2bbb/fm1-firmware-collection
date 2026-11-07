@@ -43,11 +43,6 @@
 	url = https://github.com/AlexanderSeel/TheReFmB1rth.git
 	branch = main
 	shallow = true
-[submodule "firmwares/amacias/octo-vave"]
-	path = firmwares/amacias/octo-vave
-	url = https://github.com/amacias/octo-vave.git
-	branch = main
-	shallow = true
 [submodule "firmwares/AndrewGG88/S1Vave"]
 	path = firmwares/AndrewGG88/S1Vave
 	url = https://github.com/AndrewGG88/S1Vave.git
@@ -81,6 +76,11 @@
 [submodule "firmwares/benbadio/morpheus-fm1"]
 	path = firmwares/benbadio/morpheus-fm1
 	url = https://github.com/benbadio/morpheus-fm1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/bit-wmike/fm1-companion"]
+	path = firmwares/bit-wmike/fm1-companion
+	url = https://github.com/bit-wmike/fm1-companion.git
 	branch = main
 	shallow = true
 [submodule "firmwares/BlackKittenDevices/kitten-rack"]
@@ -136,6 +136,11 @@
 [submodule "firmwares/catacombius/NoteSorcery"]
 	path = firmwares/catacombius/NoteSorcery
 	url = https://github.com/catacombius/NoteSorcery.git
+	branch = main
+	shallow = true
+[submodule "firmwares/chancehouston/skiff-fm1"]
+	path = firmwares/chancehouston/skiff-fm1
+	url = https://github.com/chancehouston/skiff-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/ChanceTheMaker/doom-fm1-smk"]
@@ -478,6 +483,11 @@
 	url = https://github.com/FartyPants/fm1-nachtfahrt.git
 	branch = main
 	shallow = true
+[submodule "firmwares/FartyPants/fm1-piano"]
+	path = firmwares/FartyPants/fm1-piano
+	url = https://github.com/FartyPants/fm1-piano.git
+	branch = gh-pages
+	shallow = true
 [submodule "firmwares/fatcatstudios-hub/vesper-fm1"]
 	path = firmwares/fatcatstudios-hub/vesper-fm1
 	url = https://github.com/fatcatstudios-hub/vesper-fm1.git
@@ -566,11 +576,6 @@
 [submodule "firmwares/GRiMMBIENT/grimm"]
 	path = firmwares/GRiMMBIENT/grimm
 	url = https://github.com/GRiMMBIENT/grimm.git
-	branch = main
-	shallow = true
-[submodule "firmwares/GuinanNo1/fm1-gio"]
-	path = firmwares/GuinanNo1/fm1-gio
-	url = https://github.com/GuinanNo1/fm1-gio.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Guizmoh/K-Glitch"]
@@ -748,6 +753,11 @@
 	url = https://github.com/JB-Interactive/Felucca-Meow.git
 	branch = main
 	shallow = true
+[submodule "firmwares/jeanlucmouton30-jpg/AETHER-FM1"]
+	path = firmwares/jeanlucmouton30-jpg/AETHER-FM1
+	url = https://github.com/jeanlucmouton30-jpg/AETHER-FM1.git
+	branch = aether-branding
+	shallow = true
 [submodule "firmwares/jiripisa/fm1-berlinan"]
 	path = firmwares/jiripisa/fm1-berlinan
 	url = https://github.com/jiripisa/fm1-berlinan.git
@@ -857,6 +867,11 @@
 	path = firmwares/keyboy250/fm1-x0x-acultur8
 	url = https://github.com/keyboy250/fm1-x0x-acultur8.git
 	branch = acultur8/main
+	shallow = true
+[submodule "firmwares/KHAVld/ARTIHIVE"]
+	path = firmwares/KHAVld/ARTIHIVE
+	url = https://github.com/KHAVld/ARTIHIVE.git
+	branch = ARTIHIVE
 	shallow = true
 [submodule "firmwares/kidbee85-beep/AMB-1-Evolved"]
 	path = firmwares/kidbee85-beep/AMB-1-Evolved
@@ -1273,6 +1288,11 @@
 	url = https://github.com/Saintpid/Wild.git
 	branch = main
 	shallow = true
+[submodule "firmwares/saulofilho/coqui-fm1"]
+	path = firmwares/saulofilho/coqui-fm1
+	url = https://github.com/saulofilho/coqui-fm1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/sbegueria/fm1-dev-wiki"]
 	path = firmwares/sbegueria/fm1-dev-wiki
 	url = https://github.com/sbegueria/fm1-dev-wiki.git
@@ -1508,6 +1528,11 @@
 	url = https://github.com/Wulgaren/Araminta.git
 	branch = main
 	shallow = true
+[submodule "firmwares/xMagElonx/fm1-guitar"]
+	path = firmwares/xMagElonx/fm1-guitar
+	url = https://github.com/xMagElonx/fm1-guitar.git
+	branch = main
+	shallow = true
 [submodule "firmwares/y6zkcqnf5r-hue/fm1-fm80s"]
 	path = firmwares/y6zkcqnf5r-hue/fm1-fm80s
 	url = https://github.com/y6zkcqnf5r-hue/fm1-fm80s.git
@@ -1561,6 +1586,11 @@
 [submodule "firmwares/zvenson/shineon"]
 	path = firmwares/zvenson/shineon
 	url = https://github.com/zvenson/shineon.git
+	branch = main
+	shallow = true
+[submodule "firmwares/zvenson/vibe-link"]
+	path = firmwares/zvenson/vibe-link
+	url = https://github.com/zvenson/vibe-link.git
 	branch = main
 	shallow = true
 [submodule "firmwares/zvenson/zp12"]
