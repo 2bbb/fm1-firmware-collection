@@ -371,6 +371,16 @@
    "izumoe__yanfei-876d6cb.fwsc"
   ]
  },
+ "jeanlucmouton30-jpg__AETHER-FM1": {
+  "repo": "jeanlucmouton30-jpg/AETHER-FM1",
+  "commit": "1d0cc50c9d185a5631c57bb111562d508405884a",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42362870907",
+  "assets": [
+   "jeanlucmouton30-jpg__AETHER-FM1-1d0cc50.fwsc"
+  ]
+ },
  "joakimeriksson__scintilla-fm1": {
   "repo": "joakimeriksson/scintilla-fm1",
   "commit": "e4d5e7b36943aba16a2fa17faf6a2db7be783474",
