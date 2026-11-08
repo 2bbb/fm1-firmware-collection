@@ -132,12 +132,12 @@
  },
  "Saintpid__Wild": {
   "repo": "Saintpid/Wild",
-  "commit": "89356a7836e039a08660c7b5b9b6a296070eeefe",
+  "commit": "ccdec9afc6ff66006396e40bbeff8b337701505e",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41817637748",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42471324093",
   "assets": [
-   "Saintpid__Wild-89356a7.fwsc"
+   "Saintpid__Wild-ccdec9a.fwsc"
   ]
  },
  "Spiralfractalplugins__spiralfm1": {
@@ -216,12 +216,12 @@
  },
  "charlesvestal__fm1-velocity": {
   "repo": "charlesvestal/fm1-velocity",
-  "commit": "8f62ce0d968c91ce8bfdafbb908f81d15351650a",
+  "commit": "260b97850eb5943fd187d3166fc547195de15190",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42471324093",
   "assets": [
-   "charlesvestal__fm1-velocity-8f62ce0.fwsc"
+   "charlesvestal__fm1-velocity-260b978.fwsc"
   ]
  },
  "cmlarsen__fm1-rocket-os": {
