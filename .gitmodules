@@ -48,10 +48,20 @@
 	url = https://github.com/AlexanderSeel/TheReFmB1rth.git
 	branch = main
 	shallow = true
+[submodule "firmwares/andiogenes/roland"]
+	path = firmwares/andiogenes/roland
+	url = https://github.com/andiogenes/roland.git
+	branch = ccr-6e70ba7d-sinu2i
+	shallow = true
 [submodule "firmwares/AndrewGG88/S1Vave"]
 	path = firmwares/AndrewGG88/S1Vave
 	url = https://github.com/AndrewGG88/S1Vave.git
 	branch = master
+	shallow = true
+[submodule "firmwares/animatek/FM1-Animatek"]
+	path = firmwares/animatek/FM1-Animatek
+	url = https://github.com/animatek/FM1-Animatek.git
+	branch = main
 	shallow = true
 [submodule "firmwares/anonymousacademe/FM-1-TripDeck"]
 	path = firmwares/anonymousacademe/FM-1-TripDeck
@@ -141,6 +151,11 @@
 [submodule "firmwares/capitanplaneta80-create/enjambre-fm1"]
 	path = firmwares/capitanplaneta80-create/enjambre-fm1
 	url = https://github.com/capitanplaneta80-create/enjambre-fm1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/capitanplaneta80-create/vegetal-fm1"]
+	path = firmwares/capitanplaneta80-create/vegetal-fm1
+	url = https://github.com/capitanplaneta80-create/vegetal-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/cartesive/fumi-1"]
@@ -331,6 +346,11 @@
 [submodule "firmwares/delirioux/makohai"]
 	path = firmwares/delirioux/makohai
 	url = https://github.com/delirioux/makohai.git
+	branch = main
+	shallow = true
+[submodule "firmwares/delirioux/sardine"]
+	path = firmwares/delirioux/sardine
+	url = https://github.com/delirioux/sardine.git
 	branch = main
 	shallow = true
 [submodule "firmwares/delirioux/sill"]
@@ -611,6 +631,11 @@
 [submodule "firmwares/gybe808-dotcom/FeluccaWavetableOdeathMod"]
 	path = firmwares/gybe808-dotcom/FeluccaWavetableOdeathMod
 	url = https://github.com/gybe808-dotcom/FeluccaWavetableOdeathMod.git
+	branch = main
+	shallow = true
+[submodule "firmwares/HanzVolt/form"]
+	path = firmwares/HanzVolt/form
+	url = https://github.com/HanzVolt/form.git
 	branch = main
 	shallow = true
 [submodule "firmwares/hericdk/fm1-quest"]
@@ -938,6 +963,11 @@
 	url = https://github.com/konsumer/lilfm1buddy.git
 	branch = main
 	shallow = true
+[submodule "firmwares/konsumer/mutantcloud"]
+	path = firmwares/konsumer/mutantcloud
+	url = https://github.com/konsumer/mutantcloud.git
+	branch = main
+	shallow = true
 [submodule "firmwares/KotMorderca/XMOD"]
 	path = firmwares/KotMorderca/XMOD
 	url = https://github.com/KotMorderca/XMOD.git
@@ -1178,6 +1208,11 @@
 	url = https://github.com/pbarilla/chipbox.git
 	branch = main
 	shallow = true
+[submodule "firmwares/pbarilla/drumlab"]
+	path = firmwares/pbarilla/drumlab
+	url = https://github.com/pbarilla/drumlab.git
+	branch = main
+	shallow = true
 [submodule "firmwares/pbarilla/smileyface"]
 	path = firmwares/pbarilla/smileyface
 	url = https://github.com/pbarilla/smileyface.git
@@ -1186,6 +1221,16 @@
 [submodule "firmwares/Philip-Bos/echofield-fm1"]
 	path = firmwares/Philip-Bos/echofield-fm1
 	url = https://github.com/Philip-Bos/echofield-fm1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/Philip-Bos/jamtrack-fm1"]
+	path = firmwares/Philip-Bos/jamtrack-fm1
+	url = https://github.com/Philip-Bos/jamtrack-fm1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/piotrwozniak/piterfly"]
+	path = firmwares/piotrwozniak/piterfly
+	url = https://github.com/piotrwozniak/piterfly.git
 	branch = main
 	shallow = true
 [submodule "firmwares/pjac1810/duodrone"]
@@ -1243,6 +1288,11 @@
 	url = https://github.com/Quixotic7/RemoteFM1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/RahelPuest/tonic-fm1"]
+	path = firmwares/RahelPuest/tonic-fm1
+	url = https://github.com/RahelPuest/tonic-fm1.git
+	branch = main
+	shallow = true
 [submodule "firmwares/Rastapopolix/tessera"]
 	path = firmwares/Rastapopolix/tessera
 	url = https://github.com/Rastapopolix/tessera.git
@@ -1271,11 +1321,6 @@
 [submodule "firmwares/Reytian/fm1-min1"]
 	path = firmwares/Reytian/fm1-min1
 	url = https://github.com/Reytian/fm1-min1.git
-	branch = main
-	shallow = true
-[submodule "firmwares/risseraka/fm1-tracker-ketch"]
-	path = firmwares/risseraka/fm1-tracker-ketch
-	url = https://github.com/risseraka/fm1-tracker-ketch.git
 	branch = main
 	shallow = true
 [submodule "firmwares/rosen-wav/more-chords-M-VAVE-FM-1-Custom-Firmware"]
