@@ -132,12 +132,12 @@
  },
  "Saintpid__Wild": {
   "repo": "Saintpid/Wild",
-  "commit": "ccdec9afc6ff66006396e40bbeff8b337701505e",
+  "commit": "11ea675a1cf00a216a29fc601336fb49a37ca3bf",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42471324093",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42609975568",
   "assets": [
-   "Saintpid__Wild-ccdec9a.fwsc"
+   "Saintpid__Wild-11ea675.fwsc"
   ]
  },
  "Spiralfractalplugins__spiralfm1": {
@@ -186,12 +186,12 @@
  },
  "Wulgaren__Araminta": {
   "repo": "Wulgaren/Araminta",
-  "commit": "c9a7830ac6ab7f4e49910e65d4012ca9069970dd",
+  "commit": "81281f04c4182247ccce3fb5ee31f81569c2d82b",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41623091081",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42609975568",
   "assets": [
-   "Wulgaren__Araminta-c9a7830.fwsc"
+   "Wulgaren__Araminta-81281f0.fwsc"
   ]
  },
  "anonymousacademe__FM-1-TripDeck": {
