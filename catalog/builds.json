@@ -132,12 +132,12 @@
  },
  "Saintpid__Wild": {
   "repo": "Saintpid/Wild",
-  "commit": "11ea675a1cf00a216a29fc601336fb49a37ca3bf",
+  "commit": "beb5800685e2212ee5975d9add8d87b46cb7b126",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42609975568",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42805735952",
   "assets": [
-   "Saintpid__Wild-11ea675.fwsc"
+   "Saintpid__Wild-beb5800.fwsc"
   ]
  },
  "Spiralfractalplugins__spiralfm1": {
