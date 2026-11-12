@@ -82,12 +82,12 @@
  },
  "MPASTEAU__FM-Stud1o-FM-1-Firmware": {
   "repo": "MPASTEAU/FM-Stud1o-FM-1-Firmware",
-  "commit": "555d1bcdf5ca17f7e9b195ef65a8403e7fd43c5b",
+  "commit": "f8bf89cbabb1117ccdb82c8d933cfad08d3378fc",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42206159740",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43207138213",
   "assets": [
-   "MPASTEAU__FM-Stud1o-FM-1-Firmware-555d1bc.fwsc"
+   "MPASTEAU__FM-Stud1o-FM-1-Firmware-f8bf89c.fwsc"
   ]
  },
  "Mystereon__FM1-DUB200": {
@@ -186,12 +186,12 @@
  },
  "Wulgaren__Araminta": {
   "repo": "Wulgaren/Araminta",
-  "commit": "e86b39683f171c16442307a3d625429e23df8bfb",
+  "commit": "fae4b03b21cc2f6122888577fabd66ac2411daf8",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43008167936",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43207138213",
   "assets": [
-   "Wulgaren__Araminta-e86b396.fwsc"
+   "Wulgaren__Araminta-fae4b03.fwsc"
   ]
  },
  "anonymousacademe__FM-1-TripDeck": {
@@ -202,6 +202,16 @@
   "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39464926950",
   "assets": [
    "anonymousacademe__FM-1-TripDeck-a977f53.fwsc"
+  ]
+ },
+ "aviron3__fm-1": {
+  "repo": "aviron3/fm-1",
+  "commit": "48df096e1050a32fb277b46779050b73cc57b03e",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43207138213",
+  "assets": [
+   "aviron3__fm-1-48df096.fwsc"
   ]
  },
  "briwil__Felucca": {
@@ -349,6 +359,16 @@
   "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40295856591",
   "assets": [
    "fantasmoslam__dinobox-fm1-752dfa6.fwsc"
+  ]
+ },
+ "futumixxx__universynth-fm1": {
+  "repo": "futumixxx/universynth-fm1",
+  "commit": "b373b4df1627b04022d2fd363d5cc4144f625735",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43207138213",
+  "assets": [
+   "futumixxx__universynth-fm1-b373b4d.fwsc"
   ]
  },
  "gaumondp__patricktronics": {
