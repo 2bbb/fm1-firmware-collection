@@ -82,12 +82,12 @@
  },
  "MPASTEAU__FM-Stud1o-FM-1-Firmware": {
   "repo": "MPASTEAU/FM-Stud1o-FM-1-Firmware",
-  "commit": "f8bf89cbabb1117ccdb82c8d933cfad08d3378fc",
+  "commit": "4659e4037060bf65447d95d537d91e60f2d00b82",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43207138213",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43413543574",
   "assets": [
-   "MPASTEAU__FM-Stud1o-FM-1-Firmware-f8bf89c.fwsc"
+   "MPASTEAU__FM-Stud1o-FM-1-Firmware-4659e40.fwsc"
   ]
  },
  "Mystereon__FM1-DUB200": {
@@ -186,12 +186,12 @@
  },
  "Wulgaren__Araminta": {
   "repo": "Wulgaren/Araminta",
-  "commit": "fae4b03b21cc2f6122888577fabd66ac2411daf8",
+  "commit": "398addeaaadb811ed6b7801d6c00ace960ff5597",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43207138213",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43413543574",
   "assets": [
-   "Wulgaren__Araminta-fae4b03.fwsc"
+   "Wulgaren__Araminta-398adde.fwsc"
   ]
  },
  "anonymousacademe__FM-1-TripDeck": {
@@ -433,6 +433,16 @@
   "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40477670585",
   "assets": [
    "jukejutsu__FM2000-10787e1.fwsc"
+  ]
+ },
+ "marwanfarha__dubengine": {
+  "repo": "marwanfarha/dubengine",
+  "commit": "d4e0e8ab8a7d088f8ca38f22914b78eb6f7313d9",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43413543574",
+  "assets": [
+   "marwanfarha__dubengine-d4e0e8a.fwsc"
   ]
  },
  "monch1962__mvave-fm1-mpe": {
