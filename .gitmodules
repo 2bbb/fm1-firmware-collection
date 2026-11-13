@@ -73,11 +73,6 @@
 	url = https://github.com/altessproduction/sloop-dub-fm1.git
 	branch = main
 	shallow = true
-[submodule "firmwares/amacias/octo-vave"]
-	path = firmwares/amacias/octo-vave
-	url = https://github.com/amacias/octo-vave.git
-	branch = main
-	shallow = true
 [submodule "firmwares/andiogenes/roland"]
 	path = firmwares/andiogenes/roland
 	url = https://github.com/andiogenes/roland.git
@@ -336,11 +331,6 @@
 [submodule "firmwares/cotrino/fm1-betis-mode"]
 	path = firmwares/cotrino/fm1-betis-mode
 	url = https://github.com/cotrino/fm1-betis-mode.git
-	branch = main
-	shallow = true
-[submodule "firmwares/cotrino/fm1-cofrade"]
-	path = firmwares/cotrino/fm1-cofrade
-	url = https://github.com/cotrino/fm1-cofrade.git
 	branch = main
 	shallow = true
 [submodule "firmwares/criapix/fm1droid"]
@@ -1173,6 +1163,11 @@
 	url = https://github.com/markterm/monohull.git
 	branch = main
 	shallow = true
+[submodule "firmwares/marwanfarha/dubengine"]
+	path = firmwares/marwanfarha/dubengine
+	url = https://github.com/marwanfarha/dubengine.git
+	branch = main
+	shallow = true
 [submodule "firmwares/math0ne/fm1-chord"]
 	path = firmwares/math0ne/fm1-chord
 	url = https://github.com/math0ne/fm1-chord.git
@@ -1311,11 +1306,6 @@
 [submodule "firmwares/Ninjathune-Human/Fm1"]
 	path = firmwares/Ninjathune-Human/Fm1
 	url = https://github.com/Ninjathune-Human/Fm1.git
-	branch = main
-	shallow = true
-[submodule "firmwares/NjamesZ/nja-tack-fm1"]
-	path = firmwares/NjamesZ/nja-tack-fm1
-	url = https://github.com/NjamesZ/nja-tack-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/NOVALENTI/fm1-polyseq"]
