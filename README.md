@@ -42,3 +42,5 @@ GITHUB_TOKEN=$(gh auth token) python3 scripts/catalog.py --update-submodules
 
 The scripts and workflows in this repository: MIT ([LICENSE](LICENSE)). Each firmware keeps its own license;
 see the catalog and each submodule.
+
+Related: try FM-1 firmwares in the browser with the free community [FM-1 Emulator](https://fm1-emulator.atst.tools/).
