@@ -186,12 +186,12 @@
  },
  "Wulgaren__Araminta": {
   "repo": "Wulgaren/Araminta",
-  "commit": "398addeaaadb811ed6b7801d6c00ace960ff5597",
+  "commit": "4af664b9a9b0cd85c13d6786db98d84be25a2764",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43413543574",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43585398358",
   "assets": [
-   "Wulgaren__Araminta-398adde.fwsc"
+   "Wulgaren__Araminta-4af664b.fwsc"
   ]
  },
  "anonymousacademe__FM-1-TripDeck": {
@@ -487,13 +487,13 @@
  },
  "ruppert__organvave-1": {
   "repo": "ruppert/organvave-1",
-  "commit": "d251b579019636bec116a93a0526bfb492110350",
+  "commit": "8c97fbf9005040c34afd8062aa78710e7b02f445",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43008167936",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43585398358",
   "assets": [
-   "ruppert__organvave-1-d251b57-1.fwsc",
-   "ruppert__organvave-1-d251b57-2.fwsc"
+   "ruppert__organvave-1-8c97fbf-1.fwsc",
+   "ruppert__organvave-1-8c97fbf-2.fwsc"
   ]
  },
  "sirpearson__fm-1-monomachine": {
