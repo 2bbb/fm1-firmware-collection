@@ -71,7 +71,7 @@
   "commit": "1fbabe1bc3323ba482a88206ce08c155ca2d59ce",
   "status": "failure",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43710252904"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43711318413"
  },
  "Gadlele__Pelucco": {
   "repo": "Gadlele/Pelucco",
@@ -116,9 +116,12 @@
  "Joolo09__noct-fm": {
   "repo": "Joolo09/noct-fm",
   "commit": "75ea10f7ad92730c3f64ed8cf0b17b6a627207bd",
-  "status": "failure",
+  "status": "success",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43710252904"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43711318413",
+  "assets": [
+   "Joolo09__noct-fm-75ea10f.fwsc"
+  ]
  },
  "JulesMarecaille__mrc-synth": {
   "repo": "JulesMarecaille/mrc-synth",
