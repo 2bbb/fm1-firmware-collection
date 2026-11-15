@@ -54,7 +54,8 @@
     "kkeril/mr-roboto-nauclerus": "none",
     "tahanimator/hortator_performer": "none",
     "tedbdd-ai/hortatorsw": "none",
-    "zentreq/fntsmg": "cmd:cd vendor/Felucca && sh ./build.sh"
+    "zentreq/fntsmg": "cmd:cd vendor/Felucca && sh ./build.sh",
+    "snpwball/fm1-neverhood": "none"
   },
   "include": [],
   "prepare": {
@@ -65,6 +66,7 @@
     "mood92/mainmenu-fm-sync": "author builds no package (DRUM_PACKAGE=1 writes an UNTESTED one, not to be installed)",
     "kkeril/mr-roboto-nauclerus": "author builds no package (DRUM_PACKAGE=1 writes an UNTESTED one, not to be installed)",
     "tahanimator/hortator_performer": "author builds no package (DRUM_PACKAGE=1 writes an UNTESTED one, not to be installed)",
-    "tedbdd-ai/hortatorsw": "author builds no package (DRUM_PACKAGE=1 writes an UNTESTED one, not to be installed)"
+    "tedbdd-ai/hortatorsw": "author builds no package (DRUM_PACKAGE=1 writes an UNTESTED one, not to be installed)",
+    "snpwball/fm1-neverhood": "its build extracts and embeds The Neverhood's original game assets (setup-audio.sh): not redistributed here"
   }
 }
