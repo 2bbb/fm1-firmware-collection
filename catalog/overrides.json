@@ -32,7 +32,10 @@
     "jvitkauskas/fm1-backup": "flash dump of the stock firmware",
     "lexlongcoding/ghoulbox-vst3": "VST plug-in",
     "keitark/fm1-nes": "SDK integration resources",
-    "2bbb/fm1-firmware-collection": "this collection"
+    "2bbb/fm1-firmware-collection": "this collection",
+    "dspaudio/orbit-web-emu": "browser emulator",
+    "sabliran/sloop-web-emu": "browser emulator",
+    "camillogf/voice-from-jiant-for-vcv": "VCV Rack plug-in"
   },
   "license": {
     "miketsak/evanders-music-box--fm-1-larp-firmware": "GPL-3.0",
@@ -45,10 +48,23 @@
     "johnskiller/fm1-ctrl": "none",
     "y6zkcqnf5r-hue/fm1-trawler": "none",
     "darkhelmet67/fm1-insert-coin": "cmd:python3 tools/build.py",
-    "fantasmogenesis/fntsmg-1": "cmd:cd vendor/Felucca && sh ./build.sh"
+    "fantasmogenesis/fntsmg-1": "cmd:cd vendor/Felucca && sh ./build.sh",
+    "davidpryan/hortator-loom": "none",
+    "mood92/mainmenu-fm-sync": "none",
+    "kkeril/mr-roboto-nauclerus": "none",
+    "tahanimator/hortator_performer": "none",
+    "tedbdd-ai/hortatorsw": "none",
+    "zentreq/fntsmg": "cmd:cd vendor/Felucca && sh ./build.sh"
   },
   "include": [],
   "prepare": {
     "zvenson/fm1doom": "for z in freedm-0.13.0 freedoom-0.13.0; do curl -fsSL -o $z.zip https://github.com/freedoom/freedoom/releases/download/v0.13.0/$z.zip && unzip -q -o $z.zip && rm $z.zip; done"
+  },
+  "notes": {
+    "davidpryan/hortator-loom": "author builds no package (DRUM_PACKAGE=1 writes an UNTESTED one, not to be installed)",
+    "mood92/mainmenu-fm-sync": "author builds no package (DRUM_PACKAGE=1 writes an UNTESTED one, not to be installed)",
+    "kkeril/mr-roboto-nauclerus": "author builds no package (DRUM_PACKAGE=1 writes an UNTESTED one, not to be installed)",
+    "tahanimator/hortator_performer": "author builds no package (DRUM_PACKAGE=1 writes an UNTESTED one, not to be installed)",
+    "tedbdd-ai/hortatorsw": "author builds no package (DRUM_PACKAGE=1 writes an UNTESTED one, not to be installed)"
   }
 }

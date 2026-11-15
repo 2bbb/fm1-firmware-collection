@@ -408,11 +408,6 @@
 	url = https://github.com/CallieSchmallie/Beetroot-tempura.git
 	branch = main
 	shallow = true
-[submodule "firmwares/CamilloGF/Voice-from-Jiant-for-Vcv"]
-	path = firmwares/CamilloGF/Voice-from-Jiant-for-Vcv
-	url = https://github.com/CamilloGF/Voice-from-Jiant-for-Vcv.git
-	branch = main
-	shallow = true
 [submodule "firmwares/capitanplaneta80-create/AAAVEGETAL"]
 	path = firmwares/capitanplaneta80-create/AAAVEGETAL
 	url = https://github.com/capitanplaneta80-create/AAAVEGETAL.git
@@ -943,11 +938,6 @@
 	url = https://github.com/dspaudio/orbit.git
 	branch = main
 	shallow = true
-[submodule "firmwares/dspaudio/orbit-web-emu"]
-	path = firmwares/dspaudio/orbit-web-emu
-	url = https://github.com/dspaudio/orbit-web-emu.git
-	branch = main
-	shallow = true
 [submodule "firmwares/duncanwadsworth/fmini-1"]
 	path = firmwares/duncanwadsworth/fmini-1
 	url = https://github.com/duncanwadsworth/fmini-1.git
@@ -1116,6 +1106,11 @@
 [submodule "firmwares/evanyerburgh/niagara-drift"]
 	path = firmwares/evanyerburgh/niagara-drift
 	url = https://github.com/evanyerburgh/niagara-drift.git
+	branch = main
+	shallow = true
+[submodule "firmwares/executive-time/no-kisses-just-hisses"]
+	path = firmwares/executive-time/no-kisses-just-hisses
+	url = https://github.com/executive-time/no-kisses-just-hisses.git
 	branch = main
 	shallow = true
 [submodule "firmwares/F0nski/quartz"]
@@ -1618,19 +1613,19 @@
 	url = https://github.com/jasonpersinger/ghoulbox-fm1-dungeon-synth.git
 	branch = ghoulbox
 	shallow = true
-[submodule "firmwares/JazzyRhythmer/jazzy"]
-	path = firmwares/JazzyRhythmer/jazzy
-	url = https://github.com/JazzyRhythmer/jazzy.git
+[submodule "firmwares/jazzyrhythmer/jazzy"]
+	path = firmwares/jazzyrhythmer/jazzy
+	url = https://github.com/jazzyrhythmer/jazzy.git
 	branch = main
 	shallow = true
-[submodule "firmwares/JazzyRhythmer/JazzyRhythmer"]
-	path = firmwares/JazzyRhythmer/JazzyRhythmer
-	url = https://github.com/JazzyRhythmer/JazzyRhythmer.git
+[submodule "firmwares/jazzyrhythmer/jazzyrhythmer"]
+	path = firmwares/jazzyrhythmer/jazzyrhythmer
+	url = https://github.com/jazzyrhythmer/jazzyrhythmer.git
 	branch = main
 	shallow = true
-[submodule "firmwares/JazzyRhythmer/rhythmer"]
-	path = firmwares/JazzyRhythmer/rhythmer
-	url = https://github.com/JazzyRhythmer/rhythmer.git
+[submodule "firmwares/jazzyrhythmer/rhythmer"]
+	path = firmwares/jazzyrhythmer/rhythmer
+	url = https://github.com/jazzyrhythmer/rhythmer.git
 	branch = main
 	shallow = true
 [submodule "firmwares/JB-Interactive/Felucca-Meow"]
@@ -2901,11 +2896,6 @@
 [submodule "firmwares/s0fx2/YamahaDX7_to_FM-1"]
 	path = firmwares/s0fx2/YamahaDX7_to_FM-1
 	url = https://github.com/s0fx2/YamahaDX7_to_FM-1.git
-	branch = main
-	shallow = true
-[submodule "firmwares/sabliran/sloop-web-emu"]
-	path = firmwares/sabliran/sloop-web-emu
-	url = https://github.com/sabliran/sloop-web-emu.git
 	branch = main
 	shallow = true
 [submodule "firmwares/saboraldea/cumbia"]

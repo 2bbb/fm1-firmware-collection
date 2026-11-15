@@ -3103,7 +3103,8 @@
    "url": "https://github.com/briwil/Felucca",
    "description": "Custom firmware for M-VAVE FM-1",
    "sources": [
-    "aroum"
+    "aroum",
+    "search-fork"
    ],
    "hub": null,
    "license": "GPL-3.0",
@@ -3405,35 +3406,6 @@
    "needs_ci_build": false,
    "buildable": false,
    "path": "firmwares/CallieSchmallie/Beetroot-tempura",
-   "status": "ok"
-  },
-  {
-   "id": "CamilloGF__Voice-from-Jiant-for-Vcv",
-   "repo": "CamilloGF/Voice-from-Jiant-for-Vcv",
-   "url": "https://github.com/CamilloGF/Voice-from-Jiant-for-Vcv",
-   "description": "The voice engine out of the fm1 jiant firmware as a vcv rack module ",
-   "sources": [
-    "search"
-   ],
-   "hub": null,
-   "license": "GPL-3.0",
-   "redistributable": true,
-   "fork_of": null,
-   "archived": false,
-   "stars": 1,
-   "pushed": "2026-11-05T10:18:23Z",
-   "branch": "main",
-   "head": "fa1ca3cc29164d4d548e0ef1e4a705efdd78e694",
-   "has_submodules": false,
-   "auto_recipe": "make",
-   "recipe": "make",
-   "prepare": null,
-   "upstream_releases": [],
-   "tree_fwsc": [],
-   "has_build": false,
-   "needs_ci_build": true,
-   "buildable": true,
-   "path": "firmwares/CamilloGF/Voice-from-Jiant-for-Vcv",
    "status": "ok"
   },
   {
@@ -4028,7 +4000,8 @@
    "description": "Custom firmware for M-VAVE FM-1",
    "sources": [
     "hub",
-    "aroum"
+    "aroum",
+    "search-fork"
    ],
    "hub": {
     "id": "salt",
@@ -6195,13 +6168,13 @@
    "head": "54b31e73a308aceb939f17750fc3fcc0a66bcf5a",
    "has_submodules": false,
    "auto_recipe": "felucca",
-   "recipe": "felucca",
+   "recipe": "none",
    "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
-   "needs_ci_build": true,
-   "buildable": true,
+   "needs_ci_build": false,
+   "buildable": false,
    "path": "firmwares/davidpryan/hortator-loom",
    "status": "ok"
   },
@@ -7905,7 +7878,7 @@
    "fork_of": null,
    "archived": false,
    "stars": 9,
-   "pushed": "2026-11-15T11:17:07Z",
+   "pushed": "2026-11-15T11:36:52Z",
    "branch": "main",
    "head": "dba1c87332004dde73b91ae919b50bef9411b56c",
    "has_submodules": true,
@@ -8075,35 +8048,6 @@
    "needs_ci_build": false,
    "buildable": true,
    "path": "firmwares/dspaudio/orbit",
-   "status": "ok"
-  },
-  {
-   "id": "dspaudio__orbit-web-emu",
-   "repo": "dspaudio/orbit-web-emu",
-   "url": "https://github.com/dspaudio/orbit-web-emu",
-   "description": "ORBIT 1.0.1B FM-1 groovebox sound emulator: the current Bluetooth firmware C engine in WebAssembly. Radio and phone audio are not emulated.",
-   "sources": [
-    "search-fork"
-   ],
-   "hub": null,
-   "license": "GPL-3.0",
-   "redistributable": true,
-   "fork_of": "sabliran/sloop-web-emu",
-   "archived": false,
-   "stars": 0,
-   "pushed": "2026-11-04T11:46:04Z",
-   "branch": "main",
-   "head": "b955a37b4372c341e6e8946bcd147b7000b7c886",
-   "has_submodules": false,
-   "auto_recipe": "build-sh",
-   "recipe": "build-sh",
-   "prepare": null,
-   "upstream_releases": [],
-   "tree_fwsc": [],
-   "has_build": false,
-   "needs_ci_build": true,
-   "buildable": true,
-   "path": "firmwares/dspaudio/orbit-web-emu",
    "status": "ok"
   },
   {
@@ -8724,14 +8668,22 @@
    "fork_of": "zvenson/dinghy",
    "archived": false,
    "stars": 2,
-   "pushed": "2026-11-14T23:53:06Z",
+   "pushed": "2026-11-15T11:25:37Z",
    "branch": "main",
-   "head": "741e55a3a9702ef059cb1357631769f071df02a3",
+   "head": "0a1ef67d2ec60f19e0f568473b2caa9c13b29a39",
    "has_submodules": true,
    "auto_recipe": "build-sh",
    "recipe": "build-sh",
    "prepare": null,
    "upstream_releases": [
+    {
+     "tag": "v0.4.2",
+     "name": "fmlarynx-0.4.2.fwsc",
+     "url": "https://github.com/ejtb76/FMLarynx/releases/download/v0.4.2/fmlarynx-0.4.2.fwsc",
+     "size": 614938,
+     "prerelease": false,
+     "published": "2026-11-15T11:29:14Z"
+    },
     {
      "tag": "v0.4.1",
      "name": "fmlarynx-0.4.1.fwsc",
@@ -8747,14 +8699,6 @@
      "size": 614938,
      "prerelease": false,
      "published": "2026-11-14T22:53:33Z"
-    },
-    {
-     "tag": "v0.1.1",
-     "name": "fmlarynx-0.1.1.fwsc",
-     "url": "https://github.com/ejtb76/FMLarynx/releases/download/v0.1.1/fmlarynx-0.1.1.fwsc",
-     "size": 610110,
-     "prerelease": false,
-     "published": "2026-10-30T08:17:09Z"
     }
    ],
    "tree_fwsc": [],
@@ -9709,6 +9653,37 @@
    "status": "ok"
   },
   {
+   "id": "executive-time__no-kisses-just-hisses",
+   "repo": "executive-time/no-kisses-just-hisses",
+   "url": "https://github.com/executive-time/no-kisses-just-hisses",
+   "description": "A live groovebox firmware for the M-VAVE FM-1",
+   "sources": [
+    "search-fork"
+   ],
+   "hub": null,
+   "license": "GPL-3.0",
+   "redistributable": true,
+   "fork_of": "isod89/sloop-fm1",
+   "archived": false,
+   "stars": 0,
+   "pushed": "2026-11-04T02:36:41Z",
+   "branch": "main",
+   "head": "bac9c05ea7627449405aa10e48da21d75b6c8c56",
+   "has_submodules": false,
+   "auto_recipe": "felucca",
+   "recipe": "felucca",
+   "prepare": null,
+   "upstream_releases": [],
+   "tree_fwsc": [
+    "docs/firmware/sloop-2.8.5.fwsc"
+   ],
+   "has_build": true,
+   "needs_ci_build": false,
+   "buildable": true,
+   "path": "firmwares/executive-time/no-kisses-just-hisses",
+   "status": "ok"
+  },
+  {
    "id": "F0nski__quartz",
    "repo": "F0nski/quartz",
    "url": "https://github.com/F0nski/quartz",
@@ -9752,7 +9727,8 @@
    "url": "https://github.com/fabiomassimopasquazzi/dinghy",
    "description": "The smallest firmware for the M-VAVE FM-1 to build your own on: the plumbing done and documented (updates, USB rescue, USB-MIDI, USB audio, panel, screen, settings), a sine on top.",
    "sources": [
-    "aroum"
+    "aroum",
+    "search-fork"
    ],
    "hub": null,
    "license": "GPL-3.0",
@@ -13736,7 +13712,7 @@
    "redistributable": true,
    "fork_of": null,
    "archived": false,
-   "stars": 806,
+   "stars": 807,
    "pushed": "2026-11-04T02:36:41Z",
    "branch": "main",
    "head": "bac9c05ea7627449405aa10e48da21d75b6c8c56",
@@ -14293,9 +14269,9 @@
    "status": "ok"
   },
   {
-   "id": "JazzyRhythmer__jazzy",
-   "repo": "JazzyRhythmer/jazzy",
-   "url": "https://github.com/JazzyRhythmer/jazzy",
+   "id": "jazzyrhythmer__jazzy",
+   "repo": "jazzyrhythmer/jazzy",
+   "url": "https://github.com/jazzyrhythmer/jazzy",
    "description": "Explore the unheard. Open-source FM-1 firmware with 31 synth, drum and Break engines, over 1,200 factory sounds, and one sound per track.",
    "sources": [
     "search"
@@ -14306,9 +14282,9 @@
    "fork_of": null,
    "archived": false,
    "stars": 5,
-   "pushed": "2026-11-15T11:19:40Z",
+   "pushed": "2026-11-15T11:38:06Z",
    "branch": "main",
-   "head": "56dd424efc65a9bff18a1e6b834ec283ceac4a01",
+   "head": "c20cef9da19074efe352dc167a7ab672b3545f63",
    "has_submodules": false,
    "auto_recipe": "none",
    "recipe": "none",
@@ -14317,7 +14293,7 @@
     {
      "tag": "v0.1.0-beta.1",
      "name": "JAZZY-0.1.0-beta.1.fwsc",
-     "url": "https://github.com/JazzyRhythmer/jazzy/releases/download/v0.1.0-beta.1/JAZZY-0.1.0-beta.1.fwsc",
+     "url": "https://github.com/jazzyrhythmer/jazzy/releases/download/v0.1.0-beta.1/JAZZY-0.1.0-beta.1.fwsc",
      "size": 909949,
      "prerelease": true,
      "published": "2026-11-09T01:51:17Z"
@@ -14327,13 +14303,13 @@
    "has_build": true,
    "needs_ci_build": false,
    "buildable": false,
-   "path": "firmwares/JazzyRhythmer/jazzy",
+   "path": "firmwares/jazzyrhythmer/jazzy",
    "status": "ok"
   },
   {
-   "id": "JazzyRhythmer__JazzyRhythmer",
-   "repo": "JazzyRhythmer/JazzyRhythmer",
-   "url": "https://github.com/JazzyRhythmer/JazzyRhythmer",
+   "id": "jazzyrhythmer__jazzyrhythmer",
+   "repo": "jazzyrhythmer/jazzyrhythmer",
+   "url": "https://github.com/jazzyrhythmer/jazzyrhythmer",
    "description": "Jazzy Rhythmer — music, JR Audio Software previews, and open-source firmware for FM-1 and MPC Sample.",
    "sources": [
     "search"
@@ -14344,9 +14320,9 @@
    "fork_of": null,
    "archived": false,
    "stars": 0,
-   "pushed": "2026-11-15T10:59:55Z",
+   "pushed": "2026-11-15T11:41:40Z",
    "branch": "main",
-   "head": "ff14936ba4df8355d787fdd0ae1a9dacb47e472b",
+   "head": "d03fd04e4a927445ddd12326fd1fa3ebef00ffde",
    "has_submodules": false,
    "auto_recipe": "none",
    "recipe": "none",
@@ -14356,13 +14332,13 @@
    "has_build": false,
    "needs_ci_build": false,
    "buildable": false,
-   "path": "firmwares/JazzyRhythmer/JazzyRhythmer",
+   "path": "firmwares/jazzyrhythmer/jazzyrhythmer",
    "status": "ok"
   },
   {
-   "id": "JazzyRhythmer__rhythmer",
-   "repo": "JazzyRhythmer/rhythmer",
-   "url": "https://github.com/JazzyRhythmer/rhythmer",
+   "id": "jazzyrhythmer__rhythmer",
+   "repo": "jazzyrhythmer/rhythmer",
+   "url": "https://github.com/jazzyrhythmer/rhythmer",
    "description": "Sound into motion. An open-source FM-1 groovebox for building patterns, swapping drum sounds and performing break chops. Built on JIANT.",
    "sources": [
     "hub",
@@ -14384,9 +14360,9 @@
    "fork_of": null,
    "archived": false,
    "stars": 14,
-   "pushed": "2026-11-15T11:19:45Z",
+   "pushed": "2026-11-15T11:38:25Z",
    "branch": "main",
-   "head": "7d518c1e027be32ce9e8029c2d8c51dacc9c86d5",
+   "head": "497cac70fb34cc3fee6258377e6fcc0b93bfb83e",
    "has_submodules": false,
    "auto_recipe": "build-sh",
    "recipe": "build-sh",
@@ -14395,7 +14371,7 @@
     {
      "tag": "v0.1.2-dev1",
      "name": "Rhythmer.fwsc",
-     "url": "https://github.com/JazzyRhythmer/rhythmer/releases/download/v0.1.2-dev1/Rhythmer.fwsc",
+     "url": "https://github.com/jazzyrhythmer/rhythmer/releases/download/v0.1.2-dev1/Rhythmer.fwsc",
      "size": 828061,
      "prerelease": true,
      "published": "2026-11-09T10:47:58Z"
@@ -14403,7 +14379,7 @@
     {
      "tag": "v0.1.1-beta3",
      "name": "Rhythmer-v0.1.1-beta3.fwsc",
-     "url": "https://github.com/JazzyRhythmer/rhythmer/releases/download/v0.1.1-beta3/Rhythmer-v0.1.1-beta3.fwsc",
+     "url": "https://github.com/jazzyrhythmer/rhythmer/releases/download/v0.1.1-beta3/Rhythmer-v0.1.1-beta3.fwsc",
      "size": 828061,
      "prerelease": true,
      "published": "2026-11-07T12:07:11Z"
@@ -14411,7 +14387,7 @@
     {
      "tag": "v0.1.1-beta3-build.20261108.2",
      "name": "Rhythmer-v0.1.1-beta3.fwsc",
-     "url": "https://github.com/JazzyRhythmer/rhythmer/releases/download/v0.1.1-beta3-build.20261108.2/Rhythmer-v0.1.1-beta3.fwsc",
+     "url": "https://github.com/jazzyrhythmer/rhythmer/releases/download/v0.1.1-beta3-build.20261108.2/Rhythmer-v0.1.1-beta3.fwsc",
      "size": 828061,
      "prerelease": true,
      "published": "2026-11-07T15:51:24Z"
@@ -14425,7 +14401,7 @@
    "has_build": true,
    "needs_ci_build": false,
    "buildable": true,
-   "path": "firmwares/JazzyRhythmer/rhythmer",
+   "path": "firmwares/jazzyrhythmer/rhythmer",
    "status": "ok"
   },
   {
@@ -15735,9 +15711,9 @@
    "fork_of": "hugelton/Felucca",
    "archived": false,
    "stars": 251,
-   "pushed": "2026-11-15T11:20:50Z",
+   "pushed": "2026-11-15T11:35:58Z",
    "branch": "main",
-   "head": "2e6a78253cf6cf31395a310459e0ed692ea49324",
+   "head": "667696cfc17c6f3bbf889e5894ec9d8990d82577",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
@@ -16680,7 +16656,7 @@
    "fork_of": null,
    "archived": false,
    "stars": 27,
-   "pushed": "2026-11-14T18:59:06Z",
+   "pushed": "2026-11-15T11:27:45Z",
    "branch": "main",
    "head": "05a80871feb796cceb9cc4eb701da3381daacfb8",
    "has_submodules": false,
@@ -16964,13 +16940,13 @@
    "head": "44c9ad4aa57bebf63f412bd552e57143c30b4065",
    "has_submodules": false,
    "auto_recipe": "felucca",
-   "recipe": "felucca",
+   "recipe": "none",
    "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
-   "needs_ci_build": true,
-   "buildable": true,
+   "needs_ci_build": false,
+   "buildable": false,
    "path": "firmwares/kkeril/Mr-Roboto-nauclerus",
    "status": "ok"
   },
@@ -17544,7 +17520,8 @@
    "url": "https://github.com/Leeman1982/sloop-fm1",
    "description": "A live groovebox firmware for the M-VAVE FM-1",
    "sources": [
-    "aroum"
+    "aroum",
+    "search-fork"
    ],
    "hub": null,
    "license": "GPL-3.0",
@@ -18123,7 +18100,8 @@
    "description": "A live groovebox firmware for the M-VAVE FM-1",
    "sources": [
     "hub",
-    "aroum"
+    "aroum",
+    "search-fork"
    ],
    "hub": {
     "id": "sloopbanks",
@@ -19992,13 +19970,13 @@
    "head": "44c9ad4aa57bebf63f412bd552e57143c30b4065",
    "has_submodules": false,
    "auto_recipe": "felucca",
-   "recipe": "felucca",
+   "recipe": "none",
    "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
-   "needs_ci_build": true,
-   "buildable": true,
+   "needs_ci_build": false,
+   "buildable": false,
    "path": "firmwares/mood92/mainmenu-fm-sync",
    "status": "ok"
   },
@@ -23484,9 +23462,9 @@
    "fork_of": null,
    "archived": false,
    "stars": 1,
-   "pushed": "2026-11-15T11:03:11Z",
+   "pushed": "2026-11-15T11:32:52Z",
    "branch": "main",
-   "head": "6ac3d39384645575d5000b3828011e6baa4d6166",
+   "head": "85efcba8975d05992ab1679070f6d7597b63d30f",
    "has_submodules": false,
    "auto_recipe": "felucca",
    "recipe": "felucca",
@@ -24694,7 +24672,8 @@
    "description": "A live groovebox firmware for the M-VAVE FM-1",
    "sources": [
     "hub",
-    "aroum"
+    "aroum",
+    "search-fork"
    ],
    "hub": {
     "id": "floyd",
@@ -25416,35 +25395,6 @@
    "needs_ci_build": false,
    "buildable": false,
    "path": "firmwares/s0fx2/YamahaDX7_to_FM-1",
-   "status": "ok"
-  },
-  {
-   "id": "sabliran__sloop-web-emu",
-   "repo": "sabliran/sloop-web-emu",
-   "url": "https://github.com/sabliran/sloop-web-emu",
-   "description": "SLOOP groovebox firmware (M-VAVE FM-1) running in the browser — real firmware compiled to WebAssembly",
-   "sources": [
-    "search"
-   ],
-   "hub": null,
-   "license": "GPL-3.0",
-   "redistributable": true,
-   "fork_of": null,
-   "archived": false,
-   "stars": 1,
-   "pushed": "2026-10-07T12:54:30Z",
-   "branch": "main",
-   "head": "bbfd8e5b3bfc452520f61afb0d94e2fdfe93fd9d",
-   "has_submodules": false,
-   "auto_recipe": "build-sh",
-   "recipe": "build-sh",
-   "prepare": null,
-   "upstream_releases": [],
-   "tree_fwsc": [],
-   "has_build": false,
-   "needs_ci_build": true,
-   "buildable": true,
-   "path": "firmwares/sabliran/sloop-web-emu",
    "status": "ok"
   },
   {
@@ -28149,13 +28099,13 @@
    "head": "b260bd8b009b9a220c4a9fc5cedf4dfa35cb368b",
    "has_submodules": false,
    "auto_recipe": "felucca",
-   "recipe": "felucca",
+   "recipe": "none",
    "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
-   "needs_ci_build": true,
-   "buildable": true,
+   "needs_ci_build": false,
+   "buildable": false,
    "path": "firmwares/tahanimator/hortator_performer",
    "status": "ok"
   },
@@ -28207,13 +28157,13 @@
    "head": "44c9ad4aa57bebf63f412bd552e57143c30b4065",
    "has_submodules": false,
    "auto_recipe": "felucca",
-   "recipe": "felucca",
+   "recipe": "none",
    "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
    "has_build": false,
-   "needs_ci_build": true,
-   "buildable": true,
+   "needs_ci_build": false,
+   "buildable": false,
    "path": "firmwares/tedbdd-ai/hortatorsw",
    "status": "ok"
   },
@@ -31322,7 +31272,7 @@
    "head": "8f1420718f275cc92ac384a62373221b9237c7ca",
    "has_submodules": true,
    "auto_recipe": "felucca-sub",
-   "recipe": "felucca-sub",
+   "recipe": "cmd:cd vendor/Felucca && sh ./build.sh",
    "prepare": null,
    "upstream_releases": [],
    "tree_fwsc": [],
@@ -31948,11 +31898,13 @@
   "al-255/fm-1-re",
   "aroum/fm1-custom-fw",
   "bratta/fm1-manager",
+  "camillogf/voice-from-jiant-for-vcv",
   "charlesvestal/fm1-reader",
   "cicloid/awesome-fm-1",
   "czietz/fm1-firmware-patcher",
   "discodave-glitch/slipway",
   "doofywilsons-rgb/tall-horse-firmware-hub-website",
+  "dspaudio/orbit-web-emu",
   "genkigenki/erik37",
   "genkigenki/fm1-to-smk37",
   "hunterxiong2026/fm1-felucca-editor-2026",
@@ -31968,6 +31920,7 @@
   "ocean/fm-switch",
   "ocean/fm1kit",
   "quixotic7/fm1vst",
+  "sabliran/sloop-web-emu",
   "simonjohansson/fm1-emulator",
   "smememe/fm1-macropad-patch",
   "spinkham/felucca-try",
