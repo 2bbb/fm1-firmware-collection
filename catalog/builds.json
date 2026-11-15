@@ -29,9 +29,12 @@
  "DarkHelmet67__fm1-insert-coin": {
   "repo": "DarkHelmet67/fm1-insert-coin",
   "commit": "9c8f0589194479f7a5ea8276332c6d096e0ee5b1",
-  "status": "failure",
-  "recipe": "make",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40295856591"
+  "status": "success",
+  "recipe": "cmd:python3 tools/build.py",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708676036",
+  "assets": [
+   "DarkHelmet67__fm1-insert-coin-9c8f058.fwsc"
+  ]
  },
  "DeadActive__FMDj": {
   "repo": "DeadActive/FMDj",
@@ -68,7 +71,7 @@
   "commit": "1fbabe1bc3323ba482a88206ce08c155ca2d59ce",
   "status": "failure",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41037813311"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708676036"
  },
  "Gadlele__Pelucco": {
   "repo": "Gadlele/Pelucco",
@@ -314,9 +317,12 @@
  "Spiralfractalplugins__spiralfm1": {
   "repo": "Spiralfractalplugins/spiralfm1",
   "commit": "6e0fd2b824fde7ad3c3673c7b661d79a7bbc840c",
-  "status": "failure",
+  "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/39749185999"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708676036",
+  "assets": [
+   "Spiralfractalplugins__spiralfm1-6e0fd2b.fwsc"
+  ]
  },
  "TexasRADIO__bb1-firmware": {
   "repo": "TexasRADIO/bb1-firmware",
@@ -933,9 +939,12 @@
  "fantasmogenesis__fntsmg-1": {
   "repo": "fantasmogenesis/fntsmg-1",
   "commit": "8f1420718f275cc92ac384a62373221b9237c7ca",
-  "status": "failure",
-  "recipe": "felucca-sub",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/42206159740"
+  "status": "success",
+  "recipe": "cmd:cd vendor/Felucca && sh ./build.sh",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708676036",
+  "assets": [
+   "fantasmogenesis__fntsmg-1-8f14207.fwsc"
+  ]
  },
  "fantasmoslam__Paleotone": {
   "repo": "fantasmoslam/Paleotone",
@@ -1070,9 +1079,13 @@
  "hvemnd__spooky-stable-v2": {
   "repo": "hvemnd/spooky-stable-v2",
   "commit": "75d79d3fe41fd5ea78b66913f1fbded121e010f5",
-  "status": "failure",
+  "status": "success",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43008167936"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708676036",
+  "assets": [
+   "hvemnd__spooky-stable-v2-75d79d3-1.fwsc",
+   "hvemnd__spooky-stable-v2-75d79d3-2.fwsc"
+  ]
  },
  "iamweswebb__CoralFlowerRemix": {
   "repo": "iamweswebb/CoralFlowerRemix",
@@ -1622,7 +1635,7 @@
   "commit": "cb88bab167ec1d30bf445fd73f2b71a0f5cb00c1",
   "status": "failure",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40176628792"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708676036"
  },
  "squirmlabs__fm1-airlove": {
   "repo": "squirmlabs/fm1-airlove",
