@@ -1,8 +1,3 @@
-[submodule "firmwares/1andesc/fm1-firmware-downloader"]
-	path = firmwares/1andesc/fm1-firmware-downloader
-	url = https://github.com/1andesc/fm1-firmware-downloader.git
-	branch = main
-	shallow = true
 [submodule "firmwares/28spawn/Pocket-Onyx"]
 	path = firmwares/28spawn/Pocket-Onyx
 	url = https://github.com/28spawn/Pocket-Onyx.git
@@ -78,6 +73,11 @@
 	url = https://github.com/altessproduction/DUB-BOX-FM1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/altessproduction/MT-4OX"]
+	path = firmwares/altessproduction/MT-4OX
+	url = https://github.com/altessproduction/MT-4OX.git
+	branch = main
+	shallow = true
 [submodule "firmwares/altessproduction/sloop-dub-fm1"]
 	path = firmwares/altessproduction/sloop-dub-fm1
 	url = https://github.com/altessproduction/sloop-dub-fm1.git
@@ -126,6 +126,16 @@
 [submodule "firmwares/aviron3/fm-1"]
 	path = firmwares/aviron3/fm-1
 	url = https://github.com/aviron3/fm-1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/barnierg76/golf-fm1"]
+	path = firmwares/barnierg76/golf-fm1
+	url = https://github.com/barnierg76/golf-fm1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/barnierg76/tekstuur-fm1"]
+	path = firmwares/barnierg76/tekstuur-fm1
+	url = https://github.com/barnierg76/tekstuur-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/beashoko/april-os"]
@@ -541,7 +551,7 @@
 [submodule "firmwares/ejtb76/FMLarynx"]
 	path = firmwares/ejtb76/FMLarynx
 	url = https://github.com/ejtb76/FMLarynx.git
-	branch = formantsynth
+	branch = main
 	shallow = true
 [submodule "firmwares/eldontyrellcorp/Mini-Tone"]
 	path = firmwares/eldontyrellcorp/Mini-Tone
@@ -736,11 +746,6 @@
 [submodule "firmwares/GRiMMBIENT/grimm"]
 	path = firmwares/GRiMMBIENT/grimm
 	url = https://github.com/GRiMMBIENT/grimm.git
-	branch = main
-	shallow = true
-[submodule "firmwares/Guizmoh/K-Glitch"]
-	path = firmwares/Guizmoh/K-Glitch
-	url = https://github.com/Guizmoh/K-Glitch.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Guizmoh/K-WASUB_Firmware_for_FM1"]
@@ -946,7 +951,7 @@
 [submodule "firmwares/jeanlucmouton30-jpg/AETHER-FM1"]
 	path = firmwares/jeanlucmouton30-jpg/AETHER-FM1
 	url = https://github.com/jeanlucmouton30-jpg/AETHER-FM1.git
-	branch = aether-branding
+	branch = release/v2.0.3
 	shallow = true
 [submodule "firmwares/jiripisa/fm1-berlinan"]
 	path = firmwares/jiripisa/fm1-berlinan
@@ -1141,6 +1146,11 @@
 [submodule "firmwares/kpalaniuk/gnomad-firmware"]
 	path = firmwares/kpalaniuk/gnomad-firmware
 	url = https://github.com/kpalaniuk/gnomad-firmware.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kurzhaar168/kurzhaar"]
+	path = firmwares/kurzhaar168/kurzhaar
+	url = https://github.com/kurzhaar168/kurzhaar.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Leeman1982/sloop-fm1"]
@@ -1468,6 +1478,11 @@
 	url = https://github.com/Philip-Bos/echofield-fm1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/Philip-Bos/fm1-relay-studio"]
+	path = firmwares/Philip-Bos/fm1-relay-studio
+	url = https://github.com/Philip-Bos/fm1-relay-studio.git
+	branch = main
+	shallow = true
 [submodule "firmwares/Philip-Bos/jamtrack-fm1"]
 	path = firmwares/Philip-Bos/jamtrack-fm1
 	url = https://github.com/Philip-Bos/jamtrack-fm1.git
@@ -1511,6 +1526,11 @@
 [submodule "firmwares/Quixotic7/ChoralRootFM1"]
 	path = firmwares/Quixotic7/ChoralRootFM1
 	url = https://github.com/Quixotic7/ChoralRootFM1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/Quixotic7/evilgenius"]
+	path = firmwares/Quixotic7/evilgenius
+	url = https://github.com/Quixotic7/evilgenius.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Quixotic7/FIZZ"]
@@ -1638,6 +1658,11 @@
 	url = https://github.com/seanohollaren/fm1-doom.git
 	branch = main
 	shallow = true
+[submodule "firmwares/shan-sherif/fm-1-chimera-vocal"]
+	path = firmwares/shan-sherif/fm-1-chimera-vocal
+	url = https://github.com/shan-sherif/fm-1-chimera-vocal.git
+	branch = main
+	shallow = true
 [submodule "firmwares/shan-sherif/fm-1-midi-mania"]
 	path = firmwares/shan-sherif/fm-1-midi-mania
 	url = https://github.com/shan-sherif/fm-1-midi-mania.git
@@ -1721,6 +1746,11 @@
 [submodule "firmwares/stanleygurvich/FeluccaMPE"]
 	path = firmwares/stanleygurvich/FeluccaMPE
 	url = https://github.com/stanleygurvich/FeluccaMPE.git
+	branch = main
+	shallow = true
+[submodule "firmwares/stefanolofsson/pinktrombone-fm1"]
+	path = firmwares/stefanolofsson/pinktrombone-fm1
+	url = https://github.com/stefanolofsson/pinktrombone-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/stephencummins/fm1-aisling"]
@@ -1851,6 +1881,11 @@
 [submodule "firmwares/w0ts/optimist"]
 	path = firmwares/w0ts/optimist
 	url = https://github.com/w0ts/optimist.git
+	branch = main
+	shallow = true
+[submodule "firmwares/wav0902/wav-fm1"]
+	path = firmwares/wav0902/wav-fm1
+	url = https://github.com/wav0902/wav-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/WillCMcC/kidboy-firmware"]
