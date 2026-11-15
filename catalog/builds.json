@@ -71,7 +71,7 @@
   "commit": "1fbabe1bc3323ba482a88206ce08c155ca2d59ce",
   "status": "failure",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708676036"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43710252904"
  },
  "Gadlele__Pelucco": {
   "repo": "Gadlele/Pelucco",
@@ -118,7 +118,7 @@
   "commit": "75ea10f7ad92730c3f64ed8cf0b17b6a627207bd",
   "status": "failure",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708649728"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43710252904"
  },
  "JulesMarecaille__mrc-synth": {
   "repo": "JulesMarecaille/mrc-synth",
@@ -1635,7 +1635,7 @@
   "commit": "cb88bab167ec1d30bf445fd73f2b71a0f5cb00c1",
   "status": "failure",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708676036"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43710252904"
  },
  "squirmlabs__fm1-airlove": {
   "repo": "squirmlabs/fm1-airlove",
@@ -1872,9 +1872,12 @@
  "zentreq__fntsmg": {
   "repo": "zentreq/fntsmg",
   "commit": "8f1420718f275cc92ac384a62373221b9237c7ca",
-  "status": "failure",
-  "recipe": "felucca-sub",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708649728"
+  "status": "success",
+  "recipe": "cmd:cd vendor/Felucca && sh ./build.sh",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43710252904",
+  "assets": [
+   "zentreq__fntsmg-8f14207.fwsc"
+  ]
  },
  "zisonzishen__crate-fm1": {
   "repo": "zisonzishen/crate-fm1",
