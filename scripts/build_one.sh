@@ -12,7 +12,11 @@ stamp=$(mktemp)
 sleep 1
 if [ -n "${4:-}" ]; then (cd "$path" && sh -c "$4"); fi
 case "$recipe" in
-  felucca|build-sh) (cd "$path" && sh ./build.sh) ;;
+  felucca) (cd "$path" && sh ./build.sh) ;;
+  build-sh)                                      # fm1-base's template fetches its base with setup.sh first
+    if [ -f "$path/setup.sh" ]; then (cd "$path" && sh ./setup.sh); fi
+    (cd "$path" && sh ./build.sh) ;;
+  cmd:*) (cd "$path" && sh -c "${recipe#cmd:}") ;;   # overrides.json: a firmware's own command
   felucca-sub)      (cd "$path/firmware" && sh ./build.sh) ;;
   make)             (cd "$path" && make) ;;
   *) echo "no build recipe: $recipe" >&2; exit 2 ;;

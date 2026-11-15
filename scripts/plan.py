@@ -25,4 +25,5 @@ for e in catalog["firmwares"]:
         continue
     include.append({"id": e["id"], "repo": e["repo"], "path": e["path"], "recipe": e["recipe"],
                     "prepare": e.get("prepare") or ""})
-print(json.dumps({"include": include}))
+# GitHub Actions takes at most 256 jobs a matrix: the rest waits for the next run (the record skips what was built)
+print(json.dumps({"include": include[:250]}))

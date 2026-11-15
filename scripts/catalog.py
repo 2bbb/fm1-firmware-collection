@@ -29,7 +29,16 @@ OVERRIDES = ROOT / "catalog" / "overrides.json"
 TABLE = ROOT / "CATALOG.md"
 HUB_CATALOG = "https://thefirmwarehub.com/catalog.json"
 AROUM = "aroum/fm1-custom-fw"
-SEARCHES = ["fm-1 firmware", "fm1 firmware", "m-vave fm1", "FM-1 felucca", "fwsc"]
+SEARCHES = ["fm-1 firmware", "fm1 firmware", "m-vave fm1", "FM-1 felucca", "fwsc", "fm-1 sloop", "fm-1 dinghy",
+            "fm-1 groovebox", "fm1 synth firmware"]
+# a search hit counts when its name or description names the FM-1 and says what it is
+FM1_RE = re.compile(r"fm-?1\b|m-?vave", re.I)
+KIND_RE = re.compile(r"firmware|felucca|sloop|dinghy|groovebox|fwsc|synth", re.I)
+# .. and one found by search alone is a tool, not a firmware, when it says so and has nothing to build or install
+NONFW_RE = re.compile(r"emulat|émulat|editor|librarian|awesome|directory|research|tutorial|guide|plug-?in|\bvst|"
+                      r"web ?site|\bsite\b|installer|switcher|switch .*firmware|migrate|manager|catalog|resource", re.I)
+# (but one that says it is a firmware stays: "drum machine firmware for the M-VAVE", "is a firmware for", ..)
+FW_RE = re.compile(r"\b(firmware|sequencer|drum machine|groovebox)s? (for|based|built)\b|\bis an? (\w+ )?firmware\b", re.I)
 REDISTRIBUTABLE = {
     "GPL-2.0", "GPL-3.0", "LGPL-3.0", "MIT", "MPL-2.0", "Apache-2.0", "BSD-2-Clause",
     "BSD-3-Clause", "Unlicense", "GPL-3.0-with-FM1-SDK-exception",
@@ -96,7 +105,7 @@ def repo_metadata(repos):
 
 
 def discover():
-    found = {}
+    found, forks = {}, {}
 
     def add(repo, source, **extra):
         repo = repo.strip().removesuffix(".git").strip("/")
@@ -125,12 +134,38 @@ def discover():
         for repo in re.findall(r"https://github\.com/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)", section):
             add(repo, "aroum")
 
+    # every page of each search (100 a page, GitHub's cap 1000 a query), forks too (fork:true): many firmwares are
+    # GitHub forks of Felucca or SLOOP. A fork counts only once it is its own project: a name or a description of its
+    # own, not the parent's (a plain copy is not a firmware of its own)
     for query in SEARCHES:
-        result = api("search/repositories?per_page=100&q=" + urllib.parse.quote(query)) or {}
-        for item in result.get("items", []):
-            description = item.get("description") or ""
-            if re.search(r"fm-?1", description, re.I) and re.search(r"firmware", description, re.I):
+        for page in range(1, 11):
+            result = api(f"search/repositories?per_page=100&page={page}&q=" + urllib.parse.quote(query + " fork:true")) or {}
+            items = result.get("items", [])
+            for item in items:
+                text = f"{item['name']} {item.get('description') or ''}"
+                if not (FM1_RE.search(text) and KIND_RE.search(text)):
+                    continue
+                if item.get("fork"):
+                    parent = forks.setdefault(item["full_name"], item)
+                    del parent
+                    continue
                 add(item["full_name"], "search")
+            time.sleep(2.2)                             # (the search API: 30 requests a minute)
+            if len(items) < 100:
+                break
+    known = set()
+    if CATALOG.exists():                                # forks judged before: no API call again
+        known = {e["repo"].lower() for e in json.loads(CATALOG.read_text())["firmwares"]}
+    for name, item in forks.items():
+        if name.lower() in known:
+            add(name, "search-fork")
+            continue
+        info = api(f"repos/{name}") or {}
+        parent = info.get("parent") or {}
+        own_name = info.get("name", "").lower() != (parent.get("name") or "").lower()
+        own_desc = (info.get("description") or "") != (parent.get("description") or "")
+        if parent and (own_name or own_desc):
+            add(name, "search-fork")
     return found
 
 
@@ -270,14 +305,20 @@ def main():
     for e in probed:
         if e["status"] == "ok" and e["repo"].lower() not in overrides["exclude"]:
             unique.setdefault(e["repo"].lower(), e)
+    tools = sorted(e["repo"] for e in unique.values()
+                   if set(e["sources"]) <= {"search", "search-fork"} and e["recipe"] == "none" and not e["has_build"]
+                   and NONFW_RE.search(e.get("description") or "") and not FW_RE.search(e.get("description") or ""))
+    for repo in tools:
+        del unique[repo.lower()]
     entries = sorted(unique.values(), key=lambda e: e["repo"].lower())
     missing = sorted(e["repo"] for e in probed if e["status"] == "missing")
-    CATALOG.write_text(json.dumps({"firmwares": entries, "missing": missing,
-                                   "excluded": sorted(excluded)}, indent=1, ensure_ascii=False) + "\n")
+    CATALOG.write_text(json.dumps({"firmwares": entries, "missing": missing, "excluded": sorted(excluded),
+                                   "tools_by_description": tools}, indent=1, ensure_ascii=False) + "\n")
     write_table(entries)
     count = update_submodules(entries) if args.update_submodules else 0
     print(f"{len(entries)} firmwares, {sum(e['needs_ci_build'] for e in entries)} need a CI build, "
-          f"{len(missing)} missing, {len(excluded)} excluded" + (f", {count} submodules" if count else ""))
+          f"{len(missing)} missing, {len(excluded)} excluded, {len(tools)} tools by their description"
+          + (f", {count} submodules" if count else ""))
 
 
 if __name__ == "__main__":

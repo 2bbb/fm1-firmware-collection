@@ -58,7 +58,7 @@ jobs:
           path: |
             ~/.jieli
             ~/fw-AC79_AIoT_SDK
-          key: jieli-linux-toolchain-ac79-${{ env.AC79_SDK_BRANCH }}-v2
+          key: jieli-linux-toolchain-ac79-${{ env.AC79_SDK_BRANCH }}-v3
       - if: steps.cache.outputs.cache-hit != 'true'
         run: |
           mkdir -p ~/.jieli
@@ -67,7 +67,7 @@ jobs:
           ln -sfn "$(basename "$tc")" ~/.jieli/toolchain
           git clone --depth 1 --branch "$AC79_SDK_BRANCH" --filter=blob:none --sparse \
             https://gitee.com/Jieli-Tech/fw-AC79_AIoT_SDK.git ~/fw-AC79_AIoT_SDK
-          git -C ~/fw-AC79_AIoT_SDK sparse-checkout set cpu/wl82/tools include_lib/newlib
+          git -C ~/fw-AC79_AIoT_SDK sparse-checkout set cpu/wl82/tools include_lib/newlib apps/common/include
           ls ~/fw-AC79_AIoT_SDK/cpu/wl82/tools | head
 
   build:
@@ -85,12 +85,14 @@ jobs:
           path: |
             ~/.jieli
             ~/fw-AC79_AIoT_SDK
-          key: jieli-linux-toolchain-ac79-${{ env.AC79_SDK_BRANCH }}-v2
+          key: jieli-linux-toolchain-ac79-${{ env.AC79_SDK_BRANCH }}-v3
           fail-on-cache-miss: true
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install Pillow fonttools mido
+      - run: |
+          pip install Pillow fonttools mido numpy
+          sudo apt-get install -y -q librsvg2-bin >/dev/null
       - name: Fetch source
         run: |
           git submodule update --init --depth 1 -- "${{ matrix.path }}" \
