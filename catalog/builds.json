@@ -26,6 +26,16 @@
    "Comradevergreen__fm-evergreen-75a17b7.fwsc"
   ]
  },
+ "DEV-BLOCK-M27__V-Track": {
+  "repo": "DEV-BLOCK-M27/V-Track",
+  "commit": "e6cedfcabfd415fc9e844ef8a7b57b32dd1ff932",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683",
+  "assets": [
+   "DEV-BLOCK-M27__V-Track-e6cedfc.fwsc"
+  ]
+ },
  "DarkHelmet67__fm1-insert-coin": {
   "repo": "DarkHelmet67/fm1-insert-coin",
   "commit": "9c8f0589194479f7a5ea8276332c6d096e0ee5b1",
@@ -152,12 +162,12 @@
  },
  "MPASTEAU__FM-Stud1o-FM-1-Firmware": {
   "repo": "MPASTEAU/FM-Stud1o-FM-1-Firmware",
-  "commit": "242640c9548e8ea96430480539f84100ec3f6a1b",
+  "commit": "36195222d910b169e977bc87e88c23adbc05dad0",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43706375172",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683",
   "assets": [
-   "MPASTEAU__FM-Stud1o-FM-1-Firmware-242640c.fwsc"
+   "MPASTEAU__FM-Stud1o-FM-1-Firmware-3619522.fwsc"
   ]
  },
  "Mandamepurria__fmini-303": {
@@ -185,6 +195,16 @@
   "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708649728",
   "assets": [
    "MarcoCasanova00__amaru-os-910fdf8.fwsc"
+  ]
+ },
+ "Mojotechnical__felucca-canvas": {
+  "repo": "Mojotechnical/felucca-canvas",
+  "commit": "8bfac6f2d7b969c27f3c5479cba9f6c9cfc0c73d",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683",
+  "assets": [
+   "Mojotechnical__felucca-canvas-8bfac6f.fwsc"
   ]
  },
  "Motheraudio__TheCove": {
@@ -317,6 +337,17 @@
    "Saintpid__Wild-5eb1027.fwsc"
   ]
  },
+ "SpMakris__kriechstrom-alt": {
+  "repo": "SpMakris/kriechstrom-alt",
+  "commit": "f154cad97b95bb71e47873ffc23c0c8564f7d824",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683",
+  "assets": [
+   "SpMakris__kriechstrom-alt-f154cad-1.fwsc",
+   "SpMakris__kriechstrom-alt-f154cad-2.fwsc"
+  ]
+ },
  "Spiralfractalplugins__spiralfm1": {
   "repo": "Spiralfractalplugins/spiralfm1",
   "commit": "6e0fd2b824fde7ad3c3673c7b661d79a7bbc840c",
@@ -396,10 +427,13 @@
  },
  "Virusiinstaller__nano-freak-fm1": {
   "repo": "Virusiinstaller/nano-freak-fm1",
-  "commit": "17ddfa96bd7d6f061f2a669af0744ff84e5fc222",
-  "status": "failure",
+  "commit": "902393f872bbd29bbf32efeb4cdaf3acbfbe5c19",
+  "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708649728"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683",
+  "assets": [
+   "Virusiinstaller__nano-freak-fm1-902393f.fwsc"
+  ]
  },
  "Weavel44__fm1-x0x-w44": {
   "repo": "Weavel44/fm1-x0x-w44",
@@ -513,12 +547,12 @@
  },
  "Wulgaren__Araminta": {
   "repo": "Wulgaren/Araminta",
-  "commit": "c1237a97b42e2009fd703f0c8423c03639a0995d",
+  "commit": "e7d447a29c0c5b8cb3e85eff5fa363deecd2cbb8",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708649728",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683",
   "assets": [
-   "Wulgaren__Araminta-c1237a9.fwsc"
+   "Wulgaren__Araminta-e7d447a.fwsc"
   ]
  },
  "abcdaniel__Wild": {
@@ -529,6 +563,16 @@
   "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708649728",
   "assets": [
    "abcdaniel__Wild-9166303.fwsc"
+  ]
+ },
+ "alibros__badgear-os": {
+  "repo": "alibros/badgear-os",
+  "commit": "5241b1015cd55d2e95746685416244602f31b3e1",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683",
+  "assets": [
+   "alibros__badgear-os-5241b10.fwsc"
   ]
  },
  "andiogenes__frown-of-misery-1": {
@@ -593,12 +637,12 @@
  },
  "benjamuels__UMBRA-LIVE": {
   "repo": "benjamuels/UMBRA-LIVE",
-  "commit": "8e0846d2a3193b9f2645995550546ee068d21f1f",
+  "commit": "169e3cef634929c76fa376cfcceba28ed740272d",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708649728",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683",
   "assets": [
-   "benjamuels__UMBRA-LIVE-8e0846d.fwsc"
+   "benjamuels__UMBRA-LIVE-169e3ce.fwsc"
   ]
  },
  "benna1985__badboy": {
@@ -629,6 +673,16 @@
   "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708649728",
   "assets": [
    "bk40-home__dinghy-bk40-22acb91.fwsc"
+  ]
+ },
+ "blueshift96__analog-summer-fm1": {
+  "repo": "blueshift96/analog-summer-fm1",
+  "commit": "3fd446657b363330c4d74b689806635eb08fa0e5",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683",
+  "assets": [
+   "blueshift96__analog-summer-fm1-3fd4466.fwsc"
   ]
  },
  "briwil__Felucca": {
@@ -904,10 +958,10 @@
  },
  "ericdahl-dev__fm1-8p": {
   "repo": "ericdahl-dev/fm1-8p",
-  "commit": "7ffde45740663881a6e4cc45cd400a851704f8ab",
+  "commit": "95302b84f4533da1667f85a033b27a1ef5676a00",
   "status": "failure",
   "recipe": "make",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708649728"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683"
  },
  "erikdevos__glitchbox": {
   "repo": "erikdevos/glitchbox",
@@ -1001,13 +1055,16 @@
  },
  "fredster90001__skiff-Learners": {
   "repo": "fredster90001/skiff-Learners",
-  "commit": "f325c81643a5a9ccf5082688483c588dec0cccef",
-  "status": "success",
+  "commit": "acef7104a739d907ec71cb5600d0b664aa0ebfb9",
+  "status": "failure",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708649728",
-  "assets": [
-   "fredster90001__skiff-Learners-f325c81.fwsc"
-  ]
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683",
+  "last_good": {
+   "commit": "f325c81643a5a9ccf5082688483c588dec0cccef",
+   "assets": [
+    "fredster90001__skiff-Learners-f325c81.fwsc"
+   ]
+  }
  },
  "futumixxx__universynth-fm1": {
   "repo": "futumixxx/universynth-fm1",
@@ -1109,6 +1166,13 @@
   "assets": [
    "iamweswebb__FM1-Firmware1-40762f2.fwsc"
   ]
+ },
+ "isod89__sloop3-fm1": {
+  "repo": "isod89/sloop3-fm1",
+  "commit": "915b54f6780564cb486b4de8a518aabbea1503a0",
+  "status": "failure",
+  "recipe": "make",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683"
  },
  "izumoe__yanfei": {
   "repo": "izumoe/yanfei",
@@ -1383,13 +1447,16 @@
  },
  "mykeln__fm1-rift": {
   "repo": "mykeln/fm1-rift",
-  "commit": "09858020e5f8633e1ecd2d5e2ba28f4b32065d03",
-  "status": "success",
+  "commit": "c9767a576c596dd1e0b42fa7dce0a02728c7f195",
+  "status": "failure",
   "recipe": "felucca-sub",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/41817637748",
-  "assets": [
-   "mykeln__fm1-rift-0985802.fwsc"
-  ]
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683",
+  "last_good": {
+   "commit": "09858020e5f8633e1ecd2d5e2ba28f4b32065d03",
+   "assets": [
+    "mykeln__fm1-rift-0985802.fwsc"
+   ]
+  }
  },
  "nheisterkamp__theory-lab": {
   "repo": "nheisterkamp/theory-lab",
@@ -1560,13 +1627,13 @@
  },
  "ruppert__organvave-1": {
   "repo": "ruppert/organvave-1",
-  "commit": "c4b82e712df18885c831b439b5c7344cc651e3be",
+  "commit": "7aeaf3e78a74df55411cd9cbe64c4b9687de6072",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43706375172",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683",
   "assets": [
-   "ruppert__organvave-1-c4b82e7-1.fwsc",
-   "ruppert__organvave-1-c4b82e7-2.fwsc"
+   "ruppert__organvave-1-7aeaf3e-1.fwsc",
+   "ruppert__organvave-1-7aeaf3e-2.fwsc"
   ]
  },
  "ryancraigmartin__ekesta-fm-1": {
@@ -1727,6 +1794,16 @@
    "tamabotmusic__TamaMPE-16daf99.fwsc"
   ]
  },
+ "tashvit__PurpleMonkeyLiteFM1": {
+  "repo": "tashvit/PurpleMonkeyLiteFM1",
+  "commit": "3c1739b423de52308dbd9691ca495fe93b820c8d",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683",
+  "assets": [
+   "tashvit__PurpleMonkeyLiteFM1-3c1739b.fwsc"
+  ]
+ },
  "tedbdd-ai__hortatorsw": {
   "repo": "tedbdd-ai/hortatorsw",
   "commit": "44c9ad4aa57bebf63f412bd552e57143c30b4065",
@@ -1770,6 +1847,13 @@
   "assets": [
    "thefriendlyhedgehog__FM-Cat1-820251d.fwsc"
   ]
+ },
+ "track-forge__bgirl-fm1": {
+  "repo": "track-forge/bgirl-fm1",
+  "commit": "31fd4844b535ea1a3b343ed2264ba1b06c3be454",
+  "status": "failure",
+  "recipe": "build-sh",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683"
  },
  "twaroshinto__AEther": {
   "repo": "twaroshinto/AEther",
