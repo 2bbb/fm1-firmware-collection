@@ -189,12 +189,12 @@
  },
  "MarcoCasanova00__amaru-os": {
   "repo": "MarcoCasanova00/amaru-os",
-  "commit": "910fdf82f50d89fd1c70702ee478117654f2534d",
+  "commit": "c797cc1799dae1ed1dc7267ecf4e825265d4f8ad",
   "status": "success",
   "recipe": "felucca-sub",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708649728",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44518354548",
   "assets": [
-   "MarcoCasanova00__amaru-os-910fdf8.fwsc"
+   "MarcoCasanova00__amaru-os-c797cc1.fwsc"
   ]
  },
  "Mojotechnical__felucca-canvas": {
@@ -645,6 +645,16 @@
    "aviron3__fm-1-48df096.fwsc"
   ]
  },
+ "benjaminglosser__harmony-director-fm1": {
+  "repo": "benjaminglosser/harmony-director-fm1",
+  "commit": "ca1db43a78455ae747766a2738f8580380d40bc1",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44518354548",
+  "assets": [
+   "benjaminglosser__harmony-director-fm1-ca1db43.fwsc"
+  ]
+ },
  "benjamuels__UMBRA-LIVE": {
   "repo": "benjamuels/UMBRA-LIVE",
   "commit": "169e3cef634929c76fa376cfcceba28ed740272d",
@@ -667,10 +677,10 @@
  },
  "bigmarkelldavis-art__sloop3-fm1": {
   "repo": "bigmarkelldavis-art/sloop3-fm1",
-  "commit": "282e3012cf3b3ae2285ef33a043c8af3b8608a06",
+  "commit": "5605790c88e4574d003c80a4c9d9f7cdadca3bc5",
   "status": "failure",
-  "recipe": "make",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44298692394"
+  "recipe": "build-sh",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44518354548"
  },
  "bk40-home__Felucca_Jt": {
   "repo": "bk40-home/Felucca_Jt",
@@ -975,10 +985,10 @@
  },
  "ericdahl-dev__fm1-8p": {
   "repo": "ericdahl-dev/fm1-8p",
-  "commit": "fc512dcd06f4313eca85ef0088cd29dbc61845e4",
+  "commit": "67e252e94f5eae620bc7197074f78f7db4947629",
   "status": "failure",
   "recipe": "make",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44298692394"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44518354548"
  },
  "erikdevos__glitchbox": {
   "repo": "erikdevos/glitchbox",
@@ -1072,10 +1082,10 @@
  },
  "fredster90001__skiff-Learners": {
   "repo": "fredster90001/skiff-Learners",
-  "commit": "acef7104a739d907ec71cb5600d0b664aa0ebfb9",
+  "commit": "ae27d14436848f919c696b82a6dbcf430df4068c",
   "status": "failure",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43857866683",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44518354548",
   "last_good": {
    "commit": "f325c81643a5a9ccf5082688483c588dec0cccef",
    "assets": [
@@ -1316,6 +1326,16 @@
   "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708649728",
   "assets": [
    "joshbartlettband-web__Double-Rainbow-3dd1b60.fwsc"
+  ]
+ },
+ "jsopdebeeck__fm1-harmonica": {
+  "repo": "jsopdebeeck/fm1-harmonica",
+  "commit": "7c6d3c40c096cdc10e6f008762d86765d2f908c7",
+  "status": "success",
+  "recipe": "build-sh",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44518354548",
+  "assets": [
+   "jsopdebeeck__fm1-harmonica-7c6d3c4.fwsc"
   ]
  },
  "jukejutsu__FM2000": {
@@ -1651,12 +1671,22 @@
  },
  "planist79__Felucca_planist79": {
   "repo": "planist79/Felucca_planist79",
-  "commit": "a4f007c9211ea5b37298c01ff6d73430fe2cb96a",
+  "commit": "ca1db43a78455ae747766a2738f8580380d40bc1",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708649728",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44518354548",
   "assets": [
-   "planist79__Felucca_planist79-a4f007c.fwsc"
+   "planist79__Felucca_planist79-ca1db43.fwsc"
+  ]
+ },
+ "provostprovost__fantasia": {
+  "repo": "provostprovost/fantasia",
+  "commit": "eee6f9fffcaba4b925eccee13c9a79bbf45820c3",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44518354548",
+  "assets": [
+   "provostprovost__fantasia-eee6f9f.fwsc"
   ]
  },
  "rgrvmusic__fm1-dinghy": {
@@ -1924,10 +1954,10 @@
  },
  "track-forge__bgirl-fm1": {
   "repo": "track-forge/bgirl-fm1",
-  "commit": "c51c53885fd18c1e84be676d1644143803bc2e0b",
+  "commit": "c7116c5451bcfca9325ce71a71f7356ab1bd1b2c",
   "status": "failure",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44298692394"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44518354548"
  },
  "twaroshinto__AEther": {
   "repo": "twaroshinto/AEther",
@@ -2028,6 +2058,16 @@
   "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708649728",
   "assets": [
    "zambari__x0z-fm1-54194c5.fwsc"
+  ]
+ },
+ "zentreq__fm1-op-xy": {
+  "repo": "zentreq/fm1-op-xy",
+  "commit": "75830155219ddc0b56c7110a7b0db21593a80c36",
+  "status": "success",
+  "recipe": "build-sh",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44518354548",
+  "assets": [
+   "zentreq__fm1-op-xy-7583015.fwsc"
   ]
  },
  "zentreq__fntsmg": {
