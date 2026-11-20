@@ -197,6 +197,16 @@
    "MarcoCasanova00__amaru-os-c797cc1.fwsc"
   ]
  },
+ "MishaMashinaMM__mashina-fm1-fw": {
+  "repo": "MishaMashinaMM/mashina-fm1-fw",
+  "commit": "50e2acb237d3a009134436e480f0e7fe45b11ec8",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44730781857",
+  "assets": [
+   "MishaMashinaMM__mashina-fm1-fw-50e2acb.fwsc"
+  ]
+ },
  "Mojotechnical__felucca-canvas": {
   "repo": "Mojotechnical/felucca-canvas",
   "commit": "bf5fd0f0b26eb6eb94a294ef6cd3253aace3ea95",
@@ -437,12 +447,12 @@
  },
  "Virusiinstaller__nano-freak-fm1": {
   "repo": "Virusiinstaller/nano-freak-fm1",
-  "commit": "db7a7309386978c83627f806453a3214d0cd706d",
+  "commit": "15edcfa60efbac98537748d0962277ca021f8940",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44298692394",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44730781857",
   "assets": [
-   "Virusiinstaller__nano-freak-fm1-db7a730.fwsc"
+   "Virusiinstaller__nano-freak-fm1-15edcfa.fwsc"
   ]
  },
  "Weavel44__fm1-x0x-w44": {
@@ -673,6 +683,16 @@
   "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/43708649728",
   "assets": [
    "benna1985__badboy-5738617.fwsc"
+  ]
+ },
+ "bigmarkelldavis-art__Feluccampc": {
+  "repo": "bigmarkelldavis-art/Feluccampc",
+  "commit": "ca1db43a78455ae747766a2738f8580380d40bc1",
+  "status": "success",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44730781857",
+  "assets": [
+   "bigmarkelldavis-art__Feluccampc-ca1db43.fwsc"
   ]
  },
  "bigmarkelldavis-art__sloop3-fm1": {
@@ -985,10 +1005,10 @@
  },
  "ericdahl-dev__fm1-8p": {
   "repo": "ericdahl-dev/fm1-8p",
-  "commit": "67e252e94f5eae620bc7197074f78f7db4947629",
+  "commit": "e1a9e421f08f2b20b1acf7b761befd3d71323de3",
   "status": "failure",
   "recipe": "make",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44518354548"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44730781857"
  },
  "erikdevos__glitchbox": {
   "repo": "erikdevos/glitchbox",
@@ -1010,6 +1030,16 @@
    "etopotemkin__alarusse-34c70f0.fwsc"
   ]
  },
+ "etyrnal__h1_etyrnal": {
+  "repo": "etyrnal/h1_etyrnal",
+  "commit": "757a67392259ef7ae4d98c2f2d330985e3350cf0",
+  "status": "success",
+  "recipe": "build-sh",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44730781857",
+  "assets": [
+   "etyrnal__h1_etyrnal-757a673.fwsc"
+  ]
+ },
  "fabiomassimopasquazzi__dinghy": {
   "repo": "fabiomassimopasquazzi/dinghy",
   "commit": "d44df7db09b98ccad2f1233b8f83f5f09c04829e",
@@ -1022,12 +1052,12 @@
  },
  "fantasmogenesis__fntsmg-1": {
   "repo": "fantasmogenesis/fntsmg-1",
-  "commit": "dabd8675fda9495ae72e9084f2d7bbc39a92cce4",
+  "commit": "093070047cf70134251e5e8f149fbef2a8769b96",
   "status": "success",
   "recipe": "cmd:cd vendor/Felucca && sh ./build.sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44079437480",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44730781857",
   "assets": [
-   "fantasmogenesis__fntsmg-1-dabd867.fwsc"
+   "fantasmogenesis__fntsmg-1-0930700.fwsc"
   ]
  },
  "fantasmoslam__Paleotone": {
@@ -1115,22 +1145,22 @@
  },
  "g0rst__VostockFM-1": {
   "repo": "g0rst/VostockFM-1",
-  "commit": "287386bd7f72c41a2adb33c3c689fa711c0c4ebf",
+  "commit": "cffed0d8c53a4b96edd1de341581ae57494147a0",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44079437480",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44730781857",
   "assets": [
-   "g0rst__VostockFM-1-287386b.fwsc"
+   "g0rst__VostockFM-1-cffed0d.fwsc"
   ]
  },
  "gaskb__fm1-snake": {
   "repo": "gaskb/fm1-snake",
-  "commit": "585b3212002090a5495ea005dfbbbb2328fc7f82",
+  "commit": "892ff639a95c19e1270385df10ae1a1ccc69930c",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44298692394",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44730781857",
   "assets": [
-   "gaskb__fm1-snake-585b321.fwsc"
+   "gaskb__fm1-snake-892ff63.fwsc"
   ]
  },
  "gaumondp__patricktronics": {
@@ -1731,13 +1761,13 @@
  },
  "ruppert__organvave-1": {
   "repo": "ruppert/organvave-1",
-  "commit": "369397df9383dac360668a5226bb0e693be0e26f",
+  "commit": "8d8606a6fdec907545c7a8ee970a6354ee328629",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44298692394",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44730781857",
   "assets": [
-   "ruppert__organvave-1-369397d-1.fwsc",
-   "ruppert__organvave-1-369397d-2.fwsc"
+   "ruppert__organvave-1-8d8606a-1.fwsc",
+   "ruppert__organvave-1-8d8606a-2.fwsc"
   ]
  },
  "ryancraigmartin__ekesta-fm-1": {
@@ -1954,10 +1984,10 @@
  },
  "track-forge__bgirl-fm1": {
   "repo": "track-forge/bgirl-fm1",
-  "commit": "c7116c5451bcfca9325ce71a71f7356ab1bd1b2c",
+  "commit": "34f4a2e464bb1b12f33318acd59db5c40b6494d8",
   "status": "failure",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44518354548"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44730781857"
  },
  "twaroshinto__AEther": {
   "repo": "twaroshinto/AEther",
@@ -2062,22 +2092,22 @@
  },
  "zentreq__fm1-op-xy": {
   "repo": "zentreq/fm1-op-xy",
-  "commit": "75830155219ddc0b56c7110a7b0db21593a80c36",
+  "commit": "df257fe80bb33641868ca20f433658cd4bd86a9f",
   "status": "success",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44518354548",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44730781857",
   "assets": [
-   "zentreq__fm1-op-xy-7583015.fwsc"
+   "zentreq__fm1-op-xy-df257fe.fwsc"
   ]
  },
  "zentreq__fntsmg": {
   "repo": "zentreq/fntsmg",
-  "commit": "dabd8675fda9495ae72e9084f2d7bbc39a92cce4",
+  "commit": "093070047cf70134251e5e8f149fbef2a8769b96",
   "status": "success",
   "recipe": "cmd:cd vendor/Felucca && sh ./build.sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44079437480",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44730781857",
   "assets": [
-   "zentreq__fntsmg-dabd867.fwsc"
+   "zentreq__fntsmg-0930700.fwsc"
   ]
  },
  "zisonzishen__crate-fm1": {
