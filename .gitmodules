@@ -28,6 +28,11 @@
 	url = https://github.com/abcdaniel/Wild.git
 	branch = main
 	shallow = true
+[submodule "firmwares/abektes/a22"]
+	path = firmwares/abektes/a22
+	url = https://github.com/abektes/a22.git
+	branch = main
+	shallow = true
 [submodule "firmwares/aceyprime/zen-1"]
 	path = firmwares/aceyprime/zen-1
 	url = https://github.com/aceyprime/zen-1.git
@@ -216,6 +221,11 @@
 [submodule "firmwares/anonymousacademe/FM-1-TripDeck"]
 	path = firmwares/anonymousacademe/FM-1-TripDeck
 	url = https://github.com/anonymousacademe/FM-1-TripDeck.git
+	branch = main
+	shallow = true
+[submodule "firmwares/ant25fr/viber"]
+	path = firmwares/ant25fr/viber
+	url = https://github.com/ant25fr/viber.git
 	branch = main
 	shallow = true
 [submodule "firmwares/AntonioAltea/fmel-1"]
@@ -1013,6 +1023,11 @@
 	url = https://github.com/dpwe/fm1-amy.git
 	branch = main
 	shallow = true
+[submodule "firmwares/drbscl/abrams"]
+	path = firmwares/drbscl/abrams
+	url = https://github.com/drbscl/abrams.git
+	branch = main
+	shallow = true
 [submodule "firmwares/dreamsofbacon/lsdj-burrito-src"]
 	path = firmwares/dreamsofbacon/lsdj-burrito-src
 	url = https://github.com/dreamsofbacon/lsdj-burrito-src.git
@@ -1076,6 +1091,11 @@
 [submodule "firmwares/dwsel/juanjiant-bit-JIANT"]
 	path = firmwares/dwsel/juanjiant-bit-JIANT
 	url = https://github.com/dwsel/juanjiant-bit-JIANT.git
+	branch = main
+	shallow = true
+[submodule "firmwares/Dylanyz/h1"]
+	path = firmwares/Dylanyz/h1
+	url = https://github.com/Dylanyz/h1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/dzwerg/analogBEAST"]
@@ -1243,6 +1263,11 @@
 	url = https://github.com/executive-time/no-kisses-just-hisses.git
 	branch = main
 	shallow = true
+[submodule "firmwares/eyfresco/floop-studio"]
+	path = firmwares/eyfresco/floop-studio
+	url = https://github.com/eyfresco/floop-studio.git
+	branch = main
+	shallow = true
 [submodule "firmwares/f00br/mama-firmware"]
 	path = firmwares/f00br/mama-firmware
 	url = https://github.com/f00br/mama-firmware.git
@@ -1266,11 +1291,6 @@
 [submodule "firmwares/fantasmoslam/fmini-1"]
 	path = firmwares/fantasmoslam/fmini-1
 	url = https://github.com/fantasmoslam/fmini-1.git
-	branch = main
-	shallow = true
-[submodule "firmwares/fantasmoslam/Paleotone"]
-	path = firmwares/fantasmoslam/Paleotone
-	url = https://github.com/fantasmoslam/Paleotone.git
 	branch = main
 	shallow = true
 [submodule "firmwares/FartyPants/fm1-nachtfahrt"]
@@ -1486,6 +1506,11 @@
 [submodule "firmwares/glvno/matryoshka"]
 	path = firmwares/glvno/matryoshka
 	url = https://github.com/glvno/matryoshka.git
+	branch = main
+	shallow = true
+[submodule "firmwares/Gorgonzola777/nature-fm1"]
+	path = firmwares/Gorgonzola777/nature-fm1
+	url = https://github.com/Gorgonzola777/nature-fm1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/grant-vine/dabbl8"]
@@ -1711,6 +1736,11 @@
 [submodule "firmwares/illuminus5/skiff"]
 	path = firmwares/illuminus5/skiff
 	url = https://github.com/illuminus5/skiff.git
+	branch = main
+	shallow = true
+[submodule "firmwares/imijes/bass-something-2"]
+	path = firmwares/imijes/bass-something-2
+	url = https://github.com/imijes/bass-something-2.git
 	branch = main
 	shallow = true
 [submodule "firmwares/imijes/fm-dub"]
@@ -2213,6 +2243,86 @@
 	url = https://github.com/Koolkatze/Bluetooth-control-multi-firmware-m-vave-fm1-fm1-emu.git
 	branch = master
 	shallow = true
+[submodule "firmwares/kosmar/ko-bass"]
+	path = firmwares/kosmar/ko-bass
+	url = https://github.com/kosmar/ko-bass.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kosmar/ko-dub"]
+	path = firmwares/kosmar/ko-dub
+	url = https://github.com/kosmar/ko-dub.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kosmar/ko-fm1"]
+	path = firmwares/kosmar/ko-fm1
+	url = https://github.com/kosmar/ko-fm1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kosmar/ko-funk"]
+	path = firmwares/kosmar/ko-funk
+	url = https://github.com/kosmar/ko-funk.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kosmar/ko-hiphop"]
+	path = firmwares/kosmar/ko-hiphop
+	url = https://github.com/kosmar/ko-hiphop.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kosmar/ko-house"]
+	path = firmwares/kosmar/ko-house
+	url = https://github.com/kosmar/ko-house.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kosmar/ko-hvypsy"]
+	path = firmwares/kosmar/ko-hvypsy
+	url = https://github.com/kosmar/ko-hvypsy.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kosmar/ko-idm"]
+	path = firmwares/kosmar/ko-idm
+	url = https://github.com/kosmar/ko-idm.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kosmar/ko-jazz"]
+	path = firmwares/kosmar/ko-jazz
+	url = https://github.com/kosmar/ko-jazz.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kosmar/ko-jet"]
+	path = firmwares/kosmar/ko-jet
+	url = https://github.com/kosmar/ko-jet.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kosmar/ko-kit"]
+	path = firmwares/kosmar/ko-kit
+	url = https://github.com/kosmar/ko-kit.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kosmar/ko-pop"]
+	path = firmwares/kosmar/ko-pop
+	url = https://github.com/kosmar/ko-pop.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kosmar/ko-soul"]
+	path = firmwares/kosmar/ko-soul
+	url = https://github.com/kosmar/ko-soul.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kosmar/ko-techno"]
+	path = firmwares/kosmar/ko-techno
+	url = https://github.com/kosmar/ko-techno.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kosmar/ko-triphop"]
+	path = firmwares/kosmar/ko-triphop
+	url = https://github.com/kosmar/ko-triphop.git
+	branch = main
+	shallow = true
+[submodule "firmwares/kosmar/ko-xcrash"]
+	path = firmwares/kosmar/ko-xcrash
+	url = https://github.com/kosmar/ko-xcrash.git
+	branch = main
+	shallow = true
 [submodule "firmwares/KotMorderca/XMOD"]
 	path = firmwares/KotMorderca/XMOD
 	url = https://github.com/KotMorderca/XMOD.git
@@ -2246,6 +2356,11 @@
 [submodule "firmwares/Leeman1982/sloop-fm1"]
 	path = firmwares/Leeman1982/sloop-fm1
 	url = https://github.com/Leeman1982/sloop-fm1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/lelacnoir-lab/Sillage"]
+	path = firmwares/lelacnoir-lab/Sillage
+	url = https://github.com/lelacnoir-lab/Sillage.git
 	branch = main
 	shallow = true
 [submodule "firmwares/leonardolopezchavira/sq80-fm1"]
@@ -2433,6 +2548,11 @@
 	url = https://github.com/matttallison/quadro-fm1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/MaxMaximoff/volna"]
+	path = firmwares/MaxMaximoff/volna
+	url = https://github.com/MaxMaximoff/volna.git
+	branch = main
+	shallow = true
 [submodule "firmwares/maxravedj/fm1-audio-router"]
 	path = firmwares/maxravedj/fm1-audio-router
 	url = https://github.com/maxravedj/fm1-audio-router.git
@@ -2567,6 +2687,11 @@
 	path = firmwares/moonsafarian/smk37-flasher
 	url = https://github.com/moonsafarian/smk37-flasher.git
 	branch = main
+	shallow = true
+[submodule "firmwares/morbious22/FM1-800"]
+	path = firmwares/morbious22/FM1-800
+	url = https://github.com/morbious22/FM1-800.git
+	branch = fm1-800
 	shallow = true
 [submodule "firmwares/mordf0kas/drelva-vave"]
 	path = firmwares/mordf0kas/drelva-vave
@@ -2927,6 +3052,11 @@
 	path = firmwares/perawoga2-coder/Fm1sampa
 	url = https://github.com/perawoga2-coder/Fm1sampa.git
 	branch = ccr-94587bba-xqg4fh
+	shallow = true
+[submodule "firmwares/petersgiles/h1"]
+	path = firmwares/petersgiles/h1
+	url = https://github.com/petersgiles/h1.git
+	branch = main
 	shallow = true
 [submodule "firmwares/Philip-Bos/echofield-fm1"]
 	path = firmwares/Philip-Bos/echofield-fm1
@@ -3373,6 +3503,11 @@
 	url = https://github.com/shcherbakov7/hypno-1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/siddholdenried-del/ghettomachine"]
+	path = firmwares/siddholdenried-del/ghettomachine
+	url = https://github.com/siddholdenried-del/ghettomachine.git
+	branch = main
+	shallow = true
 [submodule "firmwares/SikkenWorks/B1-Drawbar-Organ"]
 	path = firmwares/SikkenWorks/B1-Drawbar-Organ
 	url = https://github.com/SikkenWorks/B1-Drawbar-Organ.git
@@ -3598,6 +3733,11 @@
 	url = https://github.com/swe24-phon/mvave-sythn-hack00.git
 	branch = main
 	shallow = true
+[submodule "firmwares/swtdr34mz-afk/PLOP"]
+	path = firmwares/swtdr34mz-afk/PLOP
+	url = https://github.com/swtdr34mz-afk/PLOP.git
+	branch = main
+	shallow = true
 [submodule "firmwares/SylarPu-X/nightfall-fm1"]
 	path = firmwares/SylarPu-X/nightfall-fm1
 	url = https://github.com/SylarPu-X/nightfall-fm1.git
@@ -3607,6 +3747,11 @@
 	path = firmwares/synthi/fm1-1971
 	url = https://github.com/synthi/fm1-1971.git
 	branch = fw-1971
+	shallow = true
+[submodule "firmwares/synthi/h1"]
+	path = firmwares/synthi/h1
+	url = https://github.com/synthi/h1.git
+	branch = main
 	shallow = true
 [submodule "firmwares/tahanimator/hortator_performer"]
 	path = firmwares/tahanimator/hortator_performer
