@@ -209,12 +209,12 @@
  },
  "MishaMashinaMM__mashina-fm1-fw": {
   "repo": "MishaMashinaMM/mashina-fm1-fw",
-  "commit": "6c8d326d0b1e3b6df81e60b05651bf19b98fb977",
+  "commit": "5f18444929462d2601feda3fd2d8150bada28ae9",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44897813716",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/45017960759",
   "assets": [
-   "MishaMashinaMM__mashina-fm1-fw-6c8d326.fwsc"
+   "MishaMashinaMM__mashina-fm1-fw-5f18444.fwsc"
   ]
  },
  "Mojotechnical__felucca-canvas": {
@@ -457,12 +457,12 @@
  },
  "Virusiinstaller__nano-freak-fm1": {
   "repo": "Virusiinstaller/nano-freak-fm1",
-  "commit": "08511dc8631e1df86c6adc8ae0cfb3c2b764800d",
+  "commit": "4e0e7dadde62960a755bc31a89d960b984868ae0",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44897813716",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/45017960759",
   "assets": [
-   "Virusiinstaller__nano-freak-fm1-08511dc.fwsc"
+   "Virusiinstaller__nano-freak-fm1-4e0e7da.fwsc"
   ]
  },
  "Weavel44__fm1-x0x-w44": {
@@ -577,12 +577,12 @@
  },
  "Wulgaren__Araminta": {
   "repo": "Wulgaren/Araminta",
-  "commit": "06b03062c1554499e1554fe32e37b262b8bb122d",
+  "commit": "5226029f1379cb85c25b0d2e08c76cf1f0c12a10",
   "status": "success",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44897813716",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/45017960759",
   "assets": [
-   "Wulgaren__Araminta-06b0306.fwsc"
+   "Wulgaren__Araminta-5226029.fwsc"
   ]
  },
  "abcdaniel__Wild": {
@@ -1035,10 +1035,10 @@
  },
  "ericdahl-dev__fm1-8p": {
   "repo": "ericdahl-dev/fm1-8p",
-  "commit": "a9dcdc941ab9719a21202bdceb6eebf5dfed6cae",
+  "commit": "4661d7142d79a7f04c5a2a4470e6d60e79e05306",
   "status": "failure",
   "recipe": "make",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44897813716"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/45017960759"
  },
  "erikdevos__glitchbox": {
   "repo": "erikdevos/glitchbox",
@@ -1759,6 +1759,13 @@
    "provostprovost__fantasia-eee6f9f.fwsc"
   ]
  },
+ "rastatak__groove-fm1": {
+  "repo": "rastatak/groove-fm1",
+  "commit": "7097de3be19c9775d269b6e9046fe06ca14a9b41",
+  "status": "failure",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/45017960759"
+ },
  "rgrvmusic__fm1-dinghy": {
   "repo": "rgrvmusic/fm1-dinghy",
   "commit": "929730019a9dc362c12a710c0b139cbfefb582e9",
@@ -1953,12 +1960,12 @@
  },
  "synthi__h1": {
   "repo": "synthi/h1",
-  "commit": "b0dc3ab93416b07fffa7ba5d77c54c57fe820ed6",
+  "commit": "4cff9365806cae90149a59b5f9669b60491347ba",
   "status": "success",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44897813716",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/45017960759",
   "assets": [
-   "synthi__h1-b0dc3ab.fwsc"
+   "synthi__h1-4cff936.fwsc"
   ]
  },
  "tahanimator__hortator_performer": {
@@ -2034,10 +2041,10 @@
  },
  "track-forge__bgirl-fm1": {
   "repo": "track-forge/bgirl-fm1",
-  "commit": "b4375201eb8cc73022400a2d210ee1b88b39058c",
+  "commit": "5c7af7b2a643dcda34ecd82170037c48ab8e1b88",
   "status": "failure",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44897813716"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/45017960759"
  },
  "twaroshinto__AEther": {
   "repo": "twaroshinto/AEther",
@@ -2142,12 +2149,12 @@
  },
  "zentreq__fm1-op-xy": {
   "repo": "zentreq/fm1-op-xy",
-  "commit": "b164205806acfb27d8c44fafd6481ac61e38c077",
+  "commit": "e82c9cf6575fa05f5a20847e3b732690f26614a5",
   "status": "success",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/44897813716",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/45017960759",
   "assets": [
-   "zentreq__fm1-op-xy-b164205.fwsc"
+   "zentreq__fm1-op-xy-e82c9cf.fwsc"
   ]
  },
  "zentreq__fntsmg": {
