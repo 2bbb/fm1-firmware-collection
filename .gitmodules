@@ -198,6 +198,11 @@
 	url = https://github.com/andrixb/OPQuencer.git
 	branch = main
 	shallow = true
+[submodule "firmwares/androbi-com/ostinato"]
+	path = firmwares/androbi-com/ostinato
+	url = https://github.com/androbi-com/ostinato.git
+	branch = main
+	shallow = true
 [submodule "firmwares/angelannihilated/Felucca_test"]
 	path = firmwares/angelannihilated/Felucca_test
 	url = https://github.com/angelannihilated/Felucca_test.git
@@ -341,6 +346,11 @@
 [submodule "firmwares/benna1985/badboy"]
 	path = firmwares/benna1985/badboy
 	url = https://github.com/benna1985/badboy.git
+	branch = main
+	shallow = true
+[submodule "firmwares/bertrandhustle2/skiff"]
+	path = firmwares/bertrandhustle2/skiff
+	url = https://github.com/bertrandhustle2/skiff.git
 	branch = main
 	shallow = true
 [submodule "firmwares/Bigblue709/sloop-fm1-jk"]
@@ -1091,11 +1101,6 @@
 [submodule "firmwares/dwsel/juanjiant-bit-JIANT"]
 	path = firmwares/dwsel/juanjiant-bit-JIANT
 	url = https://github.com/dwsel/juanjiant-bit-JIANT.git
-	branch = main
-	shallow = true
-[submodule "firmwares/Dylanyz/h1"]
-	path = firmwares/Dylanyz/h1
-	url = https://github.com/Dylanyz/h1.git
 	branch = main
 	shallow = true
 [submodule "firmwares/dzwerg/analogBEAST"]
@@ -2593,6 +2598,11 @@
 	url = https://github.com/merthsoft/sloop-fm1.git
 	branch = merthsloop
 	shallow = true
+[submodule "firmwares/MetaCorp/fm1-battle-firmware"]
+	path = firmwares/MetaCorp/fm1-battle-firmware
+	url = https://github.com/MetaCorp/fm1-battle-firmware.git
+	branch = battle
+	shallow = true
 [submodule "firmwares/mhellar/numetal-skratchmaster-pro-fm1"]
 	path = firmwares/mhellar/numetal-skratchmaster-pro-fm1
 	url = https://github.com/mhellar/numetal-skratchmaster-pro-fm1.git
@@ -2698,6 +2708,11 @@
 	url = https://github.com/mordf0kas/drelva-vave.git
 	branch = main
 	shallow = true
+[submodule "firmwares/MorrisKraken/ravefm2"]
+	path = firmwares/MorrisKraken/ravefm2
+	url = https://github.com/MorrisKraken/ravefm2.git
+	branch = main
+	shallow = true
 [submodule "firmwares/mortenlein/ond"]
 	path = firmwares/mortenlein/ond
 	url = https://github.com/mortenlein/ond.git
@@ -2741,6 +2756,16 @@
 [submodule "firmwares/MrTakfly/CoralTulip"]
 	path = firmwares/MrTakfly/CoralTulip
 	url = https://github.com/MrTakfly/CoralTulip.git
+	branch = main
+	shallow = true
+[submodule "firmwares/mrtreyw07-lab/mvave-fm1-studio"]
+	path = firmwares/mrtreyw07-lab/mvave-fm1-studio
+	url = https://github.com/mrtreyw07-lab/mvave-fm1-studio.git
+	branch = main
+	shallow = true
+[submodule "firmwares/mwedmark/fm1-d50"]
+	path = firmwares/mwedmark/fm1-d50
+	url = https://github.com/mwedmark/fm1-d50.git
 	branch = main
 	shallow = true
 [submodule "firmwares/mx57/Mvave-Fm1-firmware-hub-flasher-unbricker"]
@@ -3058,6 +3083,16 @@
 	url = https://github.com/petersgiles/h1.git
 	branch = main
 	shallow = true
+[submodule "firmwares/pfkellogg/fm1_open"]
+	path = firmwares/pfkellogg/fm1_open
+	url = https://github.com/pfkellogg/fm1_open.git
+	branch = screen-out
+	shallow = true
+[submodule "firmwares/pfkellogg/sloop-fm1"]
+	path = firmwares/pfkellogg/sloop-fm1
+	url = https://github.com/pfkellogg/sloop-fm1.git
+	branch = big-screen
+	shallow = true
 [submodule "firmwares/Philip-Bos/echofield-fm1"]
 	path = firmwares/Philip-Bos/echofield-fm1
 	url = https://github.com/Philip-Bos/echofield-fm1.git
@@ -3258,6 +3293,16 @@
 	url = https://github.com/Rastapopolix/tessera.git
 	branch = main
 	shallow = true
+[submodule "firmwares/rastatak/groove-fm1"]
+	path = firmwares/rastatak/groove-fm1
+	url = https://github.com/rastatak/groove-fm1.git
+	branch = main
+	shallow = true
+[submodule "firmwares/raulcamaracarreon/fm1-library"]
+	path = firmwares/raulcamaracarreon/fm1-library
+	url = https://github.com/raulcamaracarreon/fm1-library.git
+	branch = main
+	shallow = true
 [submodule "firmwares/RayDNoper/fm1-dub-remix"]
 	path = firmwares/RayDNoper/fm1-dub-remix
 	url = https://github.com/RayDNoper/fm1-dub-remix.git
@@ -3306,11 +3351,6 @@
 [submodule "firmwares/RIKIPIEL/Feluccamicro"]
 	path = firmwares/RIKIPIEL/Feluccamicro
 	url = https://github.com/RIKIPIEL/Feluccamicro.git
-	branch = main
-	shallow = true
-[submodule "firmwares/RobinSchmidt/RS-MET-Firmware"]
-	path = firmwares/RobinSchmidt/RS-MET-Firmware
-	url = https://github.com/RobinSchmidt/RS-MET-Firmware.git
 	branch = main
 	shallow = true
 [submodule "firmwares/rodneff/wndrfm1"]
@@ -3403,6 +3443,11 @@
 	url = https://github.com/saulofilho/synth-firmware.git
 	branch = main
 	shallow = true
+[submodule "firmwares/sbadleterrible-sketch/JD-XI-prog"]
+	path = firmwares/sbadleterrible-sketch/JD-XI-prog
+	url = https://github.com/sbadleterrible-sketch/JD-XI-prog.git
+	branch = main
+	shallow = true
 [submodule "firmwares/sbegueria/fm1-dev-wiki"]
 	path = firmwares/sbegueria/fm1-dev-wiki
 	url = https://github.com/sbegueria/fm1-dev-wiki.git
@@ -3441,11 +3486,6 @@
 [submodule "firmwares/seclorum/Felucca.seclorum"]
 	path = firmwares/seclorum/Felucca.seclorum
 	url = https://github.com/seclorum/Felucca.seclorum.git
-	branch = main
-	shallow = true
-[submodule "firmwares/seclorum/FM-1-RE.seclorum"]
-	path = firmwares/seclorum/FM-1-RE.seclorum
-	url = https://github.com/seclorum/FM-1-RE.seclorum.git
 	branch = main
 	shallow = true
 [submodule "firmwares/seclorum/fm1-fomni.seclorum"]
@@ -3542,6 +3582,11 @@
 	path = firmwares/slothpallas/mope-1
 	url = https://github.com/slothpallas/mope-1.git
 	branch = mope
+	shallow = true
+[submodule "firmwares/slowphase/fm1-pocket-mac"]
+	path = firmwares/slowphase/fm1-pocket-mac
+	url = https://github.com/slowphase/fm1-pocket-mac.git
+	branch = main
 	shallow = true
 [submodule "firmwares/slowphase/fm1-pocket-player"]
 	path = firmwares/slowphase/fm1-pocket-player
@@ -3733,9 +3778,19 @@
 	url = https://github.com/swe24-phon/mvave-sythn-hack00.git
 	branch = main
 	shallow = true
-[submodule "firmwares/swtdr34mz-afk/PLOP"]
-	path = firmwares/swtdr34mz-afk/PLOP
-	url = https://github.com/swtdr34mz-afk/PLOP.git
+[submodule "firmwares/swtdr34mz-afk/CHORD_RUN"]
+	path = firmwares/swtdr34mz-afk/CHORD_RUN
+	url = https://github.com/swtdr34mz-afk/CHORD_RUN.git
+	branch = main
+	shallow = true
+[submodule "firmwares/swtdr34mz-afk/GRAIN_PIANO"]
+	path = firmwares/swtdr34mz-afk/GRAIN_PIANO
+	url = https://github.com/swtdr34mz-afk/GRAIN_PIANO.git
+	branch = main
+	shallow = true
+[submodule "firmwares/swtdr34mz-afk/INSERT_COIN"]
+	path = firmwares/swtdr34mz-afk/INSERT_COIN
+	url = https://github.com/swtdr34mz-afk/INSERT_COIN.git
 	branch = main
 	shallow = true
 [submodule "firmwares/SylarPu-X/nightfall-fm1"]
