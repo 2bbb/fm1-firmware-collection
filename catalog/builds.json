@@ -239,13 +239,16 @@
  },
  "MishaMashinaMM__mashina-fm1-fw": {
   "repo": "MishaMashinaMM/mashina-fm1-fw",
-  "commit": "1d34a46580d5d32ed960aa8057b50f795aca8d9b",
-  "status": "success",
+  "commit": "4c68ac8c040a5e4118407dc9e2ef26d3251d1d44",
+  "status": "skipped",
   "recipe": "felucca",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/45999418614",
-  "assets": [
-   "MishaMashinaMM__mashina-fm1-fw-1d34a46.fwsc"
-  ]
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/46142206466",
+  "last_good": {
+   "commit": "1d34a46580d5d32ed960aa8057b50f795aca8d9b",
+   "assets": [
+    "MishaMashinaMM__mashina-fm1-fw-1d34a46.fwsc"
+   ]
+  }
  },
  "Mojotechnical__felucca-canvas": {
   "repo": "Mojotechnical/felucca-canvas",
@@ -1140,10 +1143,10 @@
  },
  "ericdahl-dev__fm1-8p": {
   "repo": "ericdahl-dev/fm1-8p",
-  "commit": "340fc5c2e74dcfde61a37c4ef4b316526ee245f1",
-  "status": "failure",
+  "commit": "4c68ac8c040a5e4118407dc9e2ef26d3251d1d44",
+  "status": "skipped",
   "recipe": "make",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/45999418614"
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/46142206466"
  },
  "erikdevos__glitchbox": {
   "repo": "erikdevos/glitchbox",
@@ -2283,6 +2286,13 @@
   "recipe": "build-sh",
   "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/40477670585"
  },
+ "typodok__MINIMAL-1": {
+  "repo": "typodok/MINIMAL-1",
+  "commit": "4c68ac8c040a5e4118407dc9e2ef26d3251d1d44",
+  "status": "skipped",
+  "recipe": "felucca",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/46142206466"
+ },
  "vandalismcode__grus": {
   "repo": "vandalismcode/grus",
   "commit": "f163d662985ca9213b5337aaf6c18691228195b7",
@@ -2379,10 +2389,10 @@
  },
  "zentreq__fm1-op-xy": {
   "repo": "zentreq/fm1-op-xy",
-  "commit": "9ed457dd1cce2079f9ef618f02a6bda9cb21de95",
-  "status": "failure",
+  "commit": "4c68ac8c040a5e4118407dc9e2ef26d3251d1d44",
+  "status": "skipped",
   "recipe": "build-sh",
-  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/45999418614",
+  "run": "https://github.com/2bbb/fm1-firmware-collection/actions/runs/46142206466",
   "last_good": {
    "commit": "22d96133d512137f8fafed274de0ca10ce31a76a",
    "assets": [
